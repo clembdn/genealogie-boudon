@@ -1,0 +1,250 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================
+// AUTH (Better Auth)
+// ============================================================
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  emailVerified Boolean  @default(false)
+  name          String
+  image         String?
+  role          String   @default("VIEWER") // ADMIN | VIEWER
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  sessions      Session[]
+  accounts      Account[]
+  createdPeople Person[]  @relation("PersonCreatedBy")
+
+  @@map("user")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  expiresAt DateTime
+  token     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("session")
+}
+
+model Account {
+  id                    String    @id @default(cuid())
+  accountId             String
+  providerId            String
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  @@map("account")
+}
+
+model Verification {
+  id         String   @id @default(cuid())
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@map("verification")
+}
+
+// ============================================================
+// GENEALOGY
+// ============================================================
+
+model Person {
+  id          String   @id @default(cuid())
+  firstName   String?
+  lastName    String?
+  birthName   String?  // nom de naissance (jeune fille)
+  gender      Gender   @default(UNKNOWN)
+
+  // Dates en string pour gérer le partiel ("1850", "1850-03", "1850-03-15")
+  birthDate   String?
+  birthPlace  String?
+  deathDate   String?
+  deathPlace  String?
+
+  occupation  String?
+  notes       String?  @db.Text
+  photoUrl    String?
+
+  // Position persistée sur le whiteboard (overrride du layout automatique).
+  positionX   Float?
+  positionY   Float?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  createdById String?
+  createdBy   User?    @relation("PersonCreatedBy", fields: [createdById], references: [id], onDelete: SetNull)
+
+  unionsAsPartner1 Union[] @relation("UnionPartner1")
+  unionsAsPartner2 Union[] @relation("UnionPartner2")
+
+  asParent ParentChild[] @relation("ParentChildParent")
+  asChild  ParentChild[] @relation("ParentChildChild")
+
+  sourceLinks SourceLink[]
+
+  @@index([lastName, firstName])
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+  UNKNOWN
+}
+
+model Union {
+  id         String     @id @default(cuid())
+  partner1Id String
+  partner2Id String
+  partner1   Person     @relation("UnionPartner1", fields: [partner1Id], references: [id], onDelete: Cascade)
+  partner2   Person     @relation("UnionPartner2", fields: [partner2Id], references: [id], onDelete: Cascade)
+
+  type       UnionType  @default(MARRIAGE)
+
+  startDate  String?
+  startPlace String?
+  endDate    String?
+  endPlace   String?
+  endReason  UnionEnd?
+
+  notes      String?    @db.Text
+
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+
+  box         Box?
+  sourceLinks SourceLink[]
+}
+
+enum UnionType {
+  MARRIAGE
+  CIVIL_UNION
+  PARTNERSHIP
+  UNKNOWN
+}
+
+enum UnionEnd {
+  DIVORCE
+  DEATH
+  SEPARATION
+  ANNULMENT
+}
+
+model ParentChild {
+  id        String          @id @default(cuid())
+  parentId  String
+  childId   String
+  parent    Person          @relation("ParentChildParent", fields: [parentId], references: [id], onDelete: Cascade)
+  child     Person          @relation("ParentChildChild", fields: [childId], references: [id], onDelete: Cascade)
+
+  type      ParentChildType @default(BIOLOGICAL)
+  notes     String?
+
+  createdAt DateTime        @default(now())
+
+  sourceLinks SourceLink[]
+
+  @@unique([parentId, childId])
+  @@index([childId])
+}
+
+enum ParentChildType {
+  BIOLOGICAL
+  ADOPTIVE
+  STEP
+  LEGAL
+  UNKNOWN
+}
+
+// Box = famille nucléaire (couple + enfants) — relation 1:1 avec Union.
+// Stocke uniquement la présentation : position sur le whiteboard, état déplié, couleur.
+// Les enfants ne sont PAS stockés ici : ils sont dérivés de ParentChild (enfants partagés par les deux partenaires).
+model Box {
+  id        String   @id @default(cuid())
+  unionId   String   @unique
+  union     Union    @relation(fields: [unionId], references: [id], onDelete: Cascade)
+
+  positionX Float    @default(0)
+  positionY Float    @default(0)
+  collapsed Boolean  @default(false)
+  color     String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// ============================================================
+// SOURCES
+// ============================================================
+
+model Source {
+  id          String     @id @default(cuid())
+  type        SourceType @default(OTHER)
+  title       String
+  description String?    @db.Text
+  date        String?
+  url         String?
+  mimeType    String?
+
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  links       SourceLink[]
+}
+
+enum SourceType {
+  BIRTH_CERTIFICATE
+  MARRIAGE_CERTIFICATE
+  DEATH_CERTIFICATE
+  CENSUS
+  TESTIMONY
+  PHOTO
+  DOCUMENT
+  REGISTRY
+  OTHER
+}
+
+model SourceLink {
+  id            String       @id @default(cuid())
+  sourceId      String
+  source        Source       @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  personId      String?
+  person        Person?      @relation(fields: [personId], references: [id], onDelete: Cascade)
+  unionId       String?
+  union         Union?       @relation(fields: [unionId], references: [id], onDelete: Cascade)
+  parentChildId String?
+  parentChild   ParentChild? @relation(fields: [parentChildId], references: [id], onDelete: Cascade)
+
+  note          String?
+
+  createdAt     DateTime     @default(now())
+}
