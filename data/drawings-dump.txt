@@ -1,0 +1,1618 @@
+
+=== TOTAL : 1580 shapes, 1016 avec texte ===
+
+========== Arbre ==========
+  Drawing : xl/drawings/drawing1.xml
+  269 shapes detectees, 174 avec texte
+    [R1C16] Rectangle 274 : BOUDON Marguerite | ° 1600 | + 01 juin 1695 / Rimeizenc
+    [R1C18] Rectangle 274 : BOUDON Louis | ° 1600 | + 18 février 1695 / Rimeizenc
+    [R1C20] Rectangle 274 : BOUDON Jean | ° 1600 | + 01 février 1693 Rimeizenc
+    [R1C22] Rectangle 274 : BOUDON Pierre | ° 1600 | + vivant en 1645 / Rimeizenc
+    [R1C26] Rectangle 274 : BOUDON Jean | ° 1600 | + 22 août 1697/ Rimeizenc cne F.P.
+    [R1C30] Image 1 : (vide)
+    [R2C1] Rectangle 1042_50 : 12e génération |
+    [R3C11] Rectangle 274_2 : BOUDON Augustin | ° Beauregard cne F.P. Testament 1702 ?
+    [R3C22] Rectangle 274 : BOUDON Jean | 1640 ? |
+    [R4C20] Rectangle 1035_6 : FOURNIER Jean | x BRUNET Philippe | 3 enfants
+    [R5C11] Rectangle 274_3 : GRANIER Antoinette
+    [R6C20] Line 1106_1 : (vide)
+    [R6C22] Rectangle 274 : GOTY ? Jeanne1691 Beauregard |
+    [R7C1] Rectangle 1042_49 : 11e génération |
+    [R7C22] Line 1040 : (vide)
+    [R8C22] Rectangle 274 : BOUDON Pierre | ° 1670 | + déjà en 1721 / Rimeizenc (Beauregard?) cne F.P.
+    [R8C26] Rectangle 274 : BLANC Pierre Jean | ° Serverette | + / Rimeizenc
+    [R9C12] Rectangle 274 : BOUDON Jean | ° Beauregard cne F.P.
+    [R9C16] Rectangle 274_1 : Une famille Boudon, teinturier et riche marchand à St Chély |
+    [R9C18] Rectangle 274_0 : BOUDON Pierre | ° 13 mai 1671 | Médecin à St Chély et ses fils |
+    [R9C24] Rectangle 274 : PEPIN Pierre |
+    [R10C20] Rectangle 276_0 : JAUBERT Vidal | + 03 octobre 1723
+    [R11C11] Rectangle 274 : SERRE Antoinette | ° Beauregard cne F.P.
+    [R11C26] Rectangle 274 : BOUDON Jeanne | ° 1670 | + 22 août 1697 / Rimeizenc cne F.P.
+    [R12C20] Rectangle 276_1 : AMBERT Jeanne
+    [R12C20] Line 1106_2 : (vide)
+    [R12C21] Rectangle 274 : FOUNIER Agnès | ° 1658 / Chancelades cne Aumont Aubrac | + Rimeizenc cne F.P.
+    [R12C24] Rectangle 274 : BOUDON Antoinette | ° 1661 |
+    [R13C20] Line 1116_3 : (vide)
+    [R14C22] Line 1040 : (vide)
+    [R15C1] Rectangle 1042_48 : 10e génération |
+    [R15C12] Rectangle 1035 : MURET Pierre
+    [R15C26] Rectangle 274_4 : BLANC Marie 1695 / Rimeizenc | BLANC Jacques 1697 / Rimeizenc
+    [R16C21] Rectangle 274 : BOUDON Pierre | ° 1693 / Rimeizenc ? | + 22 mai 1763 / Rimeizenc cne F.P. +succ. ? | Tailleur d’habit
+    [R18C12] Rectangle 274_5 : BOUDON Catherine | ° 28 mars 1690 / Beauregard cne F.P. | p BOUCHARENC Guillaune | / Goutes cne F.P. | m BROS Catherine / Pueche cne F.P. | + / Rimeizenc cne F.P.
+    [R18C14] Rectangle 1096_0 : TARDIEU Etienne de Rimeizenc 1711-1761 | 2x 9 février 1741 / Aumont | et veuve SAVY Marie 1721 + avant 1761 | 3 enfants
+    [R18C27] Rectangle 276 : BOUCHARENC Mathieu | Veyrès
+    [R19C22] Rectangle 273 : JAUBERT Marguerite | ° 17 janvier 1690 / F.P. | + 21 juillet 1754 / Rimeizenc cne F.P. |
+    [R20C14] Line 1116_5 : (vide)
+    [R20C20] Line 1116_4 : (vide)
+    [R20C22] Line 1116 : (vide)
+    [R20C27] Rectangle 275 : PORTEFAIX Anne | + 01 décembre 1667 / Bessons
+    [R20C28] Line 1116_0 : (vide)
+    [R21C12] Line 1118 : (vide)
+    [R21C12] Line 1119 : (vide)
+    [R21C20] Line 1117 : (vide)
+    [R21C26] Line 784 : (vide)
+    [R22C1] Rectangle 1042_47 : 9e génération |
+    [R22C16] Line 1120 : (vide)
+    [R22C18] Line 1121 : (vide)
+    [R22C26] Rectangle 270 : BOUDON Etienne "tienne" | ° 17 mai 1732 / Rimeizenc cne F.P. | P HUGONET Etienne F.M. | M JAUBERT Jeanne | + 07 octobre 1787 / Veyrès cne Bessons | succ. ? |
+    [R23C12] Rectangle 1028 : BOUDON Vidal | ° 02 décembre 1721 / Rimeizenc cne F.P. | P JAUBERT Vidal | M JAUBERT Jeanne (T) 1690 | Parrain de Boudon Marie Jeanne | en 1782 sa nièce | + 22 janvier 1788 / F.P.
+    [R23C16] Rectangle 1096 : BOUDON Pierre | ° 06 mai 1723 / Rimeizenc cne F.P. | P CHASTAN Pierre 1698 Rimeizenc | M GRANIER Jeanne de Mazeirac | + 05 juillet 1795 / Beauregard cne F.P. | Charpentier à Chancelades cne Aumont Aub
+    [R24C30] Rectangle 272 : GRANIER Pierre | cultivateur |
+    [R25C12] Rectangle 1067 : BARES Philippe | ° 12 avril 1726 / Prinsuéjols | + 22 décembre 1810 / F.P. |
+    [R25C20] Rectangle 1114 : BOUDON Catherine | ° mai 1728 / Rimeizenc cne F.P. | P PORTIES Antoine de Salaud | M JAUBERT Catherine |
+    [R26C16] Rectangle 1096 : TARDIEU Marguerite | ° 31 décembre 1741 / Chancelades cne Aumont Aubrac | + 24 juin 1817 / Aumont Aubrac
+    [R26C18] Rectangle 1027 : BOUDON Catherine | ° 14 novembre 1726 / Rimeizenc cne F.P. | P COMBERT Vital | M BOUDON Catherine |
+    [R26C22] Rectangle 1095 : BOUDON Marguerite | ° 20 mai 1729 / Rimeizenc cne F.P. | P CHASTAN Jean | M JAUBERT Marguerite |
+    [R26C26] Rectangle 269 : BOUCHARENC Marguerite | ° 27 juin 1752 / Veyrès cne Bessons | P PORTEFAIX Pierre oncle de Rimeize | M BIRON Béatrix grand-mère de Veyrès | +10 janvier 1830 / Veyrès cne B.
+    [R26C26] Line 1116_1 : (vide)
+    [R27C14] Line 1116_6 : (vide)
+    [R27C30] Rectangle 271 : BIRON Jeanne | + 1812 / Veyrès
+    [R27C30] Line 1116_2 : (vide)
+    [R28C8] Line 1110 : (vide)
+    [R28C12] Line 1111 : (vide)
+    [R28C24] Line 778 : (vide)
+    [R28C24] Line 1094 : (vide)
+    [R28C26] Line 780 : (vide)
+    [R28C40] Line 1139_0 : (vide)
+    [R28C48] Line 1138 : (vide)
+    [R29C1] Rectangle 1042_46 : 8e génération |
+    [R29C8] Line 1124_0 : (vide)
+    [R29C14] Line 1112 : (vide)
+    [R29C39] Rectangle 1128 : BOUDON Pierre Jean | ° 4 mai 1778 / Veyrès cne B. | P BOUCHARENC Pierre (G.O) | M BOUDON Marie de Rimeizenc (T) | + 25 septembre 1831 / Combret journalier puis propriétaire
+    [R29C46] Rectangle 972 : BOUDON Guillaume | ° 17 mars 1780 / Veyrès cne B. | P GRANIER Guillaume | M TARDIEU Marguerite de Chancelades (T) | + 18 octobre 1849 / Veyrès cne B. | cultivateur, tisserand | c’est lui qui garde la 
+    [R29C46] Line 1139 : (vide)
+    [R29C50] Line 1138 : (vide)
+    [R30C8] Rectangle 1042 : BOUDON Pierre | ° 1761 / Rimeizenc cne F.P. | + 4 novembre 1811 / Rimeizenc cne F.P. | Journalier, laboureur
+    [R30C14] Rectangle 1079 : BOUDON Guillaume | ° 03 février 1765 / Rimeizenc cne F.P. | P Guillaume | M BOUDON Jeanne | + 10 octobre 1783 / Rimeizenc cne F.P. |
+    [R30C24] Rectangle 1087 : BOUDON Pierre | ° 05 mars 1772 / Veyrès cne B. | P BOUDON Pierre de Chancelades (O) | M TARDIEU Marguerite (sa femme) |
+    [R30C26] Rectangle 266 : BOUDON Mathieu | ° 20 février 1775 / Veyrès cne B. | P BOUCHARENC Mathieu (G.P) | M BOUCHARENC Marie-Jeanne (T) | + 10 avril 1843 / Veyrès cne B., succ .? | cultivateur propriétaire
+    [R32C10] Rectangle 1042 : HERMET Marie Anne | ° 1767 / Combettes cne le Buisson | + 18 décembre 1822 / Rimeizenc cne F.P. | fileuse |
+    [R32C22] Rectangle 268 : MARQUES Jean Baptiste | ° 1790 | + 15 mars 1834 / la Rouaire
+    [R32C40] Rectangle 272_0 : COURTIOL Marguerite | ° 13 avril 1779 / Luxal cne F.M. | ? |
+    [R32C46] Rectangle 973 : BOUCHARENC Marie Anne | ° 24 novembre 1790 / Combret cne B. | + 04 novembre 1861 / Veyrès cne B.
+    [R32C48] Rectangle 1135 : BOUDON Marie-jeanne | ° 23 août 1782 / Veyrès cne B. | P BOUDON Vidal (O) | M BOUCHARENC Marie-jeanne (T) | + 1832
+    [R33C8] Rectangle 1042 : THERON Catherine | ° 28 mars 1768 / Couffinet cne St Colombe de P. | + 4 mai 1798 / Rimeizenc cne F.P.
+    [R33C12] Rectangle 1078 : BOUDON Marie Anne | ° 23 juillet 1757 / Rimeizenc cne F.P. | P BOUDON Pierre (G.P) | M BARES Marie ( T ) |
+    [R33C26] Rectangle 265 : GRANIER Marie Jeanne | ° 30 août 1769 / Veyrès cne B. | + 5 avril 1840 / Veyrès cne B. | ménagère, fileuse
+    [R33C50] Rectangle 1135 : BOUDON Marguerite « Margot » | ° 28 janvier 1785 / Veyrès cne B. | P BOUCHARENC Mathieu | M BOUCHARENC Marguerite | + 1835
+    [R34C8] Line 1111 : (vide)
+    [R34C22] Rectangle 267 : PROUZET Marie | ° 1789 | + la Rouaire, défileuse
+    [R34C22] Line 956_0 : (vide)
+    [R34C26] Line 773 : (vide)
+    [R34C26] Line 1026 : (vide)
+    [R34C40] Line 1139_1 : (vide)
+    [R35C20] Line 773 : (vide)
+    [R35C40] Line 1017_10 : (vide)
+    [R35C42] Line 773_3 : (vide)
+    [R35C44] Line 773_1 : (vide)
+    [R35C46] Line 1004 : (vide)
+    [R35C60] Line 1012 : (vide)
+    [R36C1] Rectangle 1042_45 : Arrière arrière arrière grands-parents (quadrisaïeul) | 7e génération |
+    [R36C20] Line 772 : (vide)
+    [R36C34] Line 773_2 : (vide)
+    [R36C40] Rectangle 980_0 : BOUDON Margot Rose | ° 12 décembre 1809 / Chancelades cne Aumont
+    [R36C40] Rectangle 980_4 : BOUDON Marie Jeanne | ° 15 octobre 1814 / Chancelades | cne Aumont |
+    [R36C40] Line 773_4 : (vide)
+    [R36C46] Line 997 : (vide)
+    [R36C48] Line 1131 : (vide)
+    [R36C50] Line 1133 : (vide)
+    [R37C8] Rectangle 1042 : BOUDON Jean Baptiste | ° 2 mai 1798 / Rimeizenc cne F.P. | M TARDIEU Marguerite (GT) | + 4 octobre 1881 / Chaudes-Aigues 15 (hospice) | Cultivateur propriétaire Salhens, voiturier en 1864 / F.P.
+    [R37C10] Rectangle 1042 : BOUDON Philippe | ° 19 juin 1801 / Rimeizenc | cne F.P.
+    [R37C10] Rectangle 1042 : BOUDON Guillaume | ° 7 mai 1803 / Rimeizenc | cne F.P. | + 23 décembre 1829 / Rimeizenc cne F.P. | journalier
+    [R37C15] Rectangle 264 : PRUNIERE Antoine | ° 18 octobre 1810 / Chaumette cne R | + 30 janvier 1849 / Mazeirac cne R.
+    [R37C20] Rectangle 261 : BOUDON Jean Pierre | ° 1805 / Veyrès cne B. | + 7 septembre 1868 / Castelbouc cne ste Enimie | curé Castelbouc
+    [R37C26] Rectangle 261 : BOUDON Pierre Jean | ° 04 juillet 1807 / Veyrès cne B. | + 27 novembre 1890 / Aldy cne F.M. + succ. | Propriétaire, fermier
+    [R37C34] Rectangle 968 : BOUDON Jean Pierre | ° 15 septembre 1810 / Veyrès cne B. | + 2 novembre 1886 / St Chély | Charpentier, cultivateur, journalier, voiturier transporteur
+    [R37C42] Rectangle 980_5 : BOUDON Mathieu Jean | ° 30 mai 1812 / Chancelades cne Aumont | + 2 août 1888 / Marvejol | Curé à Marvejol n°2 rue hôpital et chamoine
+    [R37C44] Rectangle 980_1 : BOUDON Jean Baptiste | ° 30 juin 1818 / Chancelades cne Aumont | + 11 juillet 1883 / Marvejol chez son frère Mathieu | propriétaire
+    [R37C46] Rectangle 979_0 : BOUDON François 1815 | BOUDON Jean Pierre 1823 | BOUDON Pierre Jean 1826 – 1826 | BOUDON Privat Jean 1831 – 1832 | BOUDON Marie Jeanne 1833 - 1839
+    [R37C48] Rectangle 979 : BOUDON Mathieu | ° 27 novembre 1813 / Veyrès cne B. | + 25 juin 1888 / Veyrès cne B. | cultivateur
+    [R37C49] Rectangle 981 : BOUDON Pierre | ° 10 mars 1818 / Veyrès cne B. | + 16 mars 1890 / Veyrès cne B.+ succ. | Propriétaire | c’est lui qui garde la maison de Veyrès
+    [R37C60] Rectangle 1011 : AMOUROUX Jean François | ° 27 mars 1825 / Chambon cne F.P. puis Veyrès cne B. | + 13 septembre 1872 / la Vernarède 30 (accident dans mine)T son frère J,B | Cultivateur, mineur d’houille à la Cie miniè
+    [R38C18] Rectangle 2 : Voir arbre | PRUNIERE
+    [R39C15] Rectangle 263 : PESON Rose | ° 25 février 1814 / Mazel cne R. | + 30 mars 1884 / Hauteville cne R.
+    [R39C26] Rectangle 260 : MARQUES Marie Catherine | ° 31 août 1813 / la Rouaire | + 4 août 1855 / Veyrès cne B. | ménagère
+    [R40C7] Rectangle 1042 : SAINT CHELY Marguerite | ° 01 mars 1799 / Ajales cne Chauchailles | + 13 septembre 1840 / Salhens cne F.P. | fileuse
+    [R40C34] Rectangle 968 : VINCENT Marie Catherine | ° 6 mai 1826 / St Chély | + 31 juillet 1892 / St Chély | Couturère, costumière, fileuse
+    [R40C44] Rectangle 980_2 : GRAS Victoire | ° le Chaze de Peyre
+    [R40C47] Rectangle 996 : GRIMAL Marie Rose | ° 06 décembre 1821 / Monteils
+    [R40C50] Rectangle 1008 : VIGIER Marie Agnès | ° 08 octobre 1827 / Védrines cne B. | + 05 août 1879 / Veyrès cne B. | + succ. ? 6 juin 1881 / St Chély Me Gaillardon
+    [R40C60] Rectangle 982 : BOUDON Marguerite | ° 12 juin 1820 / Veyrès cne B. | + ?
+    [R41C8] Line 1111 : (vide)
+    [R41C22] Line 956_1 : (vide)
+    [R41C26] Line 773_0 : (vide)
+    [R41C34] Line 912_7 : (vide)
+    [R41C44] Line 773_5 : (vide)
+    [R41C50] Line 1012_3 : (vide)
+    [R41C60] Line 1138_1 : (vide)
+    [R42C2] Line 626_2 : (vide)
+    [R42C4] Line 1111_10 : (vide)
+    [R42C10] Line 1111_12 : (vide)
+    [R42C12] Line 1123 : (vide)
+    [R42C12] Line 1124 : (vide)
+    [R42C16] Line 956_2 : (vide)
+    [R42C20] Line 956 : (vide)
+    [R42C32] Line 912_9 : (vide)
+    [R42C34] Line 1017_9 : (vide)
+    [R42C36] Line 912_8 : (vide)
+    [R42C38] Line 912_17 : (vide)
+    [R42C42] Line 773_6 : (vide)
+    [R42C50] Line 956_3 : | | | | ---
+    [R42C52] Line 1012_4 : (vide)
+    [R42C54] Line 1012_5 : (vide)
+    [R42C58] Line 1012_0 : (vide)
+    [R42C58] Line 1012_1 : (vide)
+    [R42C60] Line 1138_0 : (vide)
+    [R42C62] Line 1138_3 : (vide)
+    [R43C1] Rectangle 1042_44 : Arrière arrière grands-parents (trisaïeul) | 6e génération |
+    [R43C2] Line 1111_11 : (vide)
+    [R43C6] Line 1111_2 : (vide)
+    [R43C7] Rectangle 1042 : BOUDON André | ° 30 août 1837 / Rimeizenc cne F.P. puis Granviala cne F.M. chez parents et Mornac cne Espinasse 15 | + 31 mars 1915 / Mornac cne Espinasse 15 + succ | Achète Mornac 0/05/1880 | Journal
+    [R43C14] Line 1124_1 : (vide)
+    [R43C30] Line 965 : (vide)
+    [R43C40] Line 956 : | | | | ---
+    [R43C40] Rectangle 980_11 : BOUDON Marguerite Marie 1850 | BOUDON Mathieu Jean Baptiste 1852 | BOUDON Rosalie Marie 1854 | BOUDON Rose Marie Marguerite 1857-1857 | BOUDON Suzanne Marie 1862 | BOUDON Marguerite Marie 1870
+    [R43C40] Line 773_7 : (vide)
+    [R43C50] Rectangle 1009_0 : BOUDON Léonie Marie Rose 1863 - 1863
+    [R43C52] Rectangle 1009 : BOUDON Pierre Jean | ° 21 août 1855 / Veyrès cne B. | + | 1898 au 177 rue Belleville 1912 à Paris, marchand de vin, 16 impasse Brun Paris 13e 1911 133 rue Belleville avec frère 1912 28 rue des bois ga
+    [R43C58] Line 1012_2 : (vide)
+    [R43C62] Rectangle 1011_2 : HERMENTIER Etienne Julien | ° 11 février 1856 / Chassagnes cne Lachamps-Ribennes puis Lille cne Bessons | journalier
+    [R43C63] Rectangle 1011_3 : SELLE Noël Bernard | ° 24 janvier 1863 / Veyrès cne B.
+    [R44C4] Rectangle 1042_4 : BOUDON Jean-Pierre | ° 10 mai 1831 / Ajales cne Chauchailles, Grandviala cne F.M puis Valiette cne Antérrieux après mariage | + 8 mai 1894 / Mornac cne Espinasse 15 chez son frère André BOUDON | Testa
+    [R44C5] Rectangle 1042_3 : PERET Pierre Jean | ° 21 mai 1840 / la Garde cne Lieutades 15 puis Paris, 101 rue de l’Ouest | + 25 juillet 1921 / la Garde cne Lieutades 15 | Propriétaire cultivateur, marchand de vin Paris
+    [R44C10] Rectangle 1042_14 : BOUDON Marguerite 1833 / Ajales | cne Chauchailles
+    [R44C11] Rectangle 950 : BOUDON Jean | ° 29 octobre 1838 / Veyrès | + vivant 1903 à Veyrès mariage nièce Boudon Marie-Jeanne, la Bessette cne Jabrun dès 1899 chez sa fille | Achète Veyrès à sa sœur BOUDON Marie Anne en 1871 |
+    [R44C13] Rectangle 950 : BOUDON Louis | ° 15 novembre 1839 / Veyrès cne F.P.puis Chambon, Neuvéglise et Jabrun | + 12 février 1927 / Gravière cne Jabrun 15 chez son frère Jean | cultivateur Chambon cne Chauchailles, Sieujac p
+    [R44C16] Rectangle 257 : BOUDON Jean Baptiste | ° 27 juillet 1842 / Veyrès cne B. puis la Rouaire | + 11 avril 1919 / Deux-Verges 15 | son frère Jean est arrivé à Aldy en 1866 et Pierre Jean le rejoint | leur père les rejoint
+    [R44C20] Rectangle 957 : MALAFOSSE Guillaume Louis « Casimir » | ° 26 août 1828 / Blajoux cne Quézac | + 25 octobre 1895 / Blajoux cne Quézac | Propriétaire, rentier
+    [R44C25] Rectangle 957 : TROCELIER Jean Baptiste | °08 février 1843 / Javols P.A.. | + 29 avril 1883 / Bessils cne Javols
+    [R44C30] Rectangle 959 : BOUDON Jean Mathieu | ° 22 novembre 1846 / Veyrès cne B. puis Chambon / Chauchaille Paris 9eme 4 rue Rodier puis rue St Ouen | + | Domestique / Chauchailles
+    [R44C32] Rectangle 960 : CHAZALY Jean Baptiste (Frère Marie Jeanne) | ° 25 février 1848 / Cougousac cne Recoules d’Aubrac | + Gros cne Neuvéglise 15 | Domestique Sieujac
+    [R44C33] Rectangle 968_7 : BOUDON Marie 1848 | BOUDON Sophie Marie Catherine 1850-1916 | BOUDON Pierre Frédéric 1853-1870 Aldy, domestique à Aldy, tué accidentellement par un jeune | BOUDON Antoine 1861 | BOUDON Louis 1863 |
+    [R44C35] Rectangle 968_9 : DOULCIER Augustin Pierre | °27 septembre 1858 / Aumont Aubrac | + 19 octobre 1918 / St Chély (grippe espagnole) | Boucher
+    [R44C38] Rectangle 968_1 : BOUDON Laurent | ° 22 février 1858 / St Chély | + 25 mars 1922 / St Chély | Journalier, scieur de long marchand de beurre en 1912, cultivateur à son décès
+    [R44C44] Rectangle 980_3 : BOUDON Jean Baptiste Marie | ° 1860 / Combret | + 01 avril 1951 / Chancelade cne A. propriétaire
+    [R44C54] Rectangle 1010 : BOUDON Mathieu | ° 26 février 1858 / Veyrès cne B. | Domestique à Paris 18e 69 rue de la Chapelle en 1890, Manoeuvre 133 rue de Belleville en 1911
+    [R44C58] Rectangle 980_7 : BOUDON André | ° 23 février 1865 / Veyrès cne B. | Prêtre à Lion ? 57 (Meurthe et Moselle)
+    [R44C58] Rectangle 980_8 : BOUDON Pierre Auguste | ° 31 août 1867 / Veyrès cne B. | Soldat 122e ligne | Montpellier
+    [R44C58] Rectangle 980_9 : BOUDON Alexandre | ° 09 mars 1870 / Veyrèscne B. | Frère des écoles à lion 57 Meurthe et Moselle
+    [R44C60] Rectangle 1011_0 : AMOUROUX Paul 1846 | AMOUROUX Guillaume Privat 1849 | AMOUROUX Pierre Jean 1853
+    [R45C10] Image 47 : (vide)
+    [R45C46] Rectangle 957_69 : BOUDON / BOUCHARENC | Veyrès -1890
+    [R46C1] Rectangle 1042_13 : BOUDON Marianne | ° 30 septembre1829 / F.P. | + 04 décembre 1860 / F.P. chez BRECHET Guiillaume | . |
+    [R46C4] Rectangle 1042_5 : X 23 février 1854 / F.P. (23 ans ! 53 ans!) CM 9 janvier 1854 Me Tichet / F.M. | THERON Elisabeth | 1805 - 1872 / Granviala cne F.M. | 2x 13 mai 1882 / Anterrieux 15, (51/57 ans) | CM 13 mai 1882 Me V
+    [R46C12] Rectangle 958 : VEYLET Rose | °8 novembre1833 / la Vedrine cne St Chély | + 9 juin 1893 / Veyrès cne B.
+    [R46C19] Rectangle 957_74 : BOUTIN Catherine Hortense | ° 5 août 1841 / Montbrun | +
+    [R46C21] Rectangle 957 : BOUDON Marguerite | ° 30 janvier 1841 / Veyrès cne B. puis Castelbouc | + 27 décembre 1913 / Blajoux cne Quézac
+    [R46C26] Rectangle 945 : BOUDON Marie-Jeanne | ° 11 septembre 1845 / Veyrès cne B. | + 13 avril 1923 / Berc cne M.V. | Propriétaire à Berc | En 1870 Aldy | En 1892 Veyrès |
+    [R46C29] Rectangle 959 : PAGES Marguerite | ° 1850 / Fraissinoux cne Chauchailles | + | Domestique / St Juéry
+    [R46C32] Rectangle 960 : BOUDON Marie Agathe | ° 23 novembre 1853 / Veyrès cne B. | + 11 avril 1917 / Gros cne Neuvéglise 15
+    [R46C44] Rectangle 980 : AMOUROUX Fournel
+    [R46C52] Rectangle 1140 : GERBEINT Elisabeth Marie | ° 27 lanvier 1861 / la Roueyre cne B | + 5 juillet 1898 / la Roueyre cne B.
+    [R46C53] Rectangle 1010_0 : MANDLE Céline Marcelle | + 6 février 1910 / Paris ?
+    [R46C56] Rectangle 1010 : LHOUMEAUX Louise Clémentine | ° 27 août 1848 / Sézanne 51 | Lingère | Veuve François Martin Fabre
+    [R47C6] Rectangle 1042_2 : BOUDON Amilie Marie | ° 22 septembre 1835 / Rimeyzenc cne F.P, Succaud cne Lieutades puis Paris 14e, après mariage ,101 rue de l’Ouest | + avant 1921 | Cultivatrice, rentière
+    [R47C7] Rectangle 1042 : HURGON Catherine | ° 02 mai 1846 / Ladoladenche puis le Bourguet cne Brezons 15 | + 30 août 1924 / Mornac cne Espinasse 15
+    [R47C14] Rectangle 958 : CHAZALY Marie Jeanne (Soeur Jean Baptiste) (1) | ° 13 février 1845 / Recoules d'Aubrac | + 16 avril 1917 / Cordesse cne Neuvéglise 15
+    [R47C16] Rectangle 256 : PRUNIERE Marie Emilie | ° 11 juillet 1846 / Mazeirac cne R. puis la Rouaire | + 4 avril 1872 / Aldy cne F.M. | ménagère
+    [R47C17] Rectangle 968_0 : GOTTY Marguerite Marie « Emilie » | ° 31 août 1858 / Tremouloux cne Prinsuejols | + 1931 / Lagarde cne Lieutades | chez BOUDON André
+    [R47C36] Rectangle 968_8 : BOUDON Marguerite Marie | ° 24 octobre 1855 / St Chély | + 24 décembre 1912 / St Chély
+    [R47C38] Rectangle 980_10 : MAURIN Delphine | ° 27 août 1858 / St Chély | + 30 août 1925 / St Chély | marchande
+    [R47C42] Rectangle 980_12 : BOUDON Rose Marie | ° 4 juin 1858 / Aumont | + 01 avril 1947 / Rochefort-Montagne 63
+    [R47C62] Rectangle 1011_1 : AMOUROUX Adèle Marie | ° 24 janvier 1863 / Veyrès cne B.
+    [R48C8] Line 1111 : (vide)
+    [R48C12] Line 626 : (vide)
+    [R48C16] Line 626_15 : (vide)
+    [R48C18] Line 626_16 : (vide)
+    [R48C22] Line 626_21 : (vide)
+    [R48C52] Line 626_26 : (vide)
+    [R49C6] Line 626_17 : (vide)
+    [R49C26] Line 626_22 : (vide)
+    [R49C30] Line 912_6 : (vide)
+    [R49C32] Line 626_23 : (vide)
+    [R49C36] Line 626_24 : (vide)
+    [R49C38] Line 626_25 : (vide)
+    [R50C1] Rectangle 1042_42 : Arrière grand-père | (bisaïeul) | 5e génération |
+    [R50C28] Line 912_2 : (vide)
+    [R50C28] Line 1017_2 : (vide)
+    [R50C40] Rectangle 957_115 : BOUDON / COURTIOL Chancellade cne Aumont
+    [R50C52] Rectangle 959 : BOUDON Joseph Firmin | ° 1882 / Veyrès cne B. | 1912 vernisseur à Paris, 38 rue du Maroc 19e 1926 menuisier bld de l’Ourcq /Sevran
+    [R51C1] Rectangle 1042_23 : BOUDON Jean Pierre | ° 28 avril 1854 / F.P. | + ? |
+    [R51C6] Rectangle 1042_11 : VACHET Jean Claude | ° 9 août 1856 / St Jean de Losne 21 | + 3 janvier 1917 / Paris 14e (4 r chatelain) | Marinier , serrurier
+    [R51C8] Rectangle 1042_12 : Arbre BOUDON HURGON | | 12 enfants | | ( 8 Grandviala cne F.M. et 4 Mornac cne Espinasse)
+    [R51C12] Rectangle 1042_15 : Arbre BOUDON VEYLET | | 3 enfants | | Aldy
+    [R51C16] Rectangle 1042_16 : Arbre BOUDON PRUNIERE | | 1 enfant | | Veyrès
+    [R51C18] Rectangle 1042_17 : Arbre BOUDON GOTTY | | 12 enfants | | 9 à Aldy et 3 à Noalhac
+    [R51C22] Rectangle 1042_18 : Arbre BOUDON MALAFOSSE | | 3 enfants | | Blajoux cne Quézac
+    [R51C26] Rectangle 1042_0 : Arbre BOUDON TROCELIER | | 8 enfants | | Bessils cne Javols
+    [R51C31] Rectangle 957_68 : Voir arbre BOUDON / TROCELIER |
+    [R51C35] Rectangle 1042_21 : Arbre BOUDON DOULCIER | | 7 enfants | | St Chély
+    [R51C37] Rectangle 1042_22 : Arbre BOUDON MAURIN | | 3 enfants | | St Chély
+    [R52C4] Rectangle 957_113 : BOUDON / THERON | Granviala cne F.M | Puis Valiette cne Anterrieux 15
+    [R52C14] Rectangle 957_112 : BOUDON / CHAZALY | Neuvéglise 15
+    [R52C28] Rectangle 959_0 : BOUDON Marie Antoinette | ° 7 août 1876 / Sieujac cne Neuvéglise 15
+    [R52C30] Rectangle 959_2 : ROYER
+    [R53C6] Rectangle 1042_1 : PERET Marie | ° 7 juin 1864 / la Garde cne Lieutades 15 puis Paris 14e 101 rue de l’Ouest | D de Bousquet Henri en 1896 x 1879 Paris 14e | + 14 juin 1906 / Paris14e (4 r Chatelain) |
+    [R54C52] Rectangle 959_1 : MONTHIOUX Marie Sidonie | ° 13 septembre 1880 / St Moreil 23 | lingère / St Moreil divorcée
+    [R54C53] Rectangle 959 : FARCY Clémentine | ° 20 août 1873 / Nièvre 58 | De Sevran, divorcée
+    [R55C29] Rectangle 959 : BOUDON Mathilde Laurence | ° 18 septembre 1882 / Paris 9e | + 21 juillet 1958 / rue Mathieu / St Ouen 93
+    [R55C32] Rectangle 957_108 : CHAZALY /BOUDON Neuvéglise 15
+    [R57C1] Rectangle 1042_43 : Grand-père | (Aïeul) | 4 e génération |
+    [R58C6] Rectangle 1042_19 : VACHET Pierre Jean Emile | ° 26 juin 1899 / Paris 14 (4 r chatelain en 1922) | + 29 octobre 1988 / Montpellier 34 | Serrurier, dessinateur industriel IBM, commerçant
+    [R59C29] Rectangle 959 : ROYER Hélène Marguerite | ° 14 décembre 1902 / St Ouen 93
+    [R60C30] Rectangle 957_8 : BOUDON / PAGES | Paris
+    [R61C6] Rectangle 1042_20 : BOUQUET Clémence Marie | ° 18 octobre 1898 / Aumont -Aubrac | + 30 octobre 1960 | commerçante |
+    [R64C1] Rectangle 1042_51 : Parent | 3 e génération |
+    [R64C11] Rectangle 957_67 : BOUDON / VEYLET | Aldy F.M. - 1873 | Veyrès 1873 - 1905
+    [R64C20] Rectangle 957_91 : BOUDON / MALAFOSSE | Blajoux cne Quézac 1865 - 1913
+    [R64C26] Rectangle 957_60 : TROCELIER/BOUDON | Javols / Berc
+    [R65C8] Rectangle 957_66 : BOUDON / HURGON | Granviala cne F.M.1853-1880 | Espinasse(Mornac) 15 1880-
+    [R65C16] Rectangle 957_90 : BOUDON | Aldy F.M. 1870- 1894 | Chaffols cne Noalhac 1894 – 1906 | St Martial en Besse 15 1914 | Mas de Pêtre cne Deux-Verge 1917 |
+    [R65C36] Rectangle 957_79 : BOUDON | St Chély
+    [R67C6] Rectangle 957_114 : PERET /BOUDON | Paris 14e Lieutades 15
+    [R70C1] Rectangle 1042_52 : Enfant | 2 e génération |
+    [R74C127] Line 397 : (vide)
+    [R82C127] ZoneTexte 3 : (vide)
+
+========== Boudon Hurgon ==========
+  Drawing : xl/drawings/drawing2.xml
+  209 shapes detectees, 136 avec texte
+    [R1C1] Line 626_4 : (vide)
+    [R1C1] Line 1111_9 : (vide)
+    [R1C3] Line 1111_56 : (vide)
+    [R1C5] Line 1111_57 : (vide)
+    [R1C9] Line 1111_7 : (vide)
+    [R1C13] Line 1111_6 : (vide)
+    [R1C19] Line 1111_8 : (vide)
+    [R1C21] Image 46 : (vide)
+    [R2C3] Rectangle 957_94 : BESSON Jean Antoine | ° 16 juillet 1864 / Escudière cne Recoules d’Aubrac | + | cultivateur
+    [R2C9] Rectangle 957_80 : TROCELLIER Urbain Marie Pierre (1) arbre Trocelier/ Boudon | ° 1872 / Javols puis Berc cne M.V. | + | Fermier à Boyer / Espinasse, Hermet / Lieudades et le Mas / Espinasse
+    [R2C13] Rectangle 957_83 : BOUDON Jean-Pierre Marie | ° 25 mai 1874 / F.M puis Valiette cne Anterrieux 15 | + 2 novembre 1909 / Mornac cne Espinasse 15 | Propriétaire cultivateur
+    [R2C67] Line 1111_5 : (vide)
+    [R2C67] Rectangle 1042_6 : PIOCHE Pierre | ° 15 octobre 1868 / Buzers cne St Martin /s Vigouroux | + 3 février 1929 / Brommat 12
+    [R3C1] Rectangle 957_82 : BOUDON André 1865- <1921 | BOUDON Jeanne 1875-1875 / G. | BOUDON Joséphine 1876 - <1911 / G. ? | BOUDON Joseph Marius 1880 F.M.- 188 / E. | BOUDON Maria Rosalie 1881 E.- 1970 Moissac 82 | BOUDON Marie
+    [R3C5] Rectangle 957_129 : ROCHE Emile Casimir Joseph | ° 1871 | +1918 |
+    [R3C19] Rectangle 1042_8 : BOUDON Jean-Antoine | ° 30 juillet 1878 / Grandviala cne F.M. | + 16 mai 1961 / Gurière cne Lieutadès15 | Garçon charbonnier à Paris 8e, 24 rue Boissy d’Anglas en 1807, cultivateur / Mornac 1904 il a 
+    [R4C3] Rectangle 957_93 : BOUDON Marie | ° 06 octobre 1868 / Grandviala cne F.M. | puis Mornac cne Espinasse 15 | +
+    [R4C13] Rectangle 957_84 : PAGES Marie | ° 2 septembre 1879 / Deux-Verges 15 | + octobre 1959 / Antérrieux 15 |
+    [R5C5] Rectangle 957_128 : BOUDON Hortense Marie | ° 14 novembre1870 / Grandviala cne F.M. | puis Mornac cne Espinasse 15 | + 1949 / Clichy 92
+    [R5C9] Rectangle 957_81 : BOUDON Nathalie Rosalie Marie | ° 16 novembre 1872 / Grandviala cne F.M.
+    [R5C19] Rectangle 1042_9 : CHASSANG Philomène Marie | ° 12 avril 1886 / Arzenc d’Apcher puis Lescure cne Chaudes-Aigues | + 14 mai 1963 / Espinasse 15
+    [R5C66] Rectangle 1042_7 : BOUDON Apoline Marie | ° 25 juillet 1885 / Mornac cne Espinasse 15 | + 24 mars 1948 / St Martin /s Vigouroux 15
+    [R6C5] Line 1111_15 : (vide)
+    [R6C51] Image 45 : (vide)
+    [R7C1] Line 626_58 : (vide)
+    [R7C3] Line 1111_13 : (vide)
+    [R7C5] Line 626_59 : (vide)
+    [R7C13] Line 626_27 : (vide)
+    [R7C13] Line 1111_0 : (vide)
+    [R7C19] Line 626_1 : (vide)
+    [R7C19] Line 1111_3 : (vide)
+    [R7C25] Line 1111_23 : (vide)
+    [R7C43] Line 1111_40 : (vide)
+    [R7C49] Line 1111_45 : (vide)
+    [R7C57] Line 1111_4 : (vide)
+    [R7C65] Line 1111_55 : (vide)
+    [R8C1] Line 1111_14 : (vide)
+    [R8C3] Rectangle 957_126 : MAIRINIAC Joseph | ° 23 août 1899 / |
+    [R8C7] Line 1111_16 : (vide)
+    [R8C8] Rectangle 957_86 : TROCELLIER Maria 1899-<1911 | TROCELLIER Emilie Marie 1900- <1901? / Boyer cne Espinasse 15 | TROCELLIER André Urbain 1902 / B. -1959 / St Symphorien 12 | TROCELLIER Joseph Jean Flavien 1903- 1903 / B
+    [R8C15] Line 1111_1 : (vide)
+    [R8C21] Line 1111_21 : (vide)
+    [R8C25] Rectangle 1042_33 : VINCENT Jean Marie Hipollyte | ° 12 février 1907 / Paris 10e |
+    [R8C29] Rectangle 1042_41 : BOUDON Jean Henri | ° 8 novembre 1911/ Paris 15e | + 29 mars 1998 / St Flour 15
+    [R8C29] Line 1111_38 : (vide)
+    [R8C43] Rectangle 1042_81 : BOUDON Pierre Marie Urbain | ° 7 mars 1917 / Mornac cne E. 15 | +20 avril 1974 / Clermont 63 |
+    [R8C63] Line 1111_54 : (vide)
+    [R8C67] Rectangle 957_89 : PIOCHE Marie Catherine 1908-1987 / Ste Marie /s cne Vigouroux 15 | PIOCHE Maria et Célina 1909-1909 / V. | PIOCHE Louise Maria 1910-1996 / V. | PIOCHE Emilie et Joseph 1912-1912 / V. | PIOCHE Jean- Ma
+    [R9C1] Rectangle 957_127 : GRENIER Hippolyte |
+    [R9C5] Rectangle 957_132 : COURBANDON Paul | | |
+    [R9C6] Rectangle 957_133 : LONGEON François Emile | °12 avril 1889 / la Fage St Julien puis Chaudes-Aigues 15 | + 24 novembre 1961 | garçon d’hôtel / Chaudes-Aigues 15 | | |
+    [R9C13] Rectangle 957_87 : BOUDON Marie Amélie1901- / Valiette cne Antérrieux 15 | BOUDON Jean Pierre 1903-1972 / V. | BOUDON Apolinie Marie Jeanne 1904- ?. / V. | BOUDON Nathalie Célina 1906 / V.-1978 / 94 (hôtelière Paris 3e)
+    [R9C15] Rectangle 957_85 : SAVOIE François Pierre Jean | ° 18 mai 1909 / Malbouzon 48
+    [R9C19] Rectangle 957_88 : BOUDON Henriette 1912-1936> ? | BOUDON Etienne André 1914 / Chaudes-Aigues 15-1977 / Lieutades 15 | BOUDON Baptiste Jean Marie 1918 / M.-1977 Ermont 95 X 1953 / Paris 14e avec LAMOTTE Fernande | BOUDO
+    [R9C21] Rectangle 1042_25 : GAUGEY Emile Constant | ° 15 juin 1915 / Auls les Cromary 70
+    [R9C49] Rectangle 1042_10 : BOUDON André Marius | ° 12 juin 1923 / Mornac cne Espinasse 15 | Scierie Chaudes-Aigues 15
+    [R9C57] Rectangle 1042_94 : BOUDON Henri Marius | ° 26 septembre 1924 / Mornac cne Espinasse 15 |
+    [R9C63] Rectangle 1042_116 : COUDY Joseph Félix | ° 08 juin 1928 / Courbevoie 92 | + 07 avril 1980 / la Brosse-Montceaux 77 |
+    [R9C65] Rectangle 1042_121 : LIGNY Claude | ° 09 mai 1933 / Paris 14e | |
+    [R11C15] Rectangle 957_140 : BOUDON Antoinette Irma Marie | ° 5 octobre 1908 / Espinasse 15 |
+    [R12C1] Rectangle 957_96 : BESSON Marie | ° 1889 / Paris | + juillet 1918
+    [R12C3] Rectangle 957_95 : BESSON Marguerite | ° 25 novembre 1896 / Paris 15e | +
+    [R12C5] Rectangle 957_130 : ROCHE Louise | ° 1894 | + 1942 | |
+    [R12C6] Rectangle 957_131 : ROCHE Marie Eugénie | ° 20 novembre 1895 / Paris 15e puis Chaudes-Aigues 15 | + 20 août 1965 / |
+    [R12C21] Rectangle 1042_24 : BOUDON Louise | ° 11 octobre 1909 / Paris 15e |
+    [R12C25] Rectangle 1042_32 : BOUDON Augustine Marie | ° 12 octobre 1910 / Paris 15e | |
+    [R12C29] Rectangle 1042_55 : GOTTY Simone Alphonsine Rosalie | ° 30 mars 1922 / Lieutadès 15
+    [R12C43] Rectangle 1042_82 : COSTEROUSSE Louise Emilienne | ° 6 décembre 1925 / Boyes cne E. 15 |
+    [R12C49] Rectangle 1042_95 : VIALA Georgette Francine | ° 31 mars 1924 / Ruynes en Margeride 15 | |
+    [R12C57] Rectangle 1042_106 : LEGRAIN Ernestine Simone | ° 13 octobre 1930 / Argenteuil 95 |
+    [R12C63] Rectangle 1042_84 : BOUDON Odette Marie | ° 14 mai 1926 / Mornac cne Espinasse 15 | + 21 octobre 1972 / St Ouen 93 |
+    [R12C65] Rectangle 1042_120 : BOUDON Josette Léone | ° 18 septembre 1929 / Mornac cne Espinasse 15 | |
+    [R13C15] Line 1111_24 : (vide)
+    [R13C21] Line 1111_20 : (vide)
+    [R13C25] Line 1111_28 : (vide)
+    [R13C29] Line 1111_29 : (vide)
+    [R13C43] Line 1111_41 : (vide)
+    [R13C54] Image 44 : (vide)
+    [R13C57] Line 1111_52 : (vide)
+    [R14C3] Line 626_60 : (vide)
+    [R14C3] Line 1111_19 : (vide)
+    [R14C5] Line 1111_18 : (vide)
+    [R14C7] Line 1111_17 : (vide)
+    [R14C15] Line 626_62 : (vide)
+    [R14C23] Line 1111_22 : (vide)
+    [R14C29] Line 626_64 : (vide)
+    [R14C31] Line 1111_32 : (vide)
+    [R14C33] Line 1111_33 : (vide)
+    [R14C41] Line 1111_39 : (vide)
+    [R14C43] Line 1111_42 : (vide)
+    [R14C47] Line 1111_35 : (vide)
+    [R14C49] Line 1111_47 : (vide)
+    [R14C51] Line 1111_48 : (vide)
+    [R14C57] Line 1111_50 : (vide)
+    [R15C17] Line 1111_25 : (vide)
+    [R15C21] Line 626_61 : (vide)
+    [R15C31] Rectangle 1042_57 : BOUDON Robert | ° 19 février 1947 / Gurière cne L. 15 | + 29 mars 1998 / St Flour 15
+    [R15C37] Line 1111_34 : (vide)
+    [R15C49] Line 1111_46 : (vide)
+    [R15C53] Line 1111_49 : (vide)
+    [R15C59] Line 1111_51 : (vide)
+    [R15C61] Line 1111_53 : (vide)
+    [R16C3] Rectangle 957_137 : LONGEON Yvonne 1924-1927 | LONGEON Marcel Emile 1925 | | |
+    [R16C5] Rectangle 957_138 : FREYSSINIER René | ° 13 mars 1929 / Paris 15e | | | |
+    [R16C6] Rectangle 957_136 : VERGNE Jean | ° 02 mai 1928 / Rilhac-Xaintrie 19 | | | |
+    [R16C9] Rectangle 957_2 : TROCELIER /BOUDON | ESPINASSE (Boyer) 15 | 1880- |
+    [R16C13] Rectangle 957_76 : BOUDON / PAGES | ANTERRIEUX 15 | 1882- |
+    [R16C15] Rectangle 957_141 : SAVOIE
+    [R16C17] Rectangle 957_143 : ROBILLARD Edmond | ° 1934 | + 1978 / Paris
+    [R16C20] Rectangle 1042_28 : HEDDE
+    [R16C22] Rectangle 1042_27 : GAUGEY Michel | ° 1943
+    [R16C25] Rectangle 1042_34 : VINCENT Jean | ° 02 avril 1939 / Lieutades 15 |
+    [R16C28] Rectangle 1042_56 : BOUDON Ginette 1945-1946 |
+    [R16C33] Rectangle 1042_58 : BOUDON Jacky | ° 22 septembre 1948 / Gurière cne L. 15
+    [R16C37] Rectangle 1042_72 : BOISSONNADE Maurice | ° 23 août 1946 / Lieutadès 15
+    [R16C40] Rectangle 1042_59 : BOUDON Michel | ° 18 décembre 1955 / Gurière cne L. |
+    [R16C43] Rectangle 1042_85 : TARISSE Jean | ° 25 septembre 1944 | |
+    [R16C47] Rectangle 1042_90 : BOUDON Bernard Denis | ° 19 juin 1951 / Mornac cne E. 15 | |
+    [R16C49] Rectangle 1042_99 : MALATERRE Jacques | |
+    [R16C51] Rectangle 1042_101 : MELONI Roger | |
+    [R16C53] Rectangle 1042_98 : BOUDON Gérard * | ° 07 janvier 1952 | | Scierie Chaudes-Aigues 15
+    [R16C57] Rectangle 1042_109 : JANDAME Gilles | ° 29 février 1957
+    [R16C59] Rectangle 1042_108 : BOUDON Jean -Luc | ° 05 février 1959 |
+    [R16C61] Rectangle 1042_114 : PLACAIL Jean Louis |
+    [R16C63] Rectangle 1042_117 : COUDY Daniel |
+    [R16C65] Rectangle 1042_123 : BOUREE |
+    [R16C67] Rectangle 957_78 : PIOCHE /BOUDON | Ste Marie cne VIGOUROUX 15 | 1908- |
+    [R17C19] Rectangle 957_77 : BOUDON / CHASSANG | ESPINASSE (Mornac) 15 | 1917- |
+    [R18C31] Rectangle 1042_61 : BOISSONNADE Paulette | ° |
+    [R18C43] Rectangle 1042_83 : BOUDON Claudine Henriette | ° 8 décembre 1946 / Mornac cne E.15 | |
+    [R19C5] Rectangle 957_134 : LONGEON Marie Louise | ° 13 avril 1928 / Clichy 92 | | | |
+    [R19C7] Rectangle 957_135 : LONGEON Jeannine | ° 03 avril 1932 /Clichy 92 | + | | |
+    [R19C17] Rectangle 957_142 : SAVOIE Jeannette | ° 7 décembre 1935 / Paris
+    [R19C21] Rectangle 1042_26 : GAUGEY Pierrette | ° 1942
+    [R19C22] Rectangle 1042_29 : WERLING Danièle
+    [R19C25] Rectangle 1042_35 : CHAYLA Odile | ° 07 avril 1943 / la Chaze de Peyre |
+    [R19C33] Rectangle 1042_64 : PASCAL Gisèle |
+    [R19C37] Rectangle 1042_60 : BOUDON Ginette | ° 5 avril 1950 / Gurière cne L. 15
+    [R19C41] Rectangle 1042_78 : GELY Françoise |
+    [R19C47] Rectangle 1042_91 : BOUTRE Marie Claude Alexandrine | ° 27 octobre 1952 / Rodez 12 | |
+    [R19C48] Rectangle 1042_96 : BOUDON Andrée | ° 19 juillet 1947 | |
+    [R19C50] Rectangle 1042_97 : BOUDON Bernadette | ° 14 septembre 1948 | |
+    [R19C53] Rectangle 1042_104 : DOULS Chantal | |
+    [R19C57] Rectangle 1042_107 : BOUDON Odile | ° 29 février 1957
+    [R19C59] Rectangle 1042_111 : BERARD Corinne |
+    [R19C61] Rectangle 1042_113 : BOUDON Annie | ° 11 janvier 1962 |
+    [R19C63] Rectangle 1042_118 : Patricia |
+    [R19C65] Rectangle 1042_122 : LIGNY Annick | ° 29 mars 1961 | |
+    [R20C55] Image 50 : (vide)
+    [R21C25] Line 1111_26 : (vide)
+    [R21C33] Line 1111_30 : (vide)
+    [R21C37] Line 1111_36 : (vide)
+    [R21C43] Line 1111_43 : (vide)
+    [R22C5] Rectangle 957_139 : FREYSSINIER Françoise | ° 12 juin 1962 / Paris 9e | | | |
+    [R22C21] Rectangle 1042_40 : HEDDE Thomas 1974
+    [R22C22] Rectangle 1042_30 : GAUGEY Sandra 1976
+    [R22C23] Rectangle 1042_31 : GAUGEY Arnaud 1978-1985
+    [R22C25] Line 626_63 : (vide)
+    [R22C27] Line 1111_27 : (vide)
+    [R22C33] Line 626_65 : (vide)
+    [R22C35] Line 1111_31 : (vide)
+    [R22C37] Line 626_66 : (vide)
+    [R22C39] Rectangle 1042_77 : BOUDON Mu | ° 18 avril
+    [R22C39] Line 1111_37 : (vide)
+    [R22C40] Rectangle 1042_79 : BOUDON Christine | ° 25 juin 1982 |
+    [R22C41] Rectangle 1042_80 : BOUDON | ° 5 |
+    [R22C43] Line 626_67 : (vide)
+    [R22C45] Line 1111_44 : (vide)
+    [R22C47] Rectangle 1042_92 : BOUDON Laurent Pierre | ° 15 janvier 1974 /Aurillac 15 | |
+    [R22C51] Rectangle 1042_103 : MELONI Nathalie | ° 24 janvier 1971 | |
+    [R22C65] Rectangle 1042_125 : BOUREE Romane | ° 22 décembre 1990 |
+    [R23C17] Rectangle 957_144 : ROBILLARD Christian septembre 1963
+    [R23C17] Rectangle 957_145 : ROBILLARD Marie Christine 1965
+    [R23C17] Rectangle 957_146 : ROBILLARD Fabienne 1965
+    [R23C21] Rectangle 1042_39 : HEDDE Myriam 1972
+    [R23C25] Rectangle 1042_36 : VINCENT Fabienne | ° 26 mars 1969 / Paris 14e |
+    [R23C27] Rectangle 1042_37 : VINCENT Philippe | ° 27 décembre 1972/ Paris 15e |
+    [R23C31] Rectangle 1042_62 : BOUDON Bruno | ° 24 septembre 1974 / Laguiole 12
+    [R23C31] Rectangle 1042_63 : BOUDON Laure | ° 3 janvier 1979 / Rodez 12
+    [R23C33] Rectangle 1042_68 : BOISSIERES Christophe
+    [R23C35] Rectangle 1042_66 : PECOUL Guy
+    [R23C37] Rectangle 1042_73 : BOISSONNADE Eric | ° 17 septembre 1971 / St Flour 15
+    [R23C43] Rectangle 1042_88 : JULHES Franck | ° 19 décembre 1970 / Paris 14e | |
+    [R23C45] Rectangle 1042_86 : TARISSE Jean Claude | ° 14 mars 1968/ Paris | |
+    [R23C47] Rectangle 1042_93 : BOUDON Sylvie Nadine | ° 09 février 1978 / Aurillac 15 | |
+    [R23C49] Rectangle 1042_100 : BOUDON Maria | ° 20 avril 1977 | |
+    [R23C51] Rectangle 1042_102 : MELONI Cyrile | ° 01 mars 1972 | |
+    [R23C53] Rectangle 1042_105 : BOUDON Guillaume | ° 19 septembre 1990 | |
+    [R23C57] Rectangle 1042_110 : JANDAME David | ° 30 janvier 1976
+    [R23C59] Rectangle 1042_112 : BOUDON Emilie | ° 20 jullet 1983 |
+    [R23C61] Rectangle 1042_115 : PLACAIL Sophie | ° 31 mai 1986 |
+    [R23C63] Rectangle 1042_119 : COUDY Mélanie | ° 28 août 1990 |
+    [R23C65] Rectangle 1042_124 : BOUREE Alix | ° 23 décembre 1995 |
+    [R26C26] Rectangle 1042_38 : BONNET Carole
+    [R26C32] Rectangle 1042_67 : BOUDON Annie | ° 17 avril 1972 / Laguiole 12
+    [R26C35] Rectangle 1042_65 : BOUDON Joëlle | ° 22 mars 1973 / Laguiole 12
+    [R26C37] Rectangle 1042_74 : BRUNEL Jocelyne | ° septembre 1971 /St Chély
+    [R26C43] Rectangle 1042_87 : TARISSE Nadine | ° 19 décembre 1970 / Paris 14e | |
+    [R26C53] Image 49 : (vide)
+    [R27C54] Rectangle 1042_53 : BOUDON | |
+    [R29C26] Rectangle 1042_54 : VINCENT Lou Anne | ° 30 novembre 2000 / Lyon |
+    [R29C35] Rectangle 1042_69 : PECOUL Antony
+    [R29C43] Rectangle 1042_89 : JULHES Marion | ° 29 nocembre 1997 / St Flour 15 | |
+    [R30C33] Rectangle 1042_70 : BOISSIERES Sylvain
+    [R30C33] Rectangle 1042_71 : BOISSIERES Camille
+    [R30C37] Rectangle 1042_75 : BOISSONNADE Lisa | °12 octobre 1999 / St Flour 15
+    [R30C37] Rectangle 1042_76 : BOISSONNADE Arto | ° 04 mars / St Flour 15
+    [R30C55] Image 48 : (vide)
+    [R32C29] Rectangle 957_147 : BOUDON / GOTTY | Gurière cne Lieutadès15 | 1918- |
+
+========== Boudon Veylet ==========
+  Drawing : xl/drawings/drawing3.xml
+  17 shapes detectees, 9 avec texte
+    [R1C1] Line 626_7 : (vide)
+    [R1C1] Line 626_12 : (vide)
+    [R1C5] Line 626_9 : (vide)
+    [R1C5] Line 626_11 : (vide)
+    [R2C5] Rectangle 950_12 : BOUDON Jean Baptiste | ° 12 mai 1869 / Aldy cne F.M. | + 9 avril 1878 / Veyrès cne B.
+    [R3C1] Rectangle 950_5 : CHARDAYRE Jean Baptiste Auguste | ° 7 mars 1859 / St Chély père inconnu | Journalier Tridos cne Bessons,fermier la Bessette cne Jabrun
+    [R3C5] Rectangle 950_13 : BOUDON Louis Marie | ° 6 novembre 1871 / Aldy cne F.M. | + 7 août 1898 / la Bessette cne Jabrun chez veuve Lebrat | Cultivateur la Bessette
+    [R5C1] Rectangle 950_6 : BOUDON « Marie » Rose Célestine | ° 28 mai 1867 / Aldy cne F.M. puis Veyrès cne B. | + 17 mai 1899 / la Bessette cne Jabrun 15 chez veuve Lebrat
+    [R5C2] Rectangle 950_9 : GEVAUDAN Justine | ° 30 août 1968 / Brion | + 26 février 1946 / St Chély
+    [R7C1] Line 626_13 : (vide)
+    [R7C3] Line 626_14 : (vide)
+    [R8C1] Line 626_8 : (vide)
+    [R9C1] Rectangle 950_7 : CHARDAYRE Jean Baptiste | ° 10 mars 1896 / Veyrès + 20 août 1917 2nd guerre classe 1916 n°552 |
+    [R9C1] Rectangle 950_8 : CHARDAYRE Louis | ° 9 octobre 1897 / Jabrun 15 | + 28 juillet 1981 / St Flour 15 1937 Brion | Exempté pour infantilisme -1 œil droit
+    [R9C1] Line 626_6 : (vide)
+    [R10C2] Rectangle 950_10 : CHARDAYRE Jean Désiré | ° 4 mai 1902 / le Bessette cne Jabrun 15 | + 26 novembre 1953 / Arzenc d’Apchet
+    [R12C2] Rectangle 950_11 : PARAN Marie Sophie | ° 25 juilleti 1901 / Magnac-Fridefont 15 | + 25 avril 1979 / Mende
+
+========== Boudon Prunière ==========
+  Drawing : xl/drawings/drawing4.xml
+  625 shapes detectees, 395 avec texte
+    [R1C5] Rectangle 15 : MOULIN Etienne | ° 25 mars 1854 / Hermabessière cne St Colombe de Peyre + 12 juillet 1924 / Fau de Peyre
+    [R1C92] Image 11 : (vide)
+    [R1C98] Rectangle 253 : BOUDON Marie Pierre Urbain | ° 15 août 1870 / Veyrès cne B. | + 19 février 1933 / Berc cne M.V. | succ. 8 août 1933 | cultivateur
+    [R1C112] Rectangle 462_0 : VILLIOD Louis Ferdinand | ° 1871 | 14 rue des rosiers / Paris 4e | parqueteur
+    [R3C23] Rectangle 39_1 : BRASSAC François, tailleur d’habits x FOURNIER Marie Jeanne, couturière de Termes | | |
+    [R3C100] Rectangle 1 : Voir arbre | CHAUDESAIGUES
+    [R3C112] Rectangle 462_1 : DELBES Marguerite | ° 1873 | ménagère
+    [R4C5] Rectangle 14 : GRAS Marie Victorine Rosalie (soeur Gras Eugène) | + 27 octobre 1861 / Fau de Peyre | + 01 juin 1910 / Fau de Peyre
+    [R4C12] Rectangle 95 : COSTE Joseph Pierre | X MARIE Justine
+    [R4C98] Rectangle 252 : CHAUDESAIGUES Nathalie | ° 17 mars 1871 / St Juéry cne Fourmel | + 23 mars 1955 / Berc cne M.V. | ménagère
+    [R5C2] Image 3 : (vide)
+    [R5C5] Line 626 : (vide)
+    [R5C13] Line 657 : (vide)
+    [R5C23] Line 918 : (vide)
+    [R5C113] Line 923 : (vide)
+    [R6C5] Line 915 : (vide)
+    [R6C99] Line 921 : (vide)
+    [R6C113] Line 826 : (vide)
+    [R6C115] Line 926 : (vide)
+    [R6C119] Line 927 : (vide)
+    [R6C121] Line 825 : (vide)
+    [R6C123] Line 929 : (vide)
+    [R7C5] Rectangle 7 : MOULIN Joseph Jean Baptiste | ° 01 mai 1887 / Fau de Peyre | + le 6 août 1916 / Verdun (guerre)
+    [R7C5] Line 916 : (vide)
+    [R7C10] Rectangle 8 : GAILLARD Charles Jean Baptiste | ° 24 février 1888 x mars 1920 / St Chély | CM 31/01/1920 m° Gaillardon | avec Séraphie PLANCHON, sage femme | + 24 février 1928/ Paris, 19 rue sabliere |
+    [R7C12] Rectangle 89 : COSTE Alphonse George | ° 24 février 1883 / Malbosc 07, 70 rue Albert Paris 13 à son mariage à Ablon en 1933 | + 1949 / Berc ou Ardèche ? | Employé des chemins de fer
+    [R7C17] Image 5 : (vide)
+    [R7C27] Image 7 : (vide)
+    [R7C41] Rectangle 119 : BOUDON Auguste Joseph | Jean Baptiste | ° 24 août 1898 / Berc cne M.V. | 71 rue Angoulème / Paris 11e | + 20 février 1958 / Paris 5e | Marchand de vin, hôtelier
+    [R7C41] Line 920 : (vide)
+    [R7C95] Image 10 : (vide)
+    [R7C97] Image 363 : (vide)
+    [R7C98] Rectangle 251 : BOUDON Pierre Marie Jean | ° 19 septembre 1901 / Berc cne M.V. | Café au 24 rue des Grands Champs Paris 20e | Achat Crépoux Me Fleisch à St Chély | + 20 novembre 1952 / Crépoux cne Pinols 43
+    [R7C101] Image 9 : (vide)
+    [R7C111] Image 12 : (vide)
+    [R7C114] Rectangle 328 : BOUDON Colombe Alphonsine | ° 19 mai 1905 / Berc cne M.V. | + 30 avril 1932 / Berck plage (tuberculose)
+    [R7C116] Rectangle 440 : BOUDON Maria Louise Thérèse | ° 25 octobre 1906 / Berc cne M.V. | Ardèche | En 33 / Aspect (Ht Garonne) | En 35 / Mugron (Landes) | + 11 juin 1980 / Rougnac | (Charente) | « Soeur Thérèse » dans les o
+    [R7C119] Rectangle 477 : BOUDON Vincent Albert | ° 30 novembre 1908 / Berc cne M.V. | + 30 décembre 1908 / Berc cne M.V.
+    [R7C121] Rectangle 478 : BOUDON Eugène Flavien | ° 30 novembre 1908 / Berc cne M.V. | +15 décembre 1908 / Berc cne M.V.
+    [R7C122] Rectangle 442 : BERTUIT Jean Baptiste | ° 04 décembre 1901 / Berc cne M.V. | + 1958 | Cultivateur
+    [R7C126] Image 13 : (vide)
+    [R7C145] Rectangle 542 : BOUDON Louis Alexandre | ° 04 avril 1912 / Berc cne M.V. | séminaire Vaucluse en 33, Hôtel Levallois, garage et blanchisserie Paris 15, laverie à Aurillac 15 | + 22 mai 1997 / Aurillac 15
+    [R7C145] Line 911 : (vide)
+    [R7C149] Image 14 : (vide)
+    [R7C159] Image 20 : (vide)
+    [R8C23] Rectangle 40 : BOUDON Auguste Urbain Alexandre | ° 16 novembre 1896 / Berc cne M.V. | Guerre 14 - 18 ( œil de verre) + 28 juin 1964 / Termes |
+    [R8C91] Rectangle 957_72 : BOUDON Jean / SALLES Julie
+    [R8C112] Rectangle 462 : VILLIOD Pierre Louis | ° 4 septembre 1901 / Paris 5e | + 9 novembre 1979 / Rimeize (9 janvier 1980) | Garçon de café / cafetier « le Brocca » Paris 5e
+    [R9C7] Rectangle 957_65 : BOUDON / MOULIN
+    [R9C11] Line 626_0 : (vide)
+    [R9C14] Rectangle 957_64 : BOUDON/COSTES
+    [R9C25] Rectangle 957_63 : BOUDON / BRASSAC
+    [R9C43] Rectangle 957_71 : BOUDON Joseph / SALLES Marie
+    [R9C125] Rectangle 957_62 : BOUDON / BERTUIT
+    [R9C147] Rectangle 957_61 : BOUDON / SOUQUET
+    [R10C5] Rectangle 6 : BOUDON Marie Hélène Baptistine | ° 25 novembre 1892 / Aldy cne F.M. | 19 rue sablière Paris 14e | + 4 avril 1978 / Rimeize | Commercante / cuisinière |
+    [R10C12] Rectangle 88 : BOUDON Marie Anna Louise | ° 02 mars 1895 / Berc cne M.V., 198 rue St Jacques Paris 5 à son mariage | + 6 février 1986 / St Flour 15
+    [R10C23] Rectangle 39 : BRASSAC Léonie Jeanne | ° 27 juillet 1900 / Termes | + 22 janvier 1944 / Termes (cancer sein) | |
+    [R10C97] Image 193 : (vide)
+    [R10C112] Rectangle 461 : BOUDON Sophie | ° 16 septembre 1903 / Berc cne M.V. | + 09 juillet 1987 / Mazamet (Tarn) 81 | Fille de salle
+    [R10C123] Rectangle 441 : BOUDON Emilie Virginie | ° 05 mars 1910 / Berc cne M.V. | + 02 juillet 2006 / St Chély
+    [R10C145] Rectangle 541 : SOUQUET Marie Emilie Angélique | ° 12 mars 1913 / Lacroix- Barrez 12 | + 28 février 2002 / Aurillac ?
+    [R11C41] Rectangle 118 : SALLES Marie Jeanne | (sœur de Salles Julie) | ° 22 juillet 1902 / Berc cne M.V. | + 1992 / Villeneuve le roi 94
+    [R11C43] Image 8 : (vide)
+    [R11C99] Rectangle 250 : SALLES Julie Marie Elisabeth | ° 06 avril 1901 / Berc cne M.V. | + 20 février1949 / Crépoux cne Pinols 43
+    [R12C1] Image 2 : (vide)
+    [R12C5] Line 623_1 : (vide)
+    [R12C99] Line 1160 : (vide)
+    [R13C3] Line 620 : (vide)
+    [R13C13] Line 652 : (vide)
+    [R13C13] Line 654 : (vide)
+    [R13C17] Line 655 : (vide)
+    [R13C23] Line 658 : (vide)
+    [R13C23] Line 667 : (vide)
+    [R13C27] Line 686 : (vide)
+    [R13C31] Line 660 : (vide)
+    [R13C31] Line 689 : (vide)
+    [R13C37] Line 918 : (vide)
+    [R13C41] Line 683 : (vide)
+    [R13C41] Line 914 : (vide)
+    [R13C47] Line 931 : (vide)
+    [R13C101] Line 1162_0 : (vide)
+    [R13C109] Line 932 : (vide)
+    [R13C113] Line 925 : (vide)
+    [R13C115] Line 864_1 : (vide)
+    [R13C121] Line 864 : (vide)
+    [R13C145] Line 905 : (vide)
+    [R14C3] Line 623 : (vide)
+    [R14C6] Rectangle 3 : WINKLER Emile Eugène | °26 avril 1910 / Aubervilliers 93
+    [R14C7] Line 623_0 : (vide)
+    [R14C9] Rectangle 8 : BONARDI Jean | ° 27 novembre 1910 | + 12 février 1978 | veuf, 1 fils Jean Pierre |
+    [R14C16] Rectangle 87 : COSTE Louis | ° 1927 / Berccne M.V. | + 14 juillet 1974 / Berc cne M.V.
+    [R14C29] Line 686 : (vide)
+    [R14C29] Rectangle 19 : BOUDON Joseph François | ° 15 juin 1923 / Termes ? St Georges diOrques 34 + 3 janvier 1984 / Montpellier 34
+    [R14C33] Line 659 : (vide)
+    [R14C35] Line 667 : (vide)
+    [R14C36] Rectangle 28 : BOUDON André Albert | ° 1934 / Termes | + 2011 Vaison la Romaine | Traumatisme après guerre Algérie, boulanger
+    [R14C39] Line 918_0 : (vide)
+    [R14C41] Rectangle 113 : BOUDON René Urbain | ° 21 mai 1925 / Paris 2e | + 30 juillet 2003 / Villejuif 94 |
+    [R14C43] Line 914_0 : (vide)
+    [R14C46] Rectangle 355 : ROUZAIRE Jean | ° 16 juillet 1927 / Albaret le Comtal | + 2007 | Postier
+    [R14C47] Line 940 : (vide)
+    [R14C77] Image 15 : (vide)
+    [R14C95] Rectangle 359 : FAVRE Georges | ° 05 avril 1929 / Paris 4e | Chauffeur livreur
+    [R14C95] Line 938 : (vide)
+    [R14C98] Rectangle 307 : BADUEL Ernest | ° 11 octobre 1930 / Thérondel 12 | + 12 août 2007 / Nanterre 92 | Cafetier Paris « Atrium »
+    [R14C100] Rectangle 339 : BOUDON Marcel Casimir | ° 01 mai 1937 / Paris 20e | P Roullie Marcel | Franconville 95
+    [R14C109] Rectangle 349 : BOUDON René André | ° 30 août 1942 / Paris 20e | P BOUDON René | M BOUDON Elise | Agriculteur le Crépoux 43
+    [R14C112] Rectangle 445 : VILLIOD Roger | ° 1930 / Paris 5e | Paris 5 au dessus du café rue Brocca | + décembre 2022 / Paris
+    [R14C113] Line 823 : (vide)
+    [R14C120] Rectangle 373 : BERTUIT Jean Théophile | ° 22 juin 1932 / Berc cne M.V. | + 21 octobre 2013 / Provins | Cafetier Paris 4e (Ile St Louis)
+    [R14C121] Line 828_1 : (vide)
+    [R14C123] Line 865 : (vide)
+    [R14C123] Rectangle 382 : BOURDELEIX Gabriel | ° | + |
+    [R14C125] Line 867 : (vide)
+    [R14C127] Line 868 : (vide)
+    [R14C129] Line 867_0 : (vide)
+    [R14C135] Line 871 : (vide)
+    [R14C137] Line 870 : (vide)
+    [R14C139] Line 871_0 : (vide)
+    [R14C140] Rectangle 424 : BERTUIT André | ° 01 novembre 1945 / Berc cne M.V. | + 10 février 1984 / St Chély (Train)
+    [R14C141] Line 871_1 : (vide)
+    [R14C143] Line 871_2 : (vide)
+    [R14C145] Rectangle 481 : PADOVANI Pierre
+    [R14C145] Line 887 : (vide)
+    [R14C147] Line 888 : (vide)
+    [R14C149] Line 908 : (vide)
+    [R14C151] Line 908_0 : (vide)
+    [R14C155] Line 908_1 : (vide)
+    [R14C158] Rectangle 532 : BOUDON Dominique * | °1958 | Clermont Ferrand 63
+    [R14C159] Line 908_2 : (vide)
+    [R15C3] Rectangle 3 : MOULIN Etienne Jean Baptiste | ° 13 mars 1913 Berc, Mazeirac | + 2 janvier 1975 / Ecrosnes (28) imprimeur
+    [R15C5] Rectangle 3 : SALGUES Pierre Jean | ° 20 novembre 1911 / Rimeize | + 6 octobre 1981 / Rimeize | Maire Rimeize 1965-80 | Hotel resto "la baraque du bouvier"
+    [R15C10] Rectangle 8 : GAILLARD Albert Pierre (du 1er mariage) | °18 décembre 1922 / St Chély | élevé en Lozère |
+    [R15C12] Rectangle 85 : COSTE Urbain | ° 6 juillet 1921 / Berc cne M.V. | + 5 juin 2002 / Montrodat
+    [R15C23] Rectangle 113 : AGOUY Jean Pierre
+    [R15C27] Rectangle 21 : LOCHE
+    [R15C30] Rectangle 25 : BOUDON Yvonne Marie | ° 25 juillet 1924 / Termes | + 1927 |
+    [R15C31] Rectangle 22 : BOUDON Alphonse | ° 16 janvier 1925 / Termes handicapé suité à la polio | + 25 février 1961 / Tarascon | (renversé par une Vespa)
+    [R15C33] Rectangle 23 : BOUDON Auguste Louis "Gustou" | ° 2 juin 1927 / Termes, handicapé suite à une chute d’un char à foin + 8 septembre 2010 / Mende
+    [R15C35] Rectangle 25 : DELHOSTAL Jean Pierre | ° 12 avril 1923 / Termes | + après guerre Algérie
+    [R15C38] Rectangle 26 : BOUDON René | ° 25 février 1939 /Termes | Epinay sur Seine 93
+    [R15C43] Rectangle 114 : BOUDON Odette | ° 1930 / Paris | + 1943 / Berc cne M.V. (peritonite en vacances à Berc)
+    [R15C111] Rectangle 957_70 : BOUDON / VILLIOD
+    [R15C114] Rectangle 457 : VILLIOD Louis Pierre (loulou) | ° 12 juin 1933 / Paris 5e | + 09 février 2016 Mazamet 81
+    [R15C124] Rectangle 382_4 : GREZE Michel Charles Jacques | |
+    [R15C127] Rectangle 382_8 : REY Robert Pierre | |
+    [R15C128] Rectangle 382_12 : CRUEIZE René Alphonse | |
+    [R15C134] Rectangle 367 : PERRIER Guy André Louis |
+    [R15C137] Rectangle 415 : BERTUIT Albert | ° 18 juillet 1942 / Berc cne M.V. | + 15 novembre 2018 / Provins
+    [R15C138] Rectangle 367_4 : CONORT Elie |
+    [R15C143] Rectangle 382_34 : BERTUIT Michel | ° 1952 | +1952 | |
+    [R15C147] Rectangle 485 : ROBERT'S | + 2021
+    [R15C148] Rectangle 514 : BAILLY Didier
+    [R15C150] Rectangle 515 : BOUDON Louis Michel | ° 1945 |
+    [R15C154] Rectangle 519 : BOUDON Jean | °1947 | Lacroix-Barrez 12
+    [R16C15] Image 6 : (vide)
+    [R17C109] Rectangle 348 : BOREL Josette Suzanne | ° 10 mai 1941 / Auvers 43
+    [R18C2] Rectangle 3 : ROUSSEAU Simone Hélène | ° 4 novembre 1910 / Suippes 51 | + 17 juin 1975 / Fontainebleau (77)
+    [R18C5] Rectangle 4 : MOULIN Victorine (VICTO) Marie | ° 20 aout 1914 / Berc, Mazairac | + 13 mars 2002 / Ceyrat Puy de Dôme, Rimeize
+    [R18C6] Rectangle 5 : MOULIN Augusta Alexandrina | °14 avril 1916 / Berc, Sablière | + 29 juillet 1993 Rimeize | caissière
+    [R18C10] Rectangle 8 : FARGES Julie Rosa |
+    [R18C12] Rectangle 84 : GOURDON Théodora Odette Lucienne | ° 1925 | + 23 janvier 2021 / Berc cne M.V.
+    [R18C23] Rectangle 16 : BOUDON Marie Jeanne | °26 juin 1921 / Termes + 20 avril 2012 / Millau
+    [R18C27] Rectangle 21 : BOUDON Hélène Nathalie | ° 26 mai 1922 / Termes
+    [R18C29] Rectangle 21 : JEANJEAN Yvonne
+    [R18C35] Rectangle 25 : BOUDON Yvonne | ° 21 mai 1930 / Berc | St Chély |
+    [R18C38] Rectangle 113_6 : (vide)
+    [R18C39] Rectangle 113_7 : (vide)
+    [R18C41] Rectangle 112 : POIRIER Marcelle Rose | Boulangerie, rue Santeuil | rue de Charonne Paris 11e
+    [R18C46] Rectangle 356 : BOUDON Elise | ° 01 mai 1926 / Paris 20e | + 2017
+    [R18C95] Rectangle 246 : BOUDON Louise | ° 04 mai 1929 / Paris 20e | P COSTE Alphonse (O) M SALLES Rosa (T) | + 24 mars 2023 / Maisons- Alfort 94 |
+    [R18C99] Rectangle 306 : BOUDON Hélène | ° avril 1932 / Paris 20e | Paris
+    [R18C101] Rectangle 338 : LEONET Lucienne Elise | ° 11 octobre 1938 / le Pomet cne Mas d'Artiges 23 | + 2 juin 2016 / Franconville 95
+    [R18C113] Rectangle 445 : CHARBONNIER Odette
+    [R18C114] Rectangle 445 : PAYRIN Bernadette *
+    [R18C120] Rectangle 367_1 : LAUZET Jeanine Marie Thérèse | |
+    [R18C123] Rectangle 382 : BERTUIT Marie-Louise * | ° 22 septembre1933 / Berc cne M.V. | Colombes 92 et Bourganeuf 23
+    [R18C125] Rectangle 391 : BERTUIT Hélène Maria | ° 24 novembre 1934 / Berc cne M.V.
+    [R18C127] Rectangle 401 : BERTUIT Thérèse | ° 3 octobre 1936 / Berc cne M.V. | + 2019 St Brieuc
+    [R18C128] Rectangle 406 : BERTUIT Odette Baptistine Henriette * | ° 28 mai 1938 / Berc cne M.V. | Café Paris puis Juvisy. À Berc
+    [R18C135] Rectangle 367 : BERTUIT Gilberte Simone ° 31 juillet 1940 / Berc cne M.V. |
+    [R18C136] Rectangle 367_0 : RISSERT Gisèle Paulette |
+    [R18C138] Rectangle 417 : BERTUIT Marthe Angèle Solenge | ° 19 janvier 1944 / Berc cne M.V., Ruynes M.
+    [R18C140] Rectangle 367_3 : OSTY Denise |
+    [R18C145] Rectangle 480 : BOUDON Monique * | °1941 | Paris 15e | 0983352582 | 0164084032 | |
+    [R18C147] Rectangle 484 : BOUDON Marguerite | ° 1942 | +2021 / St Germain
+    [R18C149] Rectangle 513 : BOUDON Geneviève * | ° 1944 | Lacroix-Barrez 12
+    [R18C154] Rectangle 518 : SULLY | Martinique
+    [R18C158] Rectangle 532_0 : X 1988 D2001 BANIAN Sehnaz
+    [R19C3] Line 631_3 : (vide)
+    [R19C11] Line 626_10 : (vide)
+    [R19C13] Line 646 : (vide)
+    [R19C23] Line 688 : (vide)
+    [R19C29] Line 687 : (vide)
+    [R19C35] Line 660_1 : (vide)
+    [R19C41] Line 675 : (vide)
+    [R19C101] Line 806 : (vide)
+    [R19C115] Line 817 : (vide)
+    [R19C129] Line 852 : (vide)
+    [R19C141] Line 852_0 : (vide)
+    [R19C149] Line 890 : (vide)
+    [R19C158] Rectangle 519_1 : SALAT Huguette
+    [R20C1] Line 627 : (vide)
+    [R20C1] Line 630 : (vide)
+    [R20C15] Line 637_2 : (vide)
+    [R20C17] Line 637_3 : (vide)
+    [R20C23] Line 637 : (vide)
+    [R20C29] Line 637_4 : (vide)
+    [R20C33] Line 637_5 : (vide)
+    [R20C37] Line 660_2 : (vide)
+    [R20C41] Line 681 : (vide)
+    [R20C45] Line 675_2 : (vide)
+    [R20C47] Line 684 : (vide)
+    [R20C47] Line 675_1 : (vide)
+    [R20C59] Line 736 : (vide)
+    [R20C71] Line 738 : (vide)
+    [R20C95] Line 749 : (vide)
+    [R20C95] Line 790 : (vide)
+    [R20C101] Line 803 : (vide)
+    [R20C107] Line 1162_1 : (vide)
+    [R20C109] Line 1154 : (vide)
+    [R20C109] Line 1156 : (vide)
+    [R20C111] Line 1162_2 : (vide)
+    [R20C113] Line 1155 : (vide)
+    [R20C121] Line 828 : (vide)
+    [R20C121] Line 829 : (vide)
+    [R20C131] Line 855 : (vide)
+    [R20C143] Line 855_0 : (vide)
+    [R20C149] Line 889 : (vide)
+    [R20C153] Line 893 : (vide)
+    [R20C155] Line 889_0 : (vide)
+    [R20C155] Line 890_0 : (vide)
+    [R20C157] Line 908_3 : (vide)
+    [R21C3] Rectangle 3 : FIQUET
+    [R21C10] Rectangle 3 : METGE |
+    [R21C13] Line 645 : (vide)
+    [R21C18] Rectangle 69 : COSTE Yves * | ° 10 mai 1953 / Berc cne M.V. | Berc
+    [R21C19] Line 649 : (vide)
+    [R21C21] Rectangle 70 : COSTE Paul Marie | ° 1958 / Berc cne M.V. | Aigue morte
+    [R21C21] Line 649_0 : (vide)
+    [R21C23] Rectangle 113_1 : AIGOUY Jean-Marie | Millau
+    [R21C25] Line 686_0 : (vide)
+    [R21C31] Rectangle 19_1 : BOUDON | St Georges d’Orques 34
+    [R21C31] Line 686_1 : (vide)
+    [R21C33] Line 660_0 : (vide)
+    [R21C37] Line 660_3 : (vide)
+    [R21C41] Rectangle 113 : RICHARD Hervé
+    [R21C43] Rectangle 101 : BOUDON Alain Roger | ° 22 juin 1961 Paris 14e
+    [R21C43] Line 675_0 : (vide)
+    [R21C46] Rectangle 120 : ROUZAIRE Roger | ° 15 mai 1948 | + 15 mai 1948
+    [R21C49] Line 733 : (vide)
+    [R21C53] Line 734 : (vide)
+    [R21C61] Image 5_0 : (vide)
+    [R21C65] Line 737 : (vide)
+    [R21C67] Image 4 : (vide)
+    [R21C73] Image 5_1 : (vide)
+    [R21C77] Line 740 : (vide)
+    [R21C85] Line 743_0 : (vide)
+    [R21C91] Line 742 : (vide)
+    [R21C93] Line 743 : (vide)
+    [R21C96] Rectangle 234_3 : FAVRE Michel | ° 26 mars 1956 / Paris 17e | Banquier | | |
+    [R21C97] Line 749_0 : (vide)
+    [R21C103] Line 1162 : (vide)
+    [R21C105] Line 806_0 : (vide)
+    [R21C110] Rectangle 346 : COMBOURIEU Etienne | ° 14 janvier 1976 / Aurillac 15 | agriculteur
+    [R21C112] Rectangle 445 : JAUFFRET
+    [R21C115] Line 828_0 : (vide)
+    [R21C117] Line 864_0 : (vide)
+    [R21C119] Line 822 : (vide)
+    [R21C119] Rectangle 445_10 : VILLIOD Stéphane | ° Mazamet 81 | Mazamet 81
+    [R21C120] Rectangle 367_2 : PROUST Jean Jacques |
+    [R21C121] Rectangle 368 : BERTUIT Jean Jacques Alain | ° 28 septembre 1960 / Paris 17 | + 17 juillet 1976 / Paris 3e(leucémie)
+    [R21C121] Line 830 : (vide)
+    [R21C123] Rectangle 382_0 : BOURDELEIX Sylvie | ° 1962 |
+    [R21C123] Rectangle 382_1 : BOURDELEIX Thierry | Colombes |
+    [R21C123] Rectangle 382_2 : BOURDELEIX Didier | |
+    [R21C123] Rectangle 382_3 : BOURDELEIX Isabelle | |
+    [R21C128] Rectangle 382_13 : CRUEIZE Philippe | ° 19 octobre 1963 / Paris | Cafetier à Clermont Ferrand | |
+    [R21C129] Line 851 : (vide)
+    [R21C130] Rectangle 382_14 : CRUEIZE Stéphane | ° 1968 / Juvisy | | |
+    [R21C132] Rectangle 382_19 : CRUEIZE Patrice | ° 1970 / Juvisy | | |
+    [R21C133] Line 854 : (vide)
+    [R21C135] Rectangle 382_28 : PERRIER Hervé | |
+    [R21C137] Rectangle 382_30 : BERTUIT | |
+    [R21C141] Line 851_0 : (vide)
+    [R21C147] Rectangle 485_0 : ROBERT'S Alexandra | Marseille | X Italien
+    [R21C148] Rectangle 495 : BAILLY François | ° 21 août 1969 / Paris | Lacroix-Barrez 12 | RTE |
+    [R21C151] Line 891 : (vide)
+    [R21C152] Rectangle 503_0 : (vide)
+    [R21C155] Rectangle 516_0 : BOUDON Olivier | Australie
+    [R21C159] Rectangle 532_1 : BOUDON Thomas | ° août 1989
+    [R21C159] Rectangle 532_2 : BOUDON Cécile | ° janvier 1991
+    [R22C1] Rectangle 3 : MOULIN Jean Pierre | ° 01 avril 1939 / Issy 92 puis Paris 6e 124 bld Raspail | + 12 juin 1992 / St Denis d'Augerons Eure (résidence secondaire), chromiste
+    [R22C5] Rectangle 3 : SADOCK
+    [R22C12] Rectangle 42 : COSTE Michel | | Monpellier
+    [R22C14] Rectangle 46 : COSTE Jean Claude | | Chambéry
+    [R22C17] Rectangle 54 : COSTE Gérard | ° St Alban | 0434259178 |
+    [R22C25] Rectangle 113_0 : AIGOUY Yvon | Millau
+    [R22C27] Rectangle 21_4 : LOCHE Marie Ange
+    [R22C27] Rectangle 21_5 : LOCHE Gérard
+    [R22C27] Rectangle 21_6 : LOCHE Bernard
+    [R22C29] Rectangle 113_3 : (vide)
+    [R22C33] Rectangle 113_9 : PASCAL Serge | St Chély
+    [R22C35] Rectangle 113_8 : | | + 2023
+    [R22C36] Rectangle 25_2 : DELHOSTAL Daniel | ° 1959 | Vincennes 94
+    [R22C37] Rectangle 25_3 : DELHOSTAL Pascal | ° 1964 | + 1967
+    [R22C44] Rectangle 103 : LUCAS Eric
+    [R22C48] Rectangle 121 : ROUZAIRE Henri | ° 29 juin 1949 / St Chély Cournon 63
+    [R22C49] Image 2_0 : (vide)
+    [R22C52] Rectangle 139 : ROUZAIRE George « Jojo » | ° 23 septembre 1950 Ambert Brioude 43
+    [R22C54] Image 3_0 : (vide)
+    [R22C59] Rectangle 149 : PERCHAT Jean Marie | ° 2 décembre 1950 / Bourges 18 | Mende
+    [R22C64] Rectangle 159 : ROUZAIRE André (Dédé) | ° 16 juillet 1953 / Malzieu | + Chavagnac 43
+    [R22C71] Rectangle 169 : COURBET Alain | ° 8 décembre 1955 / Angers |
+    [R22C77] Rectangle 195 : ROUZAIRE François | ° 30 janvier 1959 / Malzieu | Coudures (Landes)
+    [R22C78] Image 6_0 : (vide)
+    [R22C85] Rectangle 183_0 : SAHUC Robert | ° 28 juillet 1947 |
+    [R22C86] Image 7_0 : (vide)
+    [R22C91] Rectangle 204_2 : ROUZAIRE Jean Michel | ° 3 juin 1964 / Malzieu | St Chély, boulanger |
+    [R22C93] Rectangle 206_0 : ROUZAIRE Thierry | ° 04 février 1972 / Brioude Saugue, agriculteur
+    [R22C95] Rectangle 234 : FAVRE Jean-Pierre Paul | ° 29 septembre 1954 / Paris 17e | + 25 mars 2017 / Cirès les Mello 60 | Banquier |
+    [R22C99] Rectangle 305 : LADOUX Jean Paul | Magasin souvenir Paris Eiffel
+    [R22C101] Rectangle 313 : BOUDON Didier Jean | ° 01 juillet 1962 / Paris 12e | Jardinier Trets 13
+    [R22C102] Rectangle 322 : BOUDON Philippe Emile | ° 29 mai 1964 / Paris 17e | Serveur Paris
+    [R22C107] Rectangle 331 : BOUDON Stéphane Lucien | ° 25 mars 1974 / Pontault Combault 77 | Enseignant Antibes 06
+    [R22C109] Rectangle 340 : BOUDON Christian Jean ° 02 février 1966 / Pinols 43 | Agriculteur au Crépoux
+    [R22C114] Rectangle 445 : VILLIOD Laurent | ° Mazamet | Mazamet 81
+    [R22C117] Rectangle 445_9 : VILLIOD Christian | ° 17 mars 1971 / Mazamet 81 | St Raphaël 83
+    [R22C124] Rectangle 382_5 : GREZE Patrick | |
+    [R22C125] Rectangle 382_6 : GREZE Nicole | |
+    [R22C125] Rectangle 382_7 : GREZE Denis | |
+    [R22C127] Rectangle 382_9 : REY Christian | |
+    [R22C127] Rectangle 382_10 : REY Gérard | |
+    [R22C127] Rectangle 382_11 : REY Yolande | |
+    [R22C135] Rectangle 382_29 : PERRIER Didier | |
+    [R22C138] Rectangle 367_5 : CONORT Laëtitia | Ile Réunion |
+    [R22C141] Rectangle 382_31 : BERTUIT Laurent | |
+    [R22C143] Rectangle 382_32 : BERTUIT Jean-Luc | |
+    [R22C144] Rectangle 481_0 : PADOVANI Florence | Paris (Chine)
+    [R22C147] Rectangle 485_1 : ROBERT'S Nicolas | Marseille | X Mexicaine Paris
+    [R22C150] Rectangle 500_0 : JAMMET Franck
+    [R22C157] Rectangle 516 : BOUDON Virginie | Paris
+    [R22C159] Rectangle 532_3 : BOUDON Marie | ° février 1993
+    [R23C131] Line 397 : (vide)
+    [R24C1] Rectangle 3 : MUSSEAU Anne Marie *
+    [R24C2] Rectangle 3 : MOULIN Monique * | ° 17 janvier 1936 / Boulogne 92 | Chenay 78
+    [R24C29] Rectangle 19_0 : BOUDON | St Georges d’Orques 34
+    [R24C30] Rectangle 113_4 : (vide)
+    [R24C33] Rectangle 25_0 : DELHOSTAL Marie France | ° 1957 | St Chély
+    [R24C35] Rectangle 25_1 : DELHOSTAL Monique | ° 1958 | St Georges 15
+    [R24C41] Rectangle 99 : BOUDON Claire Odette * | ° 22 décembre 1959 / Paris 14e | P BOUDON René |
+    [R24C44] Rectangle 103 : BOUDON Annie Charlotte | ° 9 févier 1966 / Paris 12e | P BOUDON Marcel | Montlhéry 91
+    [R24C48] Rectangle 122 : SANTAMARIA Andrée | ° 13 août 1947 /
+    [R24C52] Rectangle 138 : HUGONY Elisabeth | ° mars 1952 / Saugues
+    [R24C59] Rectangle 148 : ROUZAIRE Denise * | ° 30 janvier 1952/ Ambert, Mende
+    [R24C64] Rectangle 158 : CUNINAL Joëlle
+    [R24C76] Rectangle 194 : X / D PACALLET Catherine | ° 29 novembre 1958 / Langeac
+    [R24C85] Rectangle 182_0 : ROUZAIRE Geneviève | ° 11 août 1960/ Malzieu | Chavagnac
+    [R24C90] Rectangle 203 : MOSNIER Fabienne | ° 15 septembre 1967
+    [R24C98] Rectangle 303 : BADUEL Isabelle | | Enseignante | |
+    [R24C100] Rectangle 314 : BOUSSUGE Dinora | ° 17 avril 1975 /
+    [R24C102] Rectangle 321 : CASASSA Carmen | ° 14 juin 1967 / Lima Pérou
+    [R24C105] Rectangle 329 : BOUDON Fabienne Hélène | ° 14 septembre 1967 / Maison Alfort 94 | Enseignante Nantes 44
+    [R24C112] Rectangle 445 : VILLIOD Véronique * | °1962 / Paris 5e | Bièvre
+    [R24C116] Rectangle 445_11 : (vide)
+    [R24C129] Rectangle 382_15 : | |
+    [R24C131] Rectangle 382_20 : | |
+    [R24C132] Rectangle 382_21 : | |
+    [R24C141] Rectangle 382_35 : | |
+    [R24C148] Rectangle 485_2 : Emmanuelle
+    [R24C150] Rectangle 500 : BAILLY Claire | ° 1971 | Aurillac
+    [R25C10] Rectangle 3 : GAILLARD France * | ° 1951 / Termes | Le Bès cne Termes
+    [R25C12] Rectangle 43 : JOURDAN Anne-Marie
+    [R25C14] Rectangle 47 : MAZAUYER Josette
+    [R25C17] Rectangle 55 : CROZAT Giselle
+    [R25C21] Rectangle 71 : MAURIN Colette
+    [R25C23] Rectangle 113_11 : GIRAL Claudine
+    [R25C25] Rectangle 113_2 : ALLAINMAT Nadège
+    [R25C71] Rectangle 168 : ROUZAIRE Odette | ° 28 janvier 1956 / Malzieu Cournon 63
+    [R25C92] Rectangle 207_0 : AUBAZAC Véronique | ° 15 septembre 1976
+    [R25C95] Rectangle 233 : Annick FELLI | ° 27 août 1953 / St Ouen (93) | Oise
+    [R25C106] Rectangle 1164 : TIRABI Corinne Aline Andrée | °29 juillet 1978 / Noisy le Grand 93
+    [R25C108] Rectangle 341 : BRUSTEL Marie-Paule |
+    [R25C110] Rectangle 345 : BOUDON Marie Hélène Isabelle | ° 05 mars 1976 / Pinols 43 | agricultrice
+    [R25C115] Rectangle 445_2 : (vide)
+    [R25C118] Rectangle 445_12 : (vide)
+    [R25C120] Rectangle 367_3 : BERTUIT Françoise * | Sognoles en Montois 77 |
+    [R25C152] Rectangle 503 : BAILLY Agnès
+    [R25C154] Rectangle 503_4 : Australienne
+    [R26C3] Line 631_1 : (vide)
+    [R26C13] Line 648 : (vide)
+    [R26C15] Line 651 : (vide)
+    [R26C17] Line 640 : (vide)
+    [R26C41] Line 675_4 : (vide)
+    [R26C45] Line 675_6 : (vide)
+    [R26C53] Line 699 : (vide)
+    [R26C59] Line 707 : (vide)
+    [R26C65] Line 713 : (vide)
+    [R26C71] Line 718 : (vide)
+    [R26C76] Rectangle 194_0 : X Sylvie
+    [R26C77] Line 720 : (vide)
+    [R26C85] Line 720_0 : (vide)
+    [R27C1] Line 631 : (vide)
+    [R27C3] Line 627_1 : (vide)
+    [R27C7] Line 630_1 : (vide)
+    [R27C13] Line 637_0 : (vide)
+    [R27C17] Line 637 : (vide)
+    [R27C21] Line 637 : (vide)
+    [R27C21] Line 637 : (vide)
+    [R27C21] Line 639_1 : (vide)
+    [R27C39] Line 681_0 : (vide)
+    [R27C39] Line 675_3 : (vide)
+    [R27C43] Line 675_5 : (vide)
+    [R27C45] Line 681_1 : (vide)
+    [R27C47] Line 690 : (vide)
+    [R27C47] Line 691 : (vide)
+    [R27C49] Line 692 : (vide)
+    [R27C53] Line 696 : (vide)
+    [R27C59] Line 702 : (vide)
+    [R27C61] Line 705 : (vide)
+    [R27C65] Line 708 : (vide)
+    [R27C71] Line 714 : (vide)
+    [R27C73] Line 717 : (vide)
+    [R27C75] Line 715 : (vide)
+    [R27C77] Line 719 : (vide)
+    [R27C155] Rectangle 503_3 : Boudon Louis, 28 ans se marie avec Marie Souquet, 27 ans de Lacroix- Barrez en Aveyron. Il a été au séminaire pendant son enfance. A sa sortie, il devient electricien, maçon et hébéniste chez ASTRUC 0
+    [R28C2] Rectangle 3 : FIQUET Xavier | ° 1958
+    [R28C13] Line 637_1 : (vide)
+    [R28C19] Line 639 : (vide)
+    [R28C25] Rectangle 113_10 : AIGOUY Margot | Millau
+    [R28C45] Line 675_7 : (vide)
+    [R28C51] Line 694 : (vide)
+    [R28C55] Line 701 : (vide)
+    [R28C57] Line 700 : (vide)
+    [R28C63] Line 695 : (vide)
+    [R28C67] Line 712 : (vide)
+    [R28C69] Line 712_0 : (vide)
+    [R28C79] Line 723 : (vide)
+    [R28C81] Line 722 : (vide)
+    [R28C83] Line 721 : (vide)
+    [R28C85] Line 719_0 : (vide)
+    [R28C87] Line 721_0 : (vide)
+    [R28C89] Line 722_0 : (vide)
+    [R28C90] Rectangle 204_0 : ROUZAIRE Ludivine | ° 28 mai 1995 | Chateauroux |
+    [R28C123] Rectangle 382_16 : Les BERTUIT, Emilie Boudon, 21 ans, se marie avec Jean Baptiste Bertuit de Berc, 30 ans à Berc, Il s’installeront dans la ferme Bertuit et auront 10 enfants. Ils loueront la ferme des Gras à Berc qui 
+    [R29C1] Rectangle 3 : LAMBERT |
+    [R29C6] Rectangle 3_3 : FIQUET Rodolphe | ° 1960
+    [R29C13] Rectangle 44 : COSTE Philippe
+    [R29C13] Rectangle 45 : COSTE Marie Céline
+    [R29C15] Rectangle 48 : COSTE Olivier
+    [R29C16] Rectangle 56 : PICARD Cyril |
+    [R29C18] Rectangle 59_0 : COSTE Christophe
+    [R29C21] Rectangle 72 : COSTE Julia
+    [R29C21] Rectangle 73 : COSTE Florian
+    [R29C29] Rectangle 113_5 : (vide)
+    [R29C33] Rectangle 25_4 : PASCAL David
+    [R29C33] Rectangle 25_5 : PASCAL Sylvain
+    [R29C35] Rectangle 25_6 : Nelly
+    [R29C35] Rectangle 25_7 : Yvan
+    [R29C38] Rectangle 96 : RICHARD Pierre |
+    [R29C43] Rectangle 96 : RICHARD Julien | ° 1982 |
+    [R29C45] Rectangle 96 : LUCAS Antoine |
+    [R29C45] Rectangle 96 : LUCAS Charlotte |
+    [R29C47] Rectangle 123 : X / D CLAIR Frédéric |
+    [R29C49] Rectangle 126 : PETRIC |
+    [R29C51] Rectangle 128_0 : VILLARINO Pierre
+    [R29C53] Rectangle 135 : ROUZAIRE Julien | ° 15 janvier 1979 / Puy 43 Chateauroux 36 |
+    [R29C55] Rectangle 137 : ROUZAIRE Paul-Olivier | ° 7 janvier 1983 / Puy 43 Clermont-F. 63 |
+    [R29C56] Rectangle 145_0 : Simon
+    [R29C59] Rectangle 145 : GRUECHE Arnaud
+    [R29C60] Rectangle 145 : BUISSON, | agriculteur à Villerousset Mende
+    [R29C63] Rectangle 145_3 : CHAPTAL Thibault
+    [R29C64] Rectangle 138_1 : BOULET Pierre | ° 14 avril 1980
+    [R29C67] Rectangle 138_0 : GHRISSI Ali | ° 09 mai 1978
+    [R29C68] Rectangle 137 : ROUZAIRE Arnaud | ° 1980 | pâtissier Doubs 25
+    [R29C71] Rectangle 138 : COURBET Nicolas | ° 29 juillet 1982 / Nancy | + 2019
+    [R29C72] Rectangle 138 : COURBET Matthieu | ° 25 juillet 1984 / Nancy | Angers
+    [R29C74] Rectangle 137_1 : BOURDASOL Mathieu | ° 09 septembre 1986 | Clermont
+    [R29C77] Rectangle 190_0 : ROUZAIRE Pierre | ° 13 août 1981 / Puy 43 Vertauge 43
+    [R29C79] Rectangle 191 : ROUZAIRE Laurent | ° 08 avril 1984 / Puy 43 Amérique New Jersey
+    [R29C81] Rectangle 192 : ROUZAIRE Justine | ° 05 août 1988 / Puy 43 | 25 mars 1992 / Grasse (méningite)
+    [R29C82] Rectangle 193 : ROUZAIRE Corentin | ° 05 janvier 1995 / Grasse 06 Clermont Ferrand (Michelin)
+    [R29C85] Rectangle 138_18 : MASSINI Jean Baptiste ° 30 novembre 1981 | garage moto / la "Motte" Brioude
+    [R29C86] Rectangle 138_19 : PLANTIN Florian | ° 30 avril 1984 | Langeac
+    [R29C89] Rectangle 138_20 : BAYOUT Romain | ° 25 juillet 1987 | Langeac
+    [R29C91] Rectangle 204_1 : ROUZAIRE Sollène | ° 7 octobre 2001 | St Chély |
+    [R29C92] Rectangle 231_0 : ROUZAIRE Jean | ° 24 août 2008
+    [R29C95] Rectangle 234_0 : FAVRE Jean Baptiste | ° 31 mars 1987 / Enghein les Bains (95) |
+    [R29C95] Rectangle 234_2 : |
+    [R29C98] Rectangle 305_0 : LADOUX Damien |
+    [R29C99] Rectangle 305_1 : LADOUX Laura
+    [R29C100] Rectangle 315 : BOUDON Nathan Thomas | ° 19 décembre 1996 / Aix en Provence | Vendeur téléphonie
+    [R29C103] Rectangle 305_2 : BOUDON Médalit Léa | ° 19 février 1994 / Ermont 95 | Vendeuse souvenir
+    [R29C103] Rectangle 305_3 : BOUDON Muriel | ° 29 novembre 1995 / Ermont 95 | Hôtesse
+    [R29C105] Rectangle 329 : BOUDON Lisa | ° 21 avril 2012/ St Denis 93
+    [R29C105] Rectangle 329 : BOUDON Florine | ° 21 avril 2012 / St Denis 93
+    [R29C107] Rectangle 329 : BOUDON Clément | ° 11 juin 2005 / Montfermeil 93 | |
+    [R29C107] Rectangle 329 : BOUDON Elsa | ° 13 juin 2008 / Montfermeil 93 | |
+    [R29C109] Rectangle 343 : BOUDON Romain Marcel | ° 28 mars 2000 / Puy 43 | Agriculteur au Crépoux
+    [R29C111] Rectangle 343 : COMBOURIEU Antony ° 2001 | Acheteur de bête 43
+    [R29C111] Rectangle 343 : COMBOURIEU Stéphane | ° 2002 | étudiant
+    [R29C111] Rectangle 343 : COMBOURIEU Lucie | ° 2009
+    [R29C113] Rectangle 445_0 : JAUFFRET Guillaume
+    [R29C113] Rectangle 445_1 : JAUFFRET Mathieu
+    [R29C115] Rectangle 445_3 : VILLIOD Simon | |
+    [R29C115] Rectangle 445_4 : VILLIOD | |
+    [R29C117] Rectangle 445_7 : VILLIOD Coralie | animatrice | |
+    [R29C117] Rectangle 445_8 : VILLIOD Julien | Sous marinier | |
+    [R29C119] Rectangle 445_5 : VILLIOD | |
+    [R29C119] Rectangle 445_6 : VILLIOD | |
+    [R29C129] Rectangle 382_17 : REY Léa | |
+    [R29C129] Rectangle 382_18 : REY Lucie | |
+    [R29C131] Rectangle 382_23 : CRUEIZE Joseph | |
+    [R29C131] Rectangle 382_22 : CRUEIZE Théo | |
+    [R29C131] Rectangle 382_24 : CRUEIZE Baptiste | |
+    [R29C133] Rectangle 382_27 : CRUEIZE Manin | |
+    [R29C133] Rectangle 382_25 : CRUEIZE Louis | |
+    [R29C133] Rectangle 382_26 : CRUEIZE Lola | |
+    [R29C141] Rectangle 382_33 : BERTUIT fille | |
+    [R29C148] Rectangle 495_0 : BAILLY Géraud | °27 avril 1997 / Rennes | Toulouse | comptable |
+    [R29C149] Rectangle 495_1 : BAILLY Simon | ° 20 juin 1998 / Rennes | Nancy | ingénieur |
+    [R29C151] Rectangle 495_2 : JAMMET Fanny | Clermont 63 |
+    [R29C151] Rectangle 495_3 : JAMMET Marie | Clermont 63 |
+    [R29C151] Rectangle 495_4 : JAMMET Etienne | Clermont 63 |
+    [R29C153] Rectangle 503_1 : BAILLY Cannelle | Vaucluse
+    [R29C153] Rectangle 503_2 : MOUSIE Thomas | Paris
+    [R30C47] Rectangle 123_2 : 2x GARDIC Erwan | ° 19 juillet 1963 |
+    [R31C26] Rectangle 21_3 : Les Boudon de Termes, Alexandre Boudon, 25 ans, il revient de la guerre bléssé à l’œil. Il se marie avec Léonie Brassac de Terme à 5 km. Il reprendra la ferme des Brassac et auront 9 enfants, 6 vont s
+    [R31C92] Image 9_0 : (vide)
+    [R32C1] Rectangle 3 : MOULIN Stéphanie * | °20 jullet 1975 / Paris 6 | St Denis d'Augerons 27
+    [R32C2] Rectangle 3_4 : (vide)
+    [R32C6] Rectangle 3_5 : (vide)
+    [R32C17] Rectangle 57 : COSTE Isabelle |
+    [R32C41] Rectangle 96 : RICHARD Margot |
+    [R32C47] Rectangle 124 : ROUZAIRE Nathalie | ° 01 août 1971 / Clermont- F. 63 | Batz s/mer 44, proviseur Nantes
+    [R32C49] Rectangle 127 : ROUZAIRE Cécile | ° 14 mai 1974 / Clermont-F.63 Cournon 63
+    [R32C50] Rectangle 128 : ROUZAIRE Emilie | ° 24 mars 1985 / Clermont-F. 63 Courdon 63
+    [R32C53] Rectangle 125 : CHAUMETTE Agnès | ° 20 mai 1980 |
+    [R32C56] Rectangle 136 : ROUZAIRE Anne-Sophie | °3 novembre 1989 / Puy 43 | Noirétable 42 |
+    [R32C59] Rectangle 145_2 : PERCHAT Mylene | ° 18 avril 1978 | Latte Montpellier
+    [R32C61] Rectangle 146 : PERCHAT Aurélie | ° 11 février 1980 | Mendes | professeur des écoles
+    [R32C63] Rectangle 147 : PERCHAT Pauline | ° 25 juillet 1990 Mende | infirmière
+    [R32C64] Rectangle 137_0 : ROUZAIRE Sylvie | ° 18 novembre1978 | Brioude | enseignante SVT
+    [R32C67] Rectangle 137 : ROUZAIRE Claire | ° 1980 | Brioude |
+    [R32C68] Rectangle 138_5 : PETREQUIN Florine | ° 01 décembre 1989 | Doubs 25
+    [R32C71] Rectangle 137 : DANNE Laurence | ° 1968 / Angers
+    [R32C73] Rectangle 137 : Violaine | ° 28 avril 1984 / Dijon | Angers
+    [R32C74] Rectangle 138_7 : COURBET Marie | ° 22 janvier 1987 / Nancy Clermont
+    [R32C77] Rectangle 190_1 : PORTAL Marie Laure ° 23 juin 1982 / Puy 43
+    [R32C79] Rectangle 190 : X / D DONATI Aurélia
+    [R32C79] Rectangle 190 : X ROSE Christina | ° 26 mai 1990
+    [R32C83] Rectangle 194_1 : (vide)
+    [R32C85] Rectangle 175 : SAHUC Angélique | ° 16 janvier 1983 Brioude
+    [R32C86] Rectangle 176_0 : SAHUC Caroline | ° 14 février 1984 Langeac
+    [R32C89] Rectangle 177 : SAHUC Véronique | ° 23 février 1986 Langeac
+    [R32C95] Rectangle 234_4 : |
+    [R33C3] Line 631_0 : (vide)
+    [R33C7] Line 631_2 : (vide)
+    [R34C3] Line 627_0 : (vide)
+    [R34C5] Line 630_0 : (vide)
+    [R34C7] Line 627_2 : (vide)
+    [R34C9] Line 630_2 : (vide)
+    [R34C17] Line 637 : (vide)
+    [R34C17] Line 640_0 : (vide)
+    [R34C95] Text Box 841_0 : Jean Boudon, 24 ans se marie à Paris, où il habite depuis 1920, avec Julie Salles, 24 ans de Berc qui est hébergé par sa sœur Marie à Paris dans le 15eme. Il a revu Julie au mariage de son frère Josep
+    [R35C6] Rectangle 3_7 : (vide)
+    [R35C17] Line 639_0 : (vide)
+    [R35C18] Text Box 841 : Les Coste, Louise Boudon, 25 ans se marie avec Alphonse Coste, 37 ans, cheminot à Paris, 70 rue Albert Paris 13 d’une famille Coste de Malbose en Ardèche (comment ils se sont connu?). Son cousin Pages
+    [R35C38] Rectangle 96_0 : |
+    [R35C41] Rectangle 96_1 : |
+    [R35C42] Rectangle 96_3 : RICHARD Mathis | ° 2013 |
+    [R35C52] Rectangle 135_3 : ROUZAIRE Mathilde | ° 08 juillet 2008 | Chateauroux 36 |
+    [R35C53] Rectangle 135_0 : ROUZAIRE Eloise | ° 27 novembre 2010 | Chateauroux 36 |
+    [R35C57] Rectangle 145_5 : Constance | ° juillet 2022 | Noiretable 42
+    [R35C95] Rectangle 234_1 : FAVRE |
+    [R36C1] Rectangle 3 : LAMBERT Jeanne | ° 2004 / St Denis d'Augerons 27
+    [R36C1] Rectangle 3 : LAMBERT Blanche | ° 2011 / St Denis d'Augerons 27
+    [R36C1] Rectangle 3 : LAMBERT Anselin | ° 2016 / St Denis d'Augerons 27
+    [R36C2] Rectangle 3 : FIQUET Jérémy
+    [R36C5] Rectangle 3 : FIQUET Jonathan
+    [R36C9] Rectangle 3 : FIQUET Gwenolé | ° 1984
+    [R36C16] Rectangle 58 : PICARD Thibaud |
+    [R36C17] Rectangle 59 : PICARD Estelle
+    [R36C47] Rectangle 123_0 : CLAIR Laura | ° 05 octobre 1999 | Montpellier |
+    [R36C47] Rectangle 123_3 : CLAIR Léonard | ° 06 juillet 2001 | Batz s/mer |
+    [R36C49] Rectangle 126_2 : PETRIC Marie Amélie | ° 02 avril 2002 | Cournon 63 |
+    [R36C49] Rectangle 126_3 : PETRIC Guanaëlle | ° 05 janvier 2006 | Cournon 63 |
+    [R36C51] Rectangle 128_2 : VILLARINO Enzo | ° 14 janvier 2011
+    [R36C51] Rectangle 128_1 : VILLARINO Esteban | ° 26 mars 2013 | Orcet 63
+    [R36C59] Rectangle 145_6 : GRUECHE Léo Paul | ° 2008
+    [R36C59] Rectangle 145_7 : GRUECHE Antoine | ° 2011
+    [R36C61] Rectangle 145_1 : BUISSON Nathan | ° 2008 Mende | Mende
+    [R36C63] Rectangle 145_8 : CHAPTAL Alix | ° 2021 /Mende | Mende
+    [R36C65] Rectangle 138_8 : BOULET Maëlle | ° 30 janvier 2013 | Brioude
+    [R36C66] Rectangle 138_2 : GHRISSI Anis | ° 22 septembre 2009
+    [R36C67] Rectangle 138_9 : GHRISSI Myriam | ° 08 mai 2011
+    [R36C67] Rectangle 138_3 : GHRISSI Nora | ° 30 janvier 2013
+    [R36C67] Rectangle 138_6 : GHRISSI Leïla | ° octobre 2022
+    [R36C71] Rectangle 138_6 : COURBET Camille | ° 21 novembre 1995 (adoption)
+    [R36C71] Rectangle 138_10 : COURBET Gabriel | ° 16 mars 2000 (adoption)
+    [R36C71] Rectangle 138_4 : COURBET Lola | ° 19 décembre 2012 / Clermont
+    [R36C73] Rectangle 138_11 : COURBET Rose | ° 21 avril 2014 | Clermont
+    [R36C73] Rectangle 138_12 : COURBET Lino | ° 26 mai 2016 | Clermont
+    [R36C74] Rectangle 137_2 : BOURDASOL Chloé | ° 2016
+    [R36C75] Rectangle 137_3 : BOURDASOL Léa | ° 2021
+    [R36C76] Rectangle 190_2 : ROUZAIRE Lucas | ° 07 juin 2005 / St Flour
+    [R36C77] Rectangle 190_3 : ROUZAIRE Violette | ° 29 septembre 2007 / St Flour
+    [R36C77] Rectangle 190_4 : ROUZAIRE Angelin | ° 05 janvier 2010 / St Flour
+    [R36C79] Rectangle 190 : ROUZAIRE Mike | ° 1 mars 2015 / Grasse 06 | Antibes
+    [R36C84] Rectangle 138_21 : MASSINI Enzo | ° 13 octobre 2008 | la "Motte", Brioude |
+    [R36C85] Rectangle 138_22 : MASSINI Tom | ° 24 octobre 2011 | la "Motte", Brioude
+    [R36C86] Rectangle 138_24 : PLANTIN Léo | ° 12 mai 2009 |
+    [R36C87] Rectangle 138_23 : PLANTIN Margot | ° 10 septembre 2007 |
+    [R36C89] Rectangle 138_25 : BAYOUT Laure | ° 16 février 2014 | Langeac
+    [R36C89] Rectangle 138_26 : BAYOUT Sollène | ° 19 janvier 2017 | Langeac
+    [R36C101] Image 16_0 : (vide)
+    [R36C111] Text Box 841_1 : Les VILLIOD, Sophie Boudon, serveuse à Paris, 26 ans se marie à Paris avec Louis Villiod de l’Aveyron. Ils auront 2 enfants et tiendront un café 25 rue Broca à Paris 5. Roger, un des fils y a habité t
+    [R37C7] Text Box 841 : Les Moulin, Marie Boudon, née à Berc, mineure de 19 ans, l’ainée des 12 enfants, se marie en première le 13 novembre 1911à Berc avec Joseph Moulin, 24 ans, cultivateur, de Fau de Peyre, 16 km ( elle c
+    [R38C2] Rectangle 3_6 : (vide)
+    [R38C39] Text Box 841 : Joseph Boudon, 26 ans se marie à Berc avec Marie Salles, 22 ans de Berc comme lui. Il habite déjà Paris et il est revenu se marier à Berc. Il tiendra un hôtel à Paris et habitera à plusieurs adresses 
+    [R39C7] Rectangle 3 : FIQUET Cécile | ° 1981
+    [R43C3] Rectangle 3_1 : FIQUET Natael
+    [R43C3] Rectangle 3_0 : FIQUET Angélina
+    [R43C7] Rectangle 3_2 : FIQUET Lyne
+
+========== Boudon Trocellier ==========
+  Drawing : xl/drawings/drawing5.xml
+  105 shapes detectees, 73 avec texte
+    [R1C1] Line 912 : (vide)
+    [R1C1] Line 912_14 : (vide)
+    [R1C3] Line 912 : (vide)
+    [R1C5] Line 912_15 : (vide)
+    [R1C13] Line 912 : (vide)
+    [R2C3] Rectangle 957_0 : TROCELIER Marie Pierre Urbain | ° 1872 / Javols puis Berc cne M.V. | + | Fermier à Boyer / Espinasse, Hermet / Lieudades et le Mas / Espinasse
+    [R2C7] Rectangle 957_9 : TROCELIER Jean Laurent Théophile | °10 août 1876 / Bessils cne Javols | + 17 août 1954 / Coltainville 28 | Cultivateur Berc, cafetier à Paris |
+    [R2C7] Line 912_16 : (vide)
+    [R2C9] Line 912 : (vide)
+    [R2C9] Rectangle 957_12 : TROCELIER Prosper | ° 6 octobre 1883 / Bessils cne Javols | + | Cultivateur Berc, Paris |
+    [R3C1] Rectangle 957_106 : TROCELIER Joseph Jean-Baptiste 1875-1875 | TROCELIER Hippolyte Marie Isidore 1880-1882 | TROCELIER Hilarion Jean 1881-1882
+    [R3C13] Rectangle 957_21 : VERON Alexis | ° 6 mars 1878 / la Roche cne Rieutort de Randon | + septembre 1959 / Berc cne M.V. | Sabotier employé de Casimir Salles, SNCF Chateauroux 36 |
+    [R5C9] Rectangle 957_13 : CHAZALY Marguerite | (sœur CHAZALY Maria) | ° 28 mars 1889 / Sieujac cne Neuvéglise | + |
+    [R6C2] Rectangle 957_1 : BOUDON Marie Nathalie Rosalie (1) | ° 16 novembre 1872/ Grandviala cne F.M | +.
+    [R6C5] Rectangle 957_107 : TROCELIER Virginie Clémence | ° 1870 / Javols | + tuberculose | religieuse
+    [R6C6] Rectangle 957_10 : CHAZALY Maria Marie | (sœur CHAZALY Marguerite) | ° 20 juin 1882 / Sieujac cne Neuvéglise | + 17 avril 1970 / Génainville 28
+    [R6C13] Rectangle 957_20 : TROCELIER Flavie Marie Marguerite | ° 5 janvier 1878 / Bessils cne Javols | + 1966 / Berc | Devait devenir religieuse à St Mandé mais en 1906 avec la séparation Etat et Eglise, | elle revient à Berc e
+    [R8C7] Line 912_18 : (vide)
+    [R8C13] Line 912_0 : (vide)
+    [R9C5] Line 1017_4 : (vide)
+    [R9C5] Line 912_19 : (vide)
+    [R9C13] Line 1017_0 : (vide)
+    [R9C15] Line 912_1 : (vide)
+    [R9C19] Line 912_2 : (vide)
+    [R10C2] Rectangle 957_4 : Voir arbre BOUDON HURGON | | TROCELIER / BOUDON |
+    [R10C5] Rectangle 957_11 : TROCELIER Robert | ° Paris | + Génainville 28 |
+    [R10C7] Rectangle 957_14 : TROCELIER Roger | ° 1907 / Paris | Menuisiier chez Cognont&fils |
+    [R10C9] Rectangle 957_17 : TROCELIER René | | |
+    [R10C9] Rectangle 957_18 : TROCELIER Désiré | | |
+    [R10C9] Rectangle 957_19 : TROCELIER Lucien | | |
+    [R10C13] Rectangle 957_16 : BORGET | | | |
+    [R10C14] Rectangle 957_22 : COUFINIAL Roger | ° Belcastel / Aveyron 12 |
+    [R10C19] Rectangle 957_49 : VIGOUROUX André | | |
+    [R12C7] Rectangle 957_97 : | | |
+    [R12C13] Rectangle 957_6 : VERON Marguerite | °02 novembre 1909 | côté Mende | | |
+    [R12C19] Rectangle 957_48 : VERON Virginie Marie | ° 1913 | |
+    [R13C14] Rectangle 957_23 : VERON Rosa Maria | ° 14 juin 1912 / Berc cne M.V. | + 11 septembre 1996 / Paris |
+    [R15C9] Line 1017_1 : (vide)
+    [R15C15] Line 912_26 : (vide)
+    [R15C19] Line 912_5 : (vide)
+    [R16C9] Line 912_4 : (vide)
+    [R16C13] Line 912_3 : (vide)
+    [R16C17] Line 912_27 : (vide)
+    [R16C19] Line 1017_8 : (vide)
+    [R16C21] Line 912_28 : (vide)
+    [R16C23] Line 912_29 : (vide)
+    [R17C7] Rectangle 957_15 : TROCELIER Roger | Gynécologue Paris 11e | | |
+    [R17C9] Rectangle 957_26 : COUFINIAL Michel | |
+    [R17C13] Rectangle 957_27 : TESSIER Gérard | ° 16 avril 1944 / Noisy le Sec |
+    [R17C17] Rectangle 957_44 : COUFINIAL Gérard |
+    [R17C19] Rectangle 957_103 : | | | |
+    [R17C20] Rectangle 957_53 : VIGOUROUX Elie | | |
+    [R17C23] Rectangle 957_105 : | | | |
+    [R18C9] Rectangle 957_110 : COUFINIAL Paris
+    [R18C13] Rectangle 957_111 : TESSIER 93
+    [R19C3] Rectangle 957_109 : TROCELLIER Paris
+    [R19C7] Rectangle 957_92 : | | |
+    [R19C13] Rectangle 957_24 : COUFINIAL Nicole Claire* | ° 05 novembre 1941 /l e Raincy 93 |
+    [R19C18] Rectangle 957_52 : VIGOUROUX Marie Thérèse | | |
+    [R19C21] Rectangle 957_104 : | | | |
+    [R19C23] Rectangle 957_54 : VIGOUROUX Jeannine | | |
+    [R20C9] Rectangle 957_7 : DEBUFE Françoise |
+    [R20C17] Rectangle 957_100 : | | | |
+    [R21C13] Line 912_24 : (vide)
+    [R22C5] Line 1017_5 : (vide)
+    [R22C7] Line 912_21 : (vide)
+    [R22C9] Line 912_22 : (vide)
+    [R22C13] Line 1017_7 : (vide)
+    [R22C15] Line 912_25 : (vide)
+    [R23C5] Line 912_20 : (vide)
+    [R23C9] Line 1017_6 : (vide)
+    [R23C11] Line 912_23 : (vide)
+    [R24C5] Rectangle 957_28 : TROCELIER Pierre | Professeur de musique | | |
+    [R24C7] Rectangle 957_3 : | | | |
+    [R24C9] Rectangle 957_98 : | | | |
+    [R24C11] Rectangle 957_99 : | | | |
+    [R24C13] Rectangle 957_102 : VILAIN ? | | | |
+    [R24C14] Rectangle 957_43 : TESSIER Jean Christophe | ° 20 mai 1970 / Montreuil 93 |
+    [R24C17] Rectangle 957_25 : COUFINIAL Elodie |
+    [R24C17] Rectangle 957_50 : COUFINIAL Maria |
+    [R24C17] Rectangle 957_51 : COUFINIAL Alexis |
+    [R24C18] Rectangle 957_55 : | | |
+    [R24C21] Rectangle 957_56 : VIGOUROUX Philippe | | |
+    [R24C21] Rectangle 957_57 : VIGOUROUX Nathalie | | |
+    [R24C23] Rectangle 957_58 : Sylvie | | |
+    [R24C23] Rectangle 957_59 : Eric | | | | |
+    [R26C12] Rectangle 957_41 : TESSIER Valérie | ° 26 janvier 1967 / Montreuil | Vincenne |
+    [R27C5] Rectangle 957_5 : | | | |
+    [R27C7] Rectangle 957_29 : TROCELIER Isabelle | Gynécologue | | | |
+    [R27C9] Rectangle 957_34 : COUFINIAL Sandrine |
+    [R27C11] Rectangle 957_35 : COUFINIAL Florence |
+    [R27C15] Rectangle 957_101 : | | | |
+    [R31C5] Rectangle 957_30 : TROCELIER Adille | | |
+    [R31C5] Rectangle 957_31 : TROCELIER | | |
+    [R31C7] Rectangle 957_32 : TROCELIER | | |
+    [R31C7] Rectangle 957_33 : | | |
+    [R31C9] Rectangle 957_36 : Juliette |
+    [R31C9] Rectangle 957_37 : Théodore |
+    [R31C9] Rectangle 957_38 : Charlotte |
+    [R31C11] Rectangle 957_39 : Emma |
+    [R31C11] Rectangle 957_40 : Tom |
+    [R31C12] Rectangle 957_42 : Clarisse | ° 28 juin 1994 |
+    [R31C13] Rectangle 957_45 : Armance | ° 13 décembre 1996 |
+    [R31C13] Rectangle 957_46 : Honoré | °25 juillet 2001
+    [R31C14] Rectangle 957_47 : TESSIER Ellenore | ° 2007
+
+========== Boudon Malafosse ==========
+  Drawing : xl/drawings/drawing6.xml
+  18 shapes detectees, 10 avec texte
+    [R1C1] Line 912_48 : (vide)
+    [R1C1] Line 626_18 : (vide)
+    [R1C3] Line 626_19 : (vide)
+    [R1C5] Line 626_20 : (vide)
+    [R3C1] Rectangle 957_123 : MALAFOSSE Edmond Marie Armant Philippe | ° 10 août 1867 / Blajoux cne Quézac
+    [R3C3] Rectangle 957_121 : MALAFOSSE Casimir Marie Ernest | ° 1872 / Blajoux cne Quézac | Cultivateur, cantonnier
+    [R6C3] Rectangle 957_122 : BOUSQUET Sophie Marie | °1 novembre 1872 / Montbrun
+    [R6C5] Rectangle 957_125 : MALAFOSSE Julie Anne Marie | ° 19 décembre 1874 / Blajoux cne Quézac | + 27 septembre 1890 / Nîmes | domestique
+    [R8C1] Line 912_45 : (vide)
+    [R8C1] Line 626_3 : (vide)
+    [R8C3] Line 912_47 : (vide)
+    [R8C5] Line 912_46 : (vide)
+    [R9C3] Rectangle 957_116 : MALAFOSSE Georges Louis | ° 30 septembre 1898 / Blajoux cne Quézac | + 08 juin 1976 / Marsillargues 34
+    [R9C4] Rectangle 957_119 : MALAFOSSE Osmin Emile | ° 18 juin 1907 / Blazoux cne Quézac | + 14 février 1974 / St Afrique 12
+    [R10C1] Rectangle 957_124 : MALAFOSSE Anna Marie 1897-1897 | MALAFOSSE Marguerite Marie Amélie 1900- | MALAFOSSE Alphonse Gabriel 1902 | MALAFOSSE Julia Maria Irma 1904-1905 | MALAFOSSE Marie Irma Noémie 1910-1910
+    [R13C3] Rectangle 957_117 : BOUSQUET Fernande Emilie | °
+    [R13C5] Rectangle 957_118 : DESPLAS Marie Thérèse Marthe | °
+    [R18C5] Rectangle 957_120 : MALAFOSSE | de Quézac
+
+========== Boudon Maurin ==========
+  Drawing : xl/drawings/drawing7.xml
+  12 shapes detectees, 8 avec texte
+    [R1C1] Line 1017_3 : (vide)
+    [R1C1] Line 912_12 : (vide)
+    [R1C5] Line 912_30 : (vide)
+    [R2C3] Line 912_13 : (vide)
+    [R3C1] Rectangle 968_10 : BOUDON Henri | ° 01 janvier 1888 / St Chély | + | Marchand de beurre
+    [R3C3] Rectangle 968_2 : BOUDON Louis Laurent Joseph | ° 30 mars 1890 / St Chély | + 12 août 1983 / Cavaillon | coiffeur
+    [R3C5] Rectangle 968_4 : BOUDON Adèle Marie Marthe | ° 1885 / St Chély |
+    [R6C1] Rectangle 968_11 : CHARBONNIER Marie Julie | ° 21 août 1885 / St Chély | + | Marchande de beurre
+    [R6C3] Rectangle 968_3 : LAURENS Maria Eliza | ° 13 mai 1888 / les Laubies | + | modiste
+    [R10C1] Rectangle 968_71 : BOUDON Laurent Henri | ° 09 juillet 1914 / St Chély | + 14 février 1915 / St Chély |
+    [R10C3] Rectangle 968_72 : BOUDON René Louis Laurent | ° 11 novembre 1919 / St Chély |
+    [R14C1] Rectangle 957_73 : BOUDON St Chély 1845 -
+
+========== Boudon Gotty ==========
+  Drawing : xl/drawings/drawing8.xml
+  232 shapes detectees, 150 avec texte
+    [R1C25] Line 912_31 : (vide)
+    [R1C37] Line 912_49 : (vide)
+    [R1C47] Line 912_11 : (vide)
+    [R1C53] Line 909 : (vide)
+    [R1C65] Line 912 : (vide)
+    [R1C67] Line 912_42 : (vide)
+    [R1C71] Line 912 : (vide)
+    [R2C25] Rectangle 948 : BOUDON Alexandre Pierre Jean | ° 24 avril 1878 / Aldy cne F.M. | Puis Chaffols cne Noalhac avec parents et Espinasse vers 1935 | + 28 juin ou 21/02 1936 / le Vialard cne Espinasse | Cultivateur, fermi
+    [R2C25] Line 912_10 : (vide)
+    [R2C49] Line 909 : (vide)
+    [R2C49] Rectangle 948_5 : BOUDON Joseph Marie Casimir | ° 30 janvier 1884 / Aldy cne F.M. | puis Noalhac, Vergnes et Mas de Pêtre Deux-Verges 15 | + 01 mars 1965 / Brioude 43 | cultivateur
+    [R2C57] Line 912 : (vide)
+    [R2C61] Line 912 : (vide)
+    [R2C71] Rectangle 948 : BOUDON André | ° 01 juillet 1896 / Noalhac | +1966 / Corbeilles 91 | cultivateur à Lagarde en 1931
+    [R2C72] Rectangle 948 : MINET Joseph Henri Célestin
+    [R2C73] Line 912 : (vide)
+    [R2C75] Line 912_43 : (vide)
+    [R3C52] Rectangle 948 : BOUDON Louis Jean | ° 22 décembre 1885 / Aldy cne la F.M. puis Espinasse avec BOUDON Alexandre (f) | + St Rémy de Chaudes-Aigues 15 | cultivateur
+    [R3C75] Rectangle 948 : BOUDON Emile | ° 4 septembre 1904 / Noalhac, | +13 juin 1976 / Fontanay-Trésigny 77 | garçon de café
+    [R4C17] Rectangle 957_150 : BOUDON / ALBUISSON | CHAFFOLS cne Noalhac | 1906-
+    [R5C25] Rectangle 948 : ALBUISSON Marie Rosalie | ° 20 / octobre 1881 / les Bessons puis Noalhac et Espinasse 15 | + 15 mai 1970 / Chaudes-Aigues 15
+    [R5C37] Rectangle 948_36 : BOUDON Marie Victoire Clothilde | 1880-1880
+    [R5C47] Rectangle 948_2 : BOUDON Sophie | ° 20 août 1881 / Aldy cne F.M. | + 25 février 1956 / Paris 19 rue de Tanger avec ses soeurs
+    [R5C51] Rectangle 948_1 : RODIER Anastasie | ° 26 août 1886 / St Paul de Froid | + 24 février 1966 / Brioude 43
+    [R5C53] Rectangle 948 : PORTEFAIX Augustine | ° 21 novembre 1888 / Fraissinoux cne Rimeize | + St Rémy de Chaudes-Aigues 15
+    [R5C56] Rectangle 948 : BOUDON Elisa Louise | ° 26 décembre 1893 / Aldy cne la F. M. | +7 septembre 1988 / Ris Orangis 91
+    [R5C60] Rectangle 948 : BOUDON Marie Jeanne | ° 27 septembre 1888 / Aldy cne F.M. | + 30 octobre 1985 / Paris 20e, 75 rue des Amandiers
+    [R5C71] Rectangle 948 : BOS Maria |
+    [R5C73] Rectangle 948_8 : BOUDON Marie Louise Nathalie | ° 30 janvier 1899 / Noalhac | + 15 octobre 1992 / Paris 13e
+    [R5C75] Rectangle 948_10 : CHEVALIER F. M | ° 19 décembre 1897 / Puy Dôme | + | cuisinière
+    [R6C49] Rectangle 948_6 : RAYNAL Angèle Rosalie | ° 13 décembre 1895 / Vergnes cne Deux-Verges 15 | + 27 avril 1919 / Vergnes cne Deux-Verges 15 |
+    [R6C65] Rectangle 948 : BOUDON Victorine Clotilde | ° 1889 / Aldy cne F.M. | + 1889 / Aldy cne F.M.
+    [R6C67] Rectangle 948 : BOUDON Ludovie Adeline | ° 5 septembre 1891 / Aldy cne F. M. | +12 octobre 1971 / Paris 10e | 1 café à Paris rue de Tanger avec sa sœur Elisa
+    [R7C49] Line 912 : (vide)
+    [R7C53] Line 912 : (vide)
+    [R8C1] Line 912 : (vide)
+    [R8C25] Line 911 : (vide)
+    [R8C31] Line 912 : (vide)
+    [R8C41] Line 911 : (vide)
+    [R8C47] Line 912 : (vide)
+    [R8C51] Line 912 : (vide)
+    [R8C53] Line 912 : (vide)
+    [R8C57] Line 912 : (vide)
+    [R8C59] Line 912 : (vide)
+    [R8C63] Line 912_41 : (vide)
+    [R8C73] Line 912 : (vide)
+    [R8C75] Line 912 : (vide)
+    [R9C1] Line 912 : (vide)
+    [R9C1] Rectangle 948_0 : BUFFIERE Jean Marie | ° 15 décembre 1902 /Chaudes-Aigues 15 | + 27 septembre 1973 / C.A.15
+    [R9C9] Line 912_0 : (vide)
+    [R9C15] Rectangle 948 : BOUDON Louis | ° 1910 Chaffols cne Noalhac puis Pierrefitte | + janvier 1992 / Murat 15
+    [R9C15] Line 911 : (vide)
+    [R9C30] Rectangle 948 : DELFAU Jean Louis Léon | ° 07 novembre 1904 / Garissac ? puis Lieutadès 15 | + 29 janvier 1983 / Aurillac 15 |
+    [R9C45] Rectangle 948 : BOUDON André | ° 1921 / St Martial 15 | + 1965 au Vernet 15 |
+    [R9C45] Line 912 : (vide)
+    [R9C49] Line 912 : (vide)
+    [R9C49] Rectangle 948_7 : BOUDON Jean Baptiste | ° 29 novembre 1917 / Vergnes cne Deux-Verges 15 | + 20 février 1918 / Vergnes cne Deux-Verges 15
+    [R9C51] Rectangle 948 : BOURDON Roger Robert | ° 29 février 1948 / Bruyère sur Oise 95
+    [R9C73] Line 912_44 : (vide)
+    [R10C25] Rectangle 948 : THOIRON Jules Auguste | ° 25 juin 1911 / St Sébastien d’Aigrefeuille 30 | + 17 octobre 1989 / Ivry s/Seine 94
+    [R10C41] Rectangle 948 : BOUDON Germain Marius | ° 19 mai 1917 / Bessons | + 1975 / Chaudesaigues |
+    [R10C47] Rectangle 948 : BOUDON Jean Baptiste | ° 5 juillet 1905 / Noalhac | + 26 mars 1977 / Paris 4
+    [R10C52] Rectangle 948 : SINEGRE Pierre Emile | ° 07 juin 1911 / Fournels | + 17 décembre 1991 / C.A.
+    [R10C57] Rectangle 948 : BOUDON Marcel Joseph | ° 18 aout 1922 / Pouget cne Fridefont 15 | + 4 juin 1985 / Chamalière 63 | rebouteux
+    [R10C59] Rectangle 948 : BOUDON Albert | ° 6 septembres 1923 / Pouget cne Fridefont 15 | +12 avril 1978 / le Monastier 63
+    [R10C63] Rectangle 948 : DELOUSTAL Jean Louis | ° 1921/ Beauregard cne Bessons | + 1965 / Les Chabasses cne Cezens 15 |
+    [R10C75] Rectangle 948_11 : LAFETAT Fostino
+    [R13C1] Rectangle 948_1 : BOUDON Marie Julie | ° 12 novembre 1906 / Chaffols cne Noalhac | + 30 octobre 1988 / St Flour 15 |
+    [R13C9] Rectangle 948 : BOUDON Emilie | ° 28 avril 1908 / Chaffols cne Noalhac | + 6 avril 1916 / St Martial 15
+    [R13C15] Rectangle 948 : BOULARD Irma Yvonne Elise | ° 10 juin 1916
+    [R13C25] Rectangle 948 : BOUDON Elisa | ° 20 janvier 1913 / Chaffols cne Noalhac habite 76 rue Montorgueil en 42 | + 10 août 1998 / Créteil
+    [R13C30] Rectangle 948 : BOUDON Josephine Josette | ° 12 août 1914 / St Martial en Besse 15 (Chaudesaigue) | + 01 octobre 1982 / Aurillac 15
+    [R13C45] Rectangle 948 : DELIARDS Margot | ° Favreolle 28 | + |
+    [R13C47] Rectangle 948_3 : GASTON Andrée Antoinette | ° 26 novembre 1901/ Paris 14 | +1982 / Argenteuil
+    [R13C51] Rectangle 948 : BOUDON Marie Louise | ° 4 janvier 1919 / Mas de Pêtre cne Deux-Verges 15 | + 2 juillet 2009 / Méru 60 | (employéz au Broca chez Villiod)
+    [R13C53] Rectangle 948 : BOUDON Marie Anasthasie | ° 13 decembre 1914 / la Fage St Julien | + 27 mai 2006 / St Flour 15 | Café à Paris
+    [R13C58] Rectangle 948 : RICOULE Georgette | ° 1925 | +
+    [R13C60] Rectangle 948 : BROSSEAU Jacqueline | ° 1925
+    [R13C62] Rectangle 948 : BOUDON Louisette | ° 20 mai 1925 / Espinasse 15 | Chabasses cne Cezens 15
+    [R13C73] Rectangle 948_9 : BOUDON Claude | ° 4 juillet 1933 / Paris 14e | +1 janvier 1966 / Paris 19 | rue St Denis
+    [R13C75] Rectangle 948_12 : BOUDON Suzanne Odette | ° 9 octobre 1929 / Paris 4e | + 25 juillet 1982 / Lagny 77
+    [R14C15] Line 912_62 : (vide)
+    [R14C45] Line 912 : (vide)
+    [R14C53] Line 912_38 : (vide)
+    [R15C1] Line 912_53 : (vide)
+    [R15C1] Line 912_54 : (vide)
+    [R15C3] Line 912_55 : (vide)
+    [R15C5] Line 912_60 : (vide)
+    [R15C7] Line 912_59 : (vide)
+    [R15C9] Line 912_61 : (vide)
+    [R15C9] Line 912_63 : (vide)
+    [R15C19] Line 911_2 : (vide)
+    [R15C25] Line 911_3 : (vide)
+    [R15C25] Line 911_4 : (vide)
+    [R15C27] Line 911_6 : (vide)
+    [R15C29] Line 911_5 : (vide)
+    [R15C31] Line 911_13 : (vide)
+    [R15C31] Line 911_14 : (vide)
+    [R15C37] Line 912_69 : (vide)
+    [R15C39] Line 912_70 : (vide)
+    [R15C41] Line 912_71 : (vide)
+    [R15C43] Line 912_72 : (vide)
+    [R15C53] Line 912_36 : (vide)
+    [R15C55] Line 912_37 : (vide)
+    [R15C57] Line 912_39 : (vide)
+    [R15C59] Line 912_1 : (vide)
+    [R15C63] Line 912_32 : (vide)
+    [R15C63] Line 912_33 : (vide)
+    [R15C69] Line 912_35 : (vide)
+    [R16C14] Rectangle 948_4 : PORTAL Jean Michel | ° 3 octobre 1943 / Vernière | |
+    [R16C21] Line 911_7 : (vide)
+    [R16C23] Line 911_8 : (vide)
+    [R16C27] Rectangle 948_81 : XD | THOIRON Christiane |
+    [R16C28] Rectangle 948_82 : XD THOIRON Gérard | 2 filles ? | Sors cne Font ? |
+    [R16C43] Rectangle 948_101 : DELFAU Christian | ° 25 juillet 1961 / C.A. |
+    [R16C55] Rectangle 948_29 : SINEGRE Emile « Milou » | ° | 2 enfants
+    [R16C59] Rectangle 948 : BOUDON Daniel | ° | + 2021 / Oradour |
+    [R16C62] Rectangle 948_13 : DELOUSTAL Jean Louis * | ° | Chabasses cne Cezens 15 |
+    [R16C67] Line 912_34 : (vide)
+    [R17C1] Rectangle 948_37 : BUFFIERE Pierre Marius | ° 30 octobre 1932 / E. 15 | + 26 octobre 1986 / Talizat 15
+    [R17C2] Rectangle 948_40 : MERCIER Bernard | ° Paris
+    [R17C4] Rectangle 948_44 : BUFFIERE Emile | ° 09 février 1936 / C.A. 15 | + 01 novembre 1985 / St Flour 15
+    [R17C7] Rectangle 948_46 : CIBIEL Jean Roger | ° 09 avril 1937 / Cézens 15 | + 28 août 1996 / St Flour 15 |
+    [R17C9] Rectangle 948_53 : BOUDON André | ° 03 février 1940 / Rochebrune 05 ?
+    [R17C18] Rectangle 948_72 : BELANY André | ° Bretagne |
+    [R17C20] Rectangle 948_74 : BOUDON Robert | ° décembre 1950 / Pierrefitte |
+    [R17C22] Rectangle 948_75 : BOUDON Bernard | ° 20 novembre 1958 / Pierrefitte |
+    [R17C25] Rectangle 948 : BRIARD | |
+    [R17C30] Rectangle 948_83 : DELFAU Robert | ° 23 mai 1946 / Paris | |
+    [R17C36] Rectangle 948_93 : CAYZAC Bernard | ° 28 janvier 1948 / | |
+    [R17C38] Rectangle 948_96 : CEYREL Jean Claude | ° 26 septembre 1951 / Paris 17e | |
+    [R17C41] Rectangle 948 : DELFAU Gérard * | ° 03 juillet 1959 / C.A. | le Bessière cne St Flour | 0471602075 | Tourneur, ajusteur
+    [R17C45] Rectangle 948 : BOUDON Bernard * | ° / Paris puis Vernet 15 |
+    [R17C53] Rectangle 948_28 : SINEGRE Georges Pierre | ° 08 juillet 1935 / Espinasse 15 | + |
+    [R17C56] Rectangle 948_27 : SINEGRE Marcel Gérard | ° | +
+    [R17C66] Rectangle 948_23 : HUBERT
+    [R17C69] Rectangle 948_15 : DELOUSTAL Yves | ° | Chabasses cne Cezens | 0471733425 | La Roche Canilhac cne St Rémy Chaudes-Aigues 15 école |
+    [R19C62] Rectangle 948_16 : |
+    [R19C64] Rectangle 948_105 : |
+    [R20C1] Rectangle 948_38 : LACROIX Germaine | ° septembre 1933 / Paulhenc 15
+    [R20C2] Rectangle 948_39 : BUFFIERE Emilie Marie | ° 30 août 1934 / C.A. 15 | + 26 octobre 1986 / Talizat 15
+    [R20C7] Rectangle 948_45 : BUFFIERE Germaine Rosalie | ° 04 juin 1940 / C.H. 15 |
+    [R20C9] Rectangle 948_57 : BONNET Marie Thérèse |
+    [R20C15] Rectangle 948_54 : BOUDON Odette | Talizat 0471237154 |
+    [R20C18] Rectangle 948_71 : BOUDON Yvette | ° 01 juillet 1949 / Pierrefitte |
+    [R20C22] Rectangle 948_76 : CHARIGOT Joëlle | ° Alleuzet ? |
+    [R20C25] Rectangle 948_80 : THOIRON Odette* | Vitry 94 | 0146782554 |
+    [R20C30] Rectangle 948_84 : BURON Michelle | ° 25 janvier 1946 / | |
+    [R20C37] Rectangle 948_92 : DELFAU Yvette | ° 15 novembre 1948 / Paris | |
+    [R20C39] Rectangle 948_95 : DELFAU Denise | ° 01 mai 1950 / Laveissière ou Lieutadès 15 ? | | |
+    [R20C40] Rectangle 948_98 : GERAUD Sylvie | ° 19 aoûr 1968 / Coren |
+    [R20C43] Rectangle 948_102 : PELLEGRINO Laura | ° |
+    [R20C44] Rectangle 948_108 : Marie | ° Vernet 15 |
+    [R20C53] Rectangle 948_106 : |
+    [R20C54] Rectangle 948_107 : |
+    [R20C56] Rectangle 948_31 : |
+    [R20C58] Rectangle 948_32 : |
+    [R20C61] Rectangle 948_34 : |
+    [R20C67] Rectangle 948_17 : DELOUSTAL Marie Thérèse | °
+    [R20C68] Rectangle 948_19 : |
+    [R21C3] Line 912_51 : (vide)
+    [R21C7] Line 912_57 : (vide)
+    [R21C9] Line 912_66 : (vide)
+    [R21C31] Line 911_10 : (vide)
+    [R21C57] Line 912_40 : (vide)
+    [R22C15] Line 912_65 : (vide)
+    [R23C1] Rectangle 948_42 : MERCIER Alain | Maison Alfort 94
+    [R23C1] Line 912_50 : (vide)
+    [R23C1] Line 912_52 : (vide)
+    [R23C5] Line 912_56 : (vide)
+    [R23C5] Line 912_58 : (vide)
+    [R23C9] Line 912_67 : (vide)
+    [R23C11] Line 912_68 : (vide)
+    [R23C13] Line 912_64 : (vide)
+    [R23C13] Line 911_0 : (vide)
+    [R23C17] Line 911_1 : (vide)
+    [R23C22] Rectangle 948_77 : BOUDON Jérémy |
+    [R23C31] Line 911_9 : (vide)
+    [R23C33] Line 911_11 : (vide)
+    [R23C34] Rectangle 948_91 : DELFAU Stéphane | ° 22 décembre 1984 / Paris | | |
+    [R23C35] Line 911_12 : (vide)
+    [R23C59] Rectangle 948_33 : BOUDON Christelle | ° | St Flour 15 | 0471789018 |
+    [R23C67] Rectangle 948_18 : HUBERT | Trelis cne Cezens | agriculteur
+    [R23C69] Rectangle 948_24 : DELOUSTAL Guillaume | Aurillac 15 |
+    [R23C69] Rectangle 948_26 : DELOUSTAL Charles | les Chabasses cne Cezens 15 | Agriculteur | | |
+    [R24C2] Rectangle 948_41 : MERCIER Pascal | Maison Alfort 94
+    [R24C4] Rectangle 948_49 : JUERY Bernard | Pierrefort 15 |
+    [R24C7] Rectangle 948_48 : CIBIEL Jean Claude | ° 26 mai 1963 / C.A. 15 | |
+    [R24C9] Rectangle 948_62 : LAMBERT Thiérry |
+    [R24C11] Rectangle 948_64 : BOUDON Hélène |
+    [R24C13] Rectangle 948_59 : POUDROUX Jean-Paul | |
+    [R24C14] Rectangle 948_58 : LIADOUZE Philippe | |
+    [R24C16] Rectangle 948_69 : GERBERT Françis | ° | |
+    [R24C23] Rectangle 948_78 : BOUDON Mégane |
+    [R24C23] Rectangle 948_79 : BOUDON Malorie |
+    [R24C31] Rectangle 948_86 : ODENT Pierre | | |
+    [R24C32] Rectangle 948_89 : COSSON Gille | | |
+    [R24C37] Rectangle 948_94 : CAYZAC Claire | ° 12 juillet 1980 / | |
+    [R24C39] Rectangle 948_97 : CEYREL Jean Claude | ° 26 septembre 1951 / Paris 17e | |
+    [R24C41] Rectangle 948_99 : DELFAU Florian | ° 06 décembre 1993 | |
+    [R24C41] Rectangle 948_100 : DELFAU Kévin | ° 11 avril 1997 | |
+    [R24C43] Rectangle 948_103 : DELFAU Yohan | ° 13 juin 1990 / Nice |
+    [R24C43] Rectangle 948_104 : DELFAU Anya | ° 03 mai 1994 / Nice |
+    [R24C57] Rectangle 948_30 : SINEGRE Christine | ° | Vacances à Espinasse 15
+    [R24C61] Rectangle 948_35 : BOUDON (Fabrice) (artiste peintre) | ° | Colombie |
+    [R24C62] Rectangle 948_20 : DELOUSTAL Christelle | La Roueyre cne St Flour 15 |
+    [R24C63] Rectangle 948_21 : DELOUSTAL | Le Puy 43 |
+    [R24C65] Rectangle 948_22 : DELOUSTAL Béatrice | les Chabasses cne Cezens 15 | Agricultrice
+    [R24C67] Rectangle 948_14 : HUBERT Céline | St Manet | Professeur des écoles
+    [R24C69] Rectangle 948_25 : DELOUSTAL Alexandre | St Georges | Boucher |
+    [R26C2] Rectangle 948_43 : GIBAUX Nadine |
+    [R26C8] Rectangle 948_61 : BOUDON Cécile |
+    [R26C14] Rectangle 948_56 : PORTAL Stéphanie | ° 26 septembre 1967 / St Flour 15 | |
+    [R26C16] Rectangle 948_68 : PORTAL Delphine | ° 08 aoûtt 1971 / St Flour 15 | |
+    [R26C19] Rectangle 948_73 : BELANY Solène | ° 03 août 1971 / Paris |
+    [R27C5] Rectangle 948_47 : CIBIEL Corine | ° 09 décembre 1961 / C.A. 15 | |
+    [R27C7] Rectangle 948_50 : BAURY Béatrice | Lezoux 63 |
+    [R27C12] Rectangle 948_55 : PORTAL Fabienne | °16 mai 1966 / St Flour 15 | |
+    [R27C30] Rectangle 948_85 : DELFAU Corine | ° 02 avril 1970 / Bezu-St-Eloi 27 | | |
+    [R27C32] Rectangle 948_88 : DELFAU Laurence | ° 01 avril 1973 / Bezu-St-Eloi 27 | | |
+    [R30C1] Rectangle 957_148 : BUFFIERE / BOUDON | Chaudes-Aigues 15 | 1900-
+    [R30C13] Rectangle 948_60 : POUDROUX Loïc | ° 01 décembre 1987 | / St Flour 15 | |
+    [R30C13] Rectangle 948_65 : POUDROUX Kévin | ° 14 novembre 1993 | / St Flour 15 | |
+    [R30C15] Rectangle 948_66 : LIADOUZE Jennifer | ° 9 novembre 1987 | / Riom es M. | |
+    [R30C15] Rectangle 948_67 : LIADOUZE Sabrine | ° 11 septembre 1996 | / Aurillac 15 | |
+    [R30C19] Rectangle 957_149 : BOUDON / BOULARD | PIERREFITTE | 1949-
+    [R31C7] Rectangle 948_51 : CIBIEL Léa | ° 24 août 1995 | |
+    [R31C7] Rectangle 948_52 : CIBIEL Emma | ° 04 août 1999 | |
+    [R31C9] Rectangle 948_63 : LAMBERT Nicolas |
+    [R31C16] Rectangle 948_70 : GERBERT Dimitri | ° 03 février 1996 / St Flour 15 | |
+    [R31C30] Rectangle 948_87 : ODENT Camille | ° 11juin 2000 | | |
+    [R31C32] Rectangle 948_90 : COSSON Thomas | ° 12 septembre 1997 / Paris | | |
+
+========== Boudon Doulcier ==========
+  Drawing : xl/drawings/drawing9.xml
+  93 shapes detectees, 61 avec texte
+    [R1C1] Line 626_57 : (vide)
+    [R2C1] Line 1017_11 : (vide)
+    [R2C1] Line 626_5 : (vide)
+    [R2C3] Line 626_28 : (vide)
+    [R3C1] Rectangle 968_5 : DOULCIER Auguste Pierre 1883 | DOULCIER 1884-1884 | DOULCIER Marguerite Marie Jeanne 1885 | DOULCIER Sophie 1887 | DOULCIER 1890-1890 | DOULCIER Nathalie Marie Louise 1900-1982
+    [R3C3] Rectangle 968_6 : DOULCIER Pierre | °26 novembre 1888 / St Chély | + 13 octobre 1918 / St Chély | Boucher
+    [R6C3] Rectangle 968_14 : CHARBONNIER Augustine Marie Louise | °03 février 1888 / St Chély | + 20 décembre 1950 / St Chély | commerçante
+    [R9C3] Rectangle 968_17 : PAGES Frédéric Léon | ° 15 avril 1909 / les Bessons | + 09 mai 2005 / St Chély | Boucher charcutier
+    [R13C2] Rectangle 968_16 : DOULCIER Augustine Marie Louise Mathilde | °25 janvier 1914 / St Chély | + 09 mars 2002 / St Chély | commerçante
+    [R15C1] Line 626_44 : (vide)
+    [R15C3] Line 626_46 : (vide)
+    [R15C13] Line 626_45 : (vide)
+    [R15C21] Line 626_56 : (vide)
+    [R16C1] Line 626_43 : (vide)
+    [R17C1] Rectangle 968_18 : PAGES Rémi Pierre | |
+    [R17C12] Rectangle 968_44 : THEROND Claude |
+    [R17C21] Rectangle 968_63 : PAGES Jean-Louis |
+    [R19C13] Rectangle 968_20 : PAGES Marguerite |
+    [R20C1] Rectangle 968_21 : GINZAC Céline Juliette | | |
+    [R20C21] Rectangle 968_12 : PASCAL Annie |
+    [R21C1] Line 626_34 : (vide)
+    [R21C13] Line 626_52 : (vide)
+    [R21C21] Line 626_54 : (vide)
+    [R22C1] Line 626_33 : (vide)
+    [R22C13] Line 626_51 : (vide)
+    [R23C7] Line 626_35 : (vide)
+    [R23C11] Line 626_36 : (vide)
+    [R23C17] Line 626_50 : (vide)
+    [R23C21] Line 626_53 : (vide)
+    [R23C23] Line 626_55 : (vide)
+    [R24C1] Rectangle 968_23 : JOUVE Pascal Jean Marie | |
+    [R24C7] Rectangle 968_33 : ORSET Marc | |
+    [R24C11] Rectangle 968_19 : PAGES Marc Jean Pierre |
+    [R24C13] Rectangle 968_46 : DALLE Serge |
+    [R24C17] Rectangle 968_55 : BOULET Philippe |
+    [R24C21] Rectangle 968_64 : SOULIS Christian |
+    [R24C22] Rectangle 968_15 : PAGES Frédéric |
+    [R26C21] Rectangle 968_13 : PAGES Emmanuelle |
+    [R27C1] Rectangle 968_22 : PAGES Bernadette Frédérique * | |
+    [R27C6] Rectangle 968_32 : PAGES Marie Pierre | |
+    [R27C11] Rectangle 968_40 : MONNET Céline | |
+    [R27C13] Rectangle 968_45 : THEROND Elisabeth |
+    [R27C17] Rectangle 968_54 : THEROND Frédérique |
+    [R27C22] Rectangle 968_68 : PAULET Sophie |
+    [R28C1] Line 626_29 : (vide)
+    [R28C7] Line 626_39 : (vide)
+    [R28C13] Line 626_41 : (vide)
+    [R28C17] Line 626_48 : (vide)
+    [R30C1] Line 626_30 : (vide)
+    [R30C3] Line 626_31 : (vide)
+    [R30C5] Line 626_32 : (vide)
+    [R30C7] Line 626_37 : (vide)
+    [R30C9] Line 626_38 : (vide)
+    [R30C13] Line 626_40 : (vide)
+    [R30C15] Line 626_42 : (vide)
+    [R30C17] Line 626_47 : (vide)
+    [R30C19] Line 626_49 : (vide)
+    [R31C1] Rectangle 968_24 : JOUVE Anaël | |
+    [R31C3] Rectangle 968_27 : JOUVE Nicolas | |
+    [R31C5] Rectangle 968_30 : JOUVE Sylvain | |
+    [R31C7] Rectangle 968_36 : PELISSIER Pierre | |
+    [R31C9] Rectangle 968_37 : ORSET Marc | |
+    [R31C11] Rectangle 968_41 : PAGES Pauline | |
+    [R31C11] Rectangle 968_42 : PAGES Cyrielle | |
+    [R31C11] Rectangle 968_43 : PAGES Alix | |
+    [R31C13] Rectangle 968_48 : SALAT Cédric |
+    [R31C15] Rectangle 968_52 : ROUX Stéphane |
+    [R31C17] Rectangle 968_56 : BOULET Baptiste |
+    [R31C19] Rectangle 968_57 : MORENO Antony |
+    [R31C21] Rectangle 968_65 : SOULIS Pierre |
+    [R31C21] Rectangle 968_66 : SOULIS Louise |
+    [R31C21] Rectangle 968_67 : SOULIS Alban |
+    [R31C23] Rectangle 968_69 : PAGES Zélie |
+    [R31C23] Rectangle 968_70 : PAGES Léon Frédéric |
+    [R34C1] Rectangle 968_25 : GARCIN Sandra | |
+    [R34C3] Rectangle 968_28 : LARVARON Sophie | |
+    [R34C5] Rectangle 968_31 : BOUQUET Clémence | |
+    [R34C7] Rectangle 968_34 : ORSET Caroline | |
+    [R34C9] Rectangle 968_35 : ORSET Marc | |
+    [R34C13] Rectangle 968_47 : DALLE Bénédicte |
+    [R34C15] Rectangle 968_51 : DALLE Marie |
+    [R34C17] Rectangle 968_58 : BESSAC Elise |
+    [R34C19] Rectangle 968_59 : BOULET Camille |
+    [R36C7] Rectangle 968_38 : PELISSIER Nina | |
+    [R36C7] Rectangle 968_39 : PELISSIER Marius | |
+    [R36C13] Rectangle 968_50 : SALAT Augustin |
+    [R36C17] Rectangle 968_60 : BOULET Gaëtane |
+    [R36C17] Rectangle 968_61 : BOULET Bastian |
+    [R37C1] Rectangle 968_26 : JOUVE Nathan | |
+    [R37C3] Rectangle 968_29 : JOUVE Athéna Juliette Patricia | |
+    [R37C13] Rectangle 968_49 : SALAT Gaspard |
+    [R38C15] Rectangle 968_53 : ROUX Jules |
+    [R38C19] Rectangle 968_62 : MORENO Blanche |

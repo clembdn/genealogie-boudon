@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { TRPCProvider } from '@/trpc/provider';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Généalogie Boudon',
-  description: 'Arbre généalogique familial',
+  title: 'Arbre généalogique de la famille Boudon',
+  description:
+    "L'histoire de la famille Boudon, génération après génération.",
 };
 
 export default function RootLayout({
@@ -14,9 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body>
-        <TRPCProvider>{children}</TRPCProvider>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

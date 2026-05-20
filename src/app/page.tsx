@@ -1,64 +1,58 @@
-'use client';
-
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { trpc } from '@/trpc/client';
-import { authClient } from '@/lib/auth-client';
+import { loadArbreData } from '@/lib/arbre-data';
 
-export default function Home() {
-  const router = useRouter();
-  const { data: session } = authClient.useSession();
-  const { data: people } = trpc.person.list.useQuery();
+export const dynamic = 'force-dynamic';
+
+export default async function HomePage() {
+  const data = await loadArbreData();
 
   return (
-    <main style={{ padding: '2rem', maxWidth: 900, margin: '0 auto' }}>
-      <header
+    <main
+      style={{
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        textAlign: 'center',
+        padding: '2rem',
+        gap: '1.5rem',
+      }}
+    >
+      <p
         style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          marginBottom: '2rem',
+          textTransform: 'uppercase',
+          letterSpacing: '0.2em',
+          fontSize: '0.85rem',
+          color: 'var(--ink-soft)',
+          margin: 0,
         }}
       >
-        <h1>Généalogie Boudon</h1>
-        {session?.user && (
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <span style={{ color: '#666' }}>{session.user.email}</span>
-            <button
-              onClick={async () => {
-                await authClient.signOut();
-                router.push('/sign-in');
-              }}
-            >
-              Déconnexion
-            </button>
-          </div>
-        )}
-      </header>
-
-      <p>
-        <Link href="/tree/main">→ Voir l&apos;arbre généalogique</Link>
+        Arbre généalogique
       </p>
 
-      <h2 style={{ marginTop: '2rem' }}>
-        Personnes recensées ({people?.length ?? 0})
-      </h2>
-      {people && people.length === 0 && (
-        <p style={{ color: '#888' }}>
-          Aucune personne enregistrée pour le moment.
-        </p>
-      )}
-      <ul>
-        {people?.map((p) => (
-          <li key={p.id}>
-            {p.firstName ?? '?'} {p.lastName ?? '?'}{' '}
-            <small style={{ color: '#888' }}>
-              ({p.birthDate ?? '?'}
-              {p.deathDate ? ` – ${p.deathDate}` : ''})
-            </small>
-          </li>
-        ))}
-      </ul>
+      <h1 style={{ fontSize: '3rem', margin: 0 }}>Famille Boudon</h1>
+
+      <p
+        style={{
+          maxWidth: 520,
+          color: 'var(--ink-soft)',
+          margin: 0,
+          fontSize: '1.15rem',
+        }}
+      >
+        Plusieurs siècles d&apos;histoire familiale, du XVII<sup>e</sup> siècle à
+        aujourd&apos;hui. Explorez les {data.persons.length} personnes recensées,
+        génération après génération.
+      </p>
+
+      <Link href="/arbre" className="btn-primary">
+        Explorer l&apos;arbre
+      </Link>
+
+      <p style={{ fontSize: '0.9rem', color: 'var(--ink-soft)', marginTop: '1rem' }}>
+        {data.generations.length} générations &middot; consultation libre
+      </p>
     </main>
   );
 }
