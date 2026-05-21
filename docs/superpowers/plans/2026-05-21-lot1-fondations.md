@@ -1134,7 +1134,7 @@ Note : `.env` n'est pas versionné (secrets) ; seul `prisma/migrations/` l'est.
 
 ## Task 10 : Script d'import et exécution
 
-Crée le script d'import, l'exécute une fois, et vérifie que les 154 personnes sont en base. Le script est **idempotent** (`upsert` par identifiant source) : le relancer ne crée pas de doublons.
+Crée le script d'import, l'exécute une fois, et vérifie que les 154 personnes sont en base. Le script insère les personnes en lot avec `createMany` ; l'option `skipDuplicates` garantit qu'un nouveau lancement ne crée aucun doublon. C'est un import unique : un second lancement n'insère rien et ne met pas à jour les enregistrements existants.
 
 **Files:**
 - Create: `scripts/import-arbre.ts`
@@ -1144,7 +1144,7 @@ Crée le script d'import, l'exécute une fois, et vérifie que les 154 personnes
 Create `scripts/import-arbre.ts` :
 ```ts
 import { readFileSync } from 'node:fs'
-import { PrismaClient } from '@prisma/client'
+import { PrismaClient, type Prisma } from '@prisma/client'
 import {
   transformPerson,
   type SourcePerson,
@@ -1160,21 +1160,18 @@ async function main() {
   const contenu = readFileSync('data/arbre-persons.json', 'utf-8')
   const data = JSON.parse(contenu) as SourceFile
 
+  // Seules les personnes sont importées (les `unions` du fichier source sont
+  // recréées à la main via l'admin — voir conception §8).
   console.log(`${data.persons.length} personnes lues dans le fichier source.`)
 
-  let traitees = 0
-  for (const src of data.persons) {
-    const row = transformPerson(src)
-    await prisma.person.upsert({
-      where: { id: row.id! },
-      create: row,
-      update: row,
-    })
-    traitees += 1
-  }
+  const rows: Prisma.PersonCreateManyInput[] = data.persons.map(transformPerson)
+  const resultat = await prisma.person.createMany({
+    data: rows,
+    skipDuplicates: true,
+  })
 
   const total = await prisma.person.count()
-  console.log(`Import terminé : ${traitees} personnes traitées.`)
+  console.log(`Import terminé : ${resultat.count} personnes insérées.`)
   console.log(`Total en base : ${total} personnes.`)
 
   const exemple = await prisma.person.findUnique({ where: { id: 'arbre-49' } })
@@ -1198,7 +1195,7 @@ Run : `npm run import:arbre`
 Expected :
 ```
 154 personnes lues dans le fichier source.
-Import terminé : 154 personnes traitées.
+Import terminé : 154 personnes insérées.
 Total en base : 154 personnes.
 Exemple — arbre-49 : BOUDON Marguerite (notesImport présent)
 ```
