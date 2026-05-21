@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-hanken), system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), Georgia, serif;
+
+  --color-papier: #f6f3ec;
+  --color-craie: #ffffff;
+  --color-encre: #2f3b36;
+  --color-sauge: #2f6f5e;
+  --color-brume: #8a8473;
+  --color-bordure: #e7e2d4;
+}
+
+body {
+  background-color: var(--color-papier);
+  color: var(--color-encre);
+  font-family: var(--font-sans);
+}
