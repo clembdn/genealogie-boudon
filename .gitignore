@@ -1,12 +1,31 @@
+# dépendances
 node_modules/
+
+# build Next.js
 .next/
 dist/
+out/
+build/
+
+# variables d'environnement (secrets — jamais versionnés)
 .env
 .env.local
 .env.*.local
-.env.example
+
+# outillage local
 .claude/
 .claude_cache/
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+.superpowers/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# tests
+coverage/
+
+# divers
+.DS_Store
+
+# fichier source Excel volumineux (conservé en local, hors du dépôt)
+data/sample.xlsx
