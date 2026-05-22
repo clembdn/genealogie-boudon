@@ -15,7 +15,11 @@
     "import:arbre": "tsx scripts/import-arbre.ts"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "@prisma/adapter-neon": "^6.19.3",
     "@prisma/client": "^6.19.3",
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.3",
     "next": "^16.2.6",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
@@ -23,6 +27,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.5",
     "@tailwindcss/postcss": "^4.3.0",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^25.9.1",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
