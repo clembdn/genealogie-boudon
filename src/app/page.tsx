@@ -1,5 +1,11 @@
 import { prisma } from '@/lib/db'
 
+// Rendu à la demande, pas de pré-génération au build : `next build` ne se
+// connecte donc jamais à la base et fonctionne même sur un réseau qui bloque
+// le port PostgreSQL. Sur Vercel, la page est rendue à chaque requête et
+// joint Neon normalement.
+export const dynamic = 'force-dynamic'
+
 export default async function Home() {
   const total = await prisma.person.count()
 
