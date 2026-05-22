@@ -3,7 +3,10 @@ import bcrypt from 'bcryptjs'
 import { verifierMotDePasse } from './mot-de-passe'
 
 beforeAll(() => {
-  process.env.ADMIN_PASSWORD_HASH = bcrypt.hashSync('bonMotDePasse', 10)
+  const empreinte = bcrypt.hashSync('bonMotDePasse', 10)
+  process.env.ADMIN_PASSWORD_HASH = Buffer.from(empreinte, 'utf-8').toString(
+    'base64',
+  )
 })
 
 describe('verifierMotDePasse', () => {

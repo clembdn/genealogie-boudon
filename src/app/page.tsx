@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { prisma } from '@/lib/db'
 
 // Rendu à la demande, pas de pré-génération au build : `next build` ne se
@@ -17,7 +18,12 @@ export default async function Home() {
       <p className="text-brume">
         {total} personnes importées depuis les archives familiales.
       </p>
-      <p className="text-sm text-brume">Fondations en place — Lot 1 terminé.</p>
+      <Link
+        href="/login"
+        className="mt-4 rounded-lg bg-sauge px-5 py-2 font-medium text-craie"
+      >
+        Espace administrateur
+      </Link>
     </main>
   )
 }
