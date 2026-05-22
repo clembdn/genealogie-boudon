@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { prisma } from '@/lib/db'
 import { libellePersonne } from '@/lib/libelles'
+import { BoutonSupprimer } from '@/components/admin/BoutonSupprimer'
 import { supprimerPersonne } from './actions'
 
 export default async function ListePersonnes() {
@@ -34,12 +35,11 @@ export default async function ListePersonnes() {
                 {p.decesDate ? ` – ${p.decesDate}` : ''}
               </span>
             </Link>
-            <form action={supprimerPersonne}>
-              <input type="hidden" name="id" value={p.id} />
-              <button type="submit" className="text-sm text-brume hover:text-red-700">
-                Supprimer
-              </button>
-            </form>
+            <BoutonSupprimer
+              id={p.id}
+              action={supprimerPersonne}
+              libelle={libellePersonne(p)}
+            />
           </li>
         ))}
       </ul>

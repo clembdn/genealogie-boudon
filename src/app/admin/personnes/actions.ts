@@ -38,7 +38,11 @@ export async function creerPersonne(
 ): Promise<string | undefined> {
   const champs = lireChamps(formData)
   if (!champs.nom) return 'Le nom est obligatoire.'
-  await prisma.person.create({ data: champs })
+  try {
+    await prisma.person.create({ data: champs })
+  } catch {
+    return 'Enregistrement impossible : un element lie a peut-etre ete supprime.'
+  }
   revalidatePath('/admin/personnes')
   redirect('/admin/personnes')
 }
@@ -51,7 +55,11 @@ export async function modifierPersonne(
   if (!id) return 'Identifiant manquant.'
   const champs = lireChamps(formData)
   if (!champs.nom) return 'Le nom est obligatoire.'
-  await prisma.person.update({ where: { id }, data: champs })
+  try {
+    await prisma.person.update({ where: { id }, data: champs })
+  } catch {
+    return 'Modification impossible : la personne ou un element lie est introuvable.'
+  }
   revalidatePath('/admin/personnes')
   redirect('/admin/personnes')
 }
