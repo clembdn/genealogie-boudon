@@ -49,6 +49,7 @@ model Person {
   branche           String?
   vivant            Boolean  @default(false)
   ordreFratrie      Int      @default(0)
+  racineParDefaut   Boolean  @default(false)
   notesImport       String?
 
   unionParentaleId  String?

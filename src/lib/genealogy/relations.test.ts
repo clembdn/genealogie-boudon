@@ -6,6 +6,7 @@ import {
   getEnfants,
   getUnionsDe,
   getConjoints,
+  getRelationsPersonne,
 } from './relations'
 
 function person(over: Partial<Person> & Pick<Person, 'id'>): Person {
@@ -25,6 +26,7 @@ function person(over: Partial<Person> & Pick<Person, 'id'>): Person {
     branche: null,
     vivant: false,
     ordreFratrie: 0,
+    racineParDefaut: false,
     notesImport: null,
     unionParentaleId: null,
     photoPrincipaleId: null,
@@ -103,5 +105,28 @@ describe('getConjoints', () => {
     expect(getConjoints(pierre, unions, persons).map((p) => p.id)).toEqual([
       'marie',
     ])
+  })
+})
+
+describe('getRelationsPersonne', () => {
+  it('regroupe parents et unions avec conjoint et enfants', () => {
+    const rel = getRelationsPersonne(pierre, unions, persons)
+    expect(rel.parents).toEqual([])
+    expect(rel.unions).toHaveLength(1)
+    expect(rel.unions[0].union.id).toBe('U1')
+    expect(rel.unions[0].conjoint?.id).toBe('marie')
+    expect(rel.unions[0].enfants.map((e) => e.id)).toEqual(['louis', 'augustin'])
+  })
+
+  it('renvoie un conjoint null quand le partenaire est inconnu', () => {
+    const u2 = union({ id: 'U2', partenaire1Id: 'pierre', partenaire2Id: null })
+    const rel = getRelationsPersonne(pierre, [u1, u2], persons)
+    expect(rel.unions).toHaveLength(2)
+    expect(rel.unions[1].conjoint).toBeNull()
+  })
+
+  it("expose les parents quand la filiation est connue", () => {
+    const rel = getRelationsPersonne(augustin, unions, persons)
+    expect(rel.parents.map((p) => p.id)).toEqual(['pierre', 'marie'])
   })
 })

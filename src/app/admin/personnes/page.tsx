@@ -1,48 +1,36 @@
 import Link from 'next/link'
+import { Plus } from 'lucide-react'
 import { prisma } from '@/lib/db'
-import { libellePersonne } from '@/lib/libelles'
-import { BoutonSupprimer } from '@/components/admin/BoutonSupprimer'
-import { supprimerPersonne } from './actions'
+import { classesBouton } from '@/components/ui/classes-bouton'
+import { ListePersonnesAvecFiltres } from '@/components/admin/ListePersonnesAvecFiltres'
 
-export default async function ListePersonnes() {
+export const dynamic = 'force-dynamic'
+
+export default async function PageListePersonnes() {
   const personnes = await prisma.person.findMany({
+    include: { photoPrincipale: { select: { url: true } } },
     orderBy: [{ nom: 'asc' }, { prenoms: 'asc' }],
   })
 
   return (
-    <div className="flex flex-col gap-4">
-      <div className="flex items-center justify-between">
-        <h1 className="font-serif text-2xl font-semibold text-encre">
-          Personnes ({personnes.length})
-        </h1>
+    <div className="flex flex-col gap-6">
+      <header className="flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <h1 className="font-serif text-3xl text-encre">Personnes</h1>
+          <p className="mt-1 text-sm text-brume">
+            {personnes.length} personne{personnes.length > 1 ? 's' : ''}{' '}
+            enregistrée{personnes.length > 1 ? 's' : ''}.
+          </p>
+        </div>
         <Link
           href="/admin/personnes/nouvelle"
-          className="rounded-lg bg-sauge px-4 py-2 text-sm font-medium text-craie"
+          className={classesBouton('primaire', 'moyen')}
         >
-          Nouvelle personne
+          <Plus size={16} aria-hidden /> Nouvelle personne
         </Link>
-      </div>
-      <ul className="flex flex-col divide-y divide-bordure rounded-2xl border border-bordure bg-craie">
-        {personnes.map((p) => (
-          <li key={p.id} className="flex items-center justify-between px-4 py-3">
-            <Link
-              href={`/admin/personnes/${p.id}`}
-              className="font-medium text-encre hover:text-sauge"
-            >
-              {libellePersonne(p)}
-              <span className="ml-2 text-sm text-brume">
-                {p.naissanceDate ?? ''}
-                {p.decesDate ? ` – ${p.decesDate}` : ''}
-              </span>
-            </Link>
-            <BoutonSupprimer
-              id={p.id}
-              action={supprimerPersonne}
-              libelle={libellePersonne(p)}
-            />
-          </li>
-        ))}
-      </ul>
+      </header>
+
+      <ListePersonnesAvecFiltres personnes={personnes} />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Fraunces, Hanken_Grotesk } from 'next/font/google'
+import { FournisseurRecherche } from '@/components/recherche/FournisseurRecherche'
 import './globals.css'
 
 const fraunces = Fraunces({
@@ -15,8 +16,12 @@ const hanken = Hanken_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'Arbre généalogique de la famille Boudon',
-  description: "Cinq siècles d'histoire familiale.",
+  title: {
+    default: 'Famille Boudon — Arbre généalogique',
+    template: '%s · Famille Boudon',
+  },
+  description:
+    'Cinq siècles de mémoires familiales : portraits, récits, documents et arbre généalogique de la famille Boudon.',
   robots: { index: false, follow: false },
 }
 
@@ -27,7 +32,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={`${fraunces.variable} ${hanken.variable}`}>
-      <body>{children}</body>
+      <body className="flex min-h-screen flex-col">
+        <a
+          href="#contenu"
+          className="sr-only focus:not-sr-only focus:absolute focus:left-3 focus:top-3 focus:z-50 focus:rounded-[var(--radius-douce)] focus:bg-encre focus:px-4 focus:py-2 focus:text-craie"
+        >
+          Aller au contenu
+        </a>
+        <FournisseurRecherche>
+          <main id="contenu" className="flex-1">
+            {children}
+          </main>
+        </FournisseurRecherche>
+      </body>
     </html>
   )
 }

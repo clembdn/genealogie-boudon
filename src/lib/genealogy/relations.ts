@@ -69,3 +69,42 @@ export function getConjoints(
     .map((id) => persons.find((p) => p.id === id))
     .filter((p): p is Person => p !== undefined)
 }
+
+export type RelationsPersonne = {
+  parents: Person[]
+  unions: Array<{
+    union: Union
+    conjoint: Person | null
+    enfants: Person[]
+  }>
+}
+
+/**
+ * Recompose toutes les relations directes d'une personne dans une structure
+ * groupée par union (cohérent quand quelqu'un a plusieurs mariages successifs
+ * avec des enfants différents).
+ */
+export function getRelationsPersonne(
+  person: Pick<Person, 'id' | 'unionParentaleId'>,
+  unions: Union[],
+  persons: Person[],
+): RelationsPersonne {
+  const parents = getParents(person, unions, persons)
+  const unionsDe = getUnionsDe(person, unions)
+
+  return {
+    parents,
+    unions: unionsDe.map((u) => {
+      const idConjoint =
+        u.partenaire1Id === person.id ? u.partenaire2Id : u.partenaire1Id
+      const conjoint = idConjoint
+        ? persons.find((p) => p.id === idConjoint) ?? null
+        : null
+      return {
+        union: u,
+        conjoint,
+        enfants: getEnfants(u, persons),
+      }
+    }),
+  }
+}

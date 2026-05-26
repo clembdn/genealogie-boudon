@@ -8,12 +8,48 @@
   --color-craie: #ffffff;
   --color-encre: #2f3b36;
   --color-sauge: #2f6f5e;
-  --color-brume: #8a8473;
+  --color-sauge-fonce: #244f44;
+  --color-brume: #6e6856;
   --color-bordure: #e7e2d4;
+  --color-ombre: rgba(47, 59, 54, 0.06);
+
+  --shadow-douce: 0 1px 2px rgba(47, 59, 54, 0.04), 0 4px 12px rgba(47, 59, 54, 0.04);
+  --shadow-elevee: 0 4px 8px rgba(47, 59, 54, 0.06), 0 16px 32px rgba(47, 59, 54, 0.08);
+  --shadow-flottante: 0 24px 48px rgba(47, 59, 54, 0.12);
+
+  --radius-douce: 0.625rem;
+  --radius-moyenne: 1rem;
+  --radius-pilule: 9999px;
 }
 
-body {
-  background-color: var(--color-papier);
-  color: var(--color-encre);
-  font-family: var(--font-sans);
+@layer base {
+  html {
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-papier);
+    color: var(--color-encre);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+  }
+
+  ::selection {
+    background-color: var(--color-sauge);
+    color: var(--color-craie);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-sauge);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  dialog::backdrop {
+    background: rgba(47, 59, 54, 0.45);
+    backdrop-filter: blur(4px);
+  }
 }

@@ -1,29 +1,67 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { prisma } from '@/lib/db'
+import { VueArbre } from '@/components/arbre/VueArbre'
+import { classesBouton } from '@/components/ui/classes-bouton'
 
-// Rendu à la demande, pas de pré-génération au build : `next build` ne se
-// connecte donc jamais à la base et fonctionne même sur un réseau qui bloque
-// le port PostgreSQL. Sur Vercel, la page est rendue à chaque requête et
-// joint Neon normalement.
 export const dynamic = 'force-dynamic'
 
-export default async function Home() {
-  const total = await prisma.person.count()
+export const metadata: Metadata = {
+  title: 'Accueil',
+  description:
+    "Vue interactive de l'arbre généalogique de la famille Boudon. Naviguez librement entre générations, ouvrez chaque fiche pour découvrir récits, photos et documents.",
+}
+
+type Props = {
+  searchParams: Promise<{ focus?: string }>
+}
+
+export default async function PageArbre({ searchParams }: Props) {
+  const { focus } = await searchParams
+
+  const [personnes, unions, racine] = await Promise.all([
+    prisma.person.findMany({
+      include: { photoPrincipale: { select: { url: true } } },
+      orderBy: { createdAt: 'asc' },
+    }),
+    prisma.union.findMany(),
+    prisma.person.findFirst({
+      where: { racineParDefaut: true },
+      select: { id: true },
+    }),
+  ])
+
+  // Priorité : ?focus= dans l'URL > racine définie côté admin > première personne.
+  const idInitial = focus ?? racine?.id ?? null
+
+  if (personnes.length === 0) {
+    return (
+      <section className="mx-auto flex max-w-xl flex-col items-center px-5 py-24 text-center">
+        <p className="font-sans text-sm uppercase tracking-[0.18em] text-brume">
+          Arbre vide
+        </p>
+        <h1 className="mt-4 font-serif text-3xl text-encre sm:text-4xl">
+          Aucune personne enregistrée pour l&apos;instant
+        </h1>
+        <p className="mt-3 max-w-sm text-base text-brume">
+          La première fiche n&apos;a pas encore été ajoutée. Reviens un peu plus
+          tard, ou contacte un administrateur.
+        </p>
+        <Link
+          href="/connexion"
+          className={`mt-8 ${classesBouton('secondaire', 'moyen')}`}
+        >
+          Espace administrateur
+        </Link>
+      </section>
+    )
+  }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-3 p-8 text-center">
-      <h1 className="font-serif text-4xl font-semibold text-encre">
-        Arbre généalogique de la famille Boudon
-      </h1>
-      <p className="text-brume">
-        {total} personnes importées depuis les archives familiales.
-      </p>
-      <Link
-        href="/login"
-        className="mt-4 rounded-lg bg-sauge px-5 py-2 font-medium text-craie"
-      >
-        Espace administrateur
-      </Link>
-    </main>
+    <VueArbre
+      personnes={personnes}
+      unions={unions}
+      idInitial={idInitial}
+    />
   )
 }

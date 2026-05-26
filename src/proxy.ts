@@ -6,7 +6,9 @@ export async function proxy(request: NextRequest) {
   if (await verifierJetonSession(jeton)) {
     return NextResponse.next()
   }
-  return NextResponse.redirect(new URL('/login', request.url))
+  const cible = new URL('/connexion', request.url)
+  cible.searchParams.set('retour', request.nextUrl.pathname)
+  return NextResponse.redirect(cible)
 }
 
 export const config = {

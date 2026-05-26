@@ -10,7 +10,7 @@ export function libellePersonne(
 /** « NOM Prénoms & NOM Prénoms » d'une union, partenaires inconnus compris. */
 export function libelleUnion(
   union: Pick<Union, 'partenaire1Id' | 'partenaire2Id'>,
-  personnes: Person[],
+  personnes: Pick<Person, 'id' | 'nom' | 'prenoms'>[],
 ): string {
   const nom = (id: string | null) => {
     if (!id) return '?'
