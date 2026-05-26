@@ -29,3 +29,8 @@ coverage/
 
 # fichier source Excel volumineux (conservé en local, hors du dépôt)
 data/sample.xlsx
+data/*.json
+data/*.txt
+data/sample-full.xlsx
+data/_xlsx-extract/
+data/extracted/
