@@ -30,6 +30,7 @@ function person(over: Partial<Person> & Pick<Person, 'id'>): Person {
     notesImport: null,
     unionParentaleId: null,
     photoPrincipaleId: null,
+    familleId: null,
     createdAt: new Date(),
     updatedAt: new Date(),
     ...over,
