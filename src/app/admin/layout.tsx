@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { LayoutDashboard, Users, HeartHandshake } from 'lucide-react'
+import { LayoutDashboard, Users, HeartHandshake, FolderTree } from 'lucide-react'
 import { DeconnexionBouton } from './DeconnexionBouton'
 
 export const metadata: Metadata = {
@@ -12,6 +12,7 @@ const liens = [
   { href: '/admin', label: 'Tableau de bord', icone: LayoutDashboard },
   { href: '/admin/personnes', label: 'Personnes', icone: Users },
   { href: '/admin/unions', label: 'Unions', icone: HeartHandshake },
+  { href: '/admin/familles', label: 'Familles', icone: FolderTree },
 ]
 
 export default function AdminLayout({

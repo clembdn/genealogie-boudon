@@ -12,20 +12,17 @@ import {
   supprimerMediaAction,
   definirPhotoPrincipaleAction,
   type EtatUpload,
-} from '@/app/admin/personnes/[id]/medias/actions'
+} from '@/app/admin/medias/actions'
+import type { Cible } from '@/app/admin/medias/cible'
 
 type Props = {
-  personneId: string
+  cible: Cible
   medias: Media[]
-  photoPrincipaleId: string | null
+  photoPrincipaleId?: string | null
 }
 
-export function SectionMedias({
-  personneId,
-  medias,
-  photoPrincipaleId,
-}: Props) {
-  const action = uploaderMediaAction.bind(null, personneId)
+export function SectionMedias({ cible, medias, photoPrincipaleId = null }: Props) {
+  const action = uploaderMediaAction.bind(null, cible)
   const [etat, formAction, enCours] = useActionState<EtatUpload, FormData>(
     action,
     null,
@@ -41,13 +38,14 @@ export function SectionMedias({
     }
   }, [etat?.succesAt])
 
+  const labelCible = cible.type === 'personne' ? 'cette personne' : 'cette famille'
+
   return (
     <section className="flex flex-col gap-6 border-t border-bordure pt-8">
       <header>
         <h2 className="font-serif text-2xl text-encre">Médias</h2>
         <p className="mt-1 text-sm text-brume">
-          Photos et documents rattachés à cette personne ({medias.length} au
-          total).
+          Photos et documents rattachés à {labelCible} ({medias.length} au total).
         </p>
       </header>
 
@@ -68,17 +66,11 @@ export function SectionMedias({
         />
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
           <ChampTexte label="Titre" name="titre" hint="Optionnel" />
-          <ChampTexte
-            label="Date"
-            name="date"
-            hint="Format libre, optionnel"
-          />
+          <ChampTexte label="Date" name="date" hint="Format libre, optionnel" />
           <ChampTexte label="Description" name="description" hint="Optionnelle" />
         </div>
 
-        {etat?.erreur && (
-          <p className="text-sm text-red-700">{etat.erreur}</p>
-        )}
+        {etat?.erreur && <p className="text-sm text-red-700">{etat.erreur}</p>}
 
         <div>
           <Bouton type="submit" taille="petit" disabled={enCours}>
@@ -89,15 +81,13 @@ export function SectionMedias({
 
       {photos.length > 0 && (
         <div className="flex flex-col gap-3">
-          <p className="text-sm font-medium text-encre">
-            Photos ({photos.length})
-          </p>
+          <p className="text-sm font-medium text-encre">Photos ({photos.length})</p>
           <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
             {photos.map((m) => (
               <CartePhoto
                 key={m.id}
                 media={m}
-                personneId={personneId}
+                cible={cible}
                 principale={m.id === photoPrincipaleId}
               />
             ))}
@@ -107,21 +97,17 @@ export function SectionMedias({
 
       {documents.length > 0 && (
         <div className="flex flex-col gap-3">
-          <p className="text-sm font-medium text-encre">
-            Documents ({documents.length})
-          </p>
+          <p className="text-sm font-medium text-encre">Documents ({documents.length})</p>
           <ul className="flex flex-col gap-2">
             {documents.map((m) => (
-              <LigneDocument key={m.id} media={m} personneId={personneId} />
+              <LigneDocument key={m.id} media={m} />
             ))}
           </ul>
         </div>
       )}
 
       {medias.length === 0 && (
-        <p className="text-sm text-brume">
-          Aucun média pour l&apos;instant.
-        </p>
+        <p className="text-sm text-brume">Aucun média pour l&apos;instant.</p>
       )}
     </section>
   )
@@ -129,20 +115,19 @@ export function SectionMedias({
 
 function CartePhoto({
   media,
-  personneId,
+  cible,
   principale,
 }: {
   media: Media
-  personneId: string
+  cible: Cible
   principale: boolean
 }) {
   const [enCours, demarrer] = useTransition()
+  const peutDefinirPrincipale = cible.type === 'personne'
 
   return (
     <li>
-      <Carte
-        className={`overflow-hidden ${principale ? 'ring-2 ring-sauge' : ''}`}
-      >
+      <Carte className={`overflow-hidden ${principale ? 'ring-2 ring-sauge' : ''}`}>
         <div className="relative aspect-square bg-papier">
           <Image
             src={media.url}
@@ -159,18 +144,14 @@ function CartePhoto({
         </div>
         <div className="flex flex-col gap-2 p-2.5">
           {media.titre && (
-            <p className="truncate text-xs font-medium text-encre">
-              {media.titre}
-            </p>
+            <p className="truncate text-xs font-medium text-encre">{media.titre}</p>
           )}
           <div className="flex flex-wrap gap-1">
-            {!principale && (
+            {peutDefinirPrincipale && !principale && (
               <button
                 type="button"
                 onClick={() =>
-                  demarrer(() =>
-                    definirPhotoPrincipaleAction(personneId, media.id),
-                  )
+                  demarrer(() => definirPhotoPrincipaleAction(cible.id, media.id))
                 }
                 disabled={enCours}
                 className="inline-flex items-center gap-1 rounded-[var(--radius-douce)] px-2 py-1 text-[11px] text-brume hover:bg-papier hover:text-encre disabled:opacity-50"
@@ -197,13 +178,7 @@ function CartePhoto({
   )
 }
 
-function LigneDocument({
-  media,
-  personneId: _personneId,
-}: {
-  media: Media
-  personneId: string
-}) {
+function LigneDocument({ media }: { media: Media }) {
   const [enCours, demarrer] = useTransition()
   return (
     <li>

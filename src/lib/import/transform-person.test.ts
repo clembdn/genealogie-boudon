@@ -71,6 +71,21 @@ describe('transformPerson', () => {
     )
     expect(p.notesImport).toContain('Rectangle 274_4')
   })
+
+  it('rattache la personne à la famille fournie', () => {
+    const p = transformPerson(source(), {
+      familleId: 'fam-hurgon',
+      familleNom: 'Boudon-Hurgon',
+    })
+    expect(p.familleId).toBe('fam-hurgon')
+    expect(p.branche).toBe('Boudon-Hurgon')
+  })
+
+  it('utilise les valeurs par defaut si pas de famille fournie', () => {
+    const p = transformPerson(source())
+    expect(p.familleId).toBeNull()
+    expect(p.branche).toBe('Boudon')
+  })
 })
 
 describe('construireNotesImport', () => {

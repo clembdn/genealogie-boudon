@@ -67,7 +67,7 @@ export default async function PageEditionPersonne({ params }: Props) {
       />
 
       <SectionMedias
-        personneId={personne.id}
+        cible={{ type: 'personne', id: personne.id }}
         medias={personne.medias}
         photoPrincipaleId={personne.photoPrincipaleId}
       />

@@ -4,22 +4,43 @@ import { revalidatePath } from 'next/cache'
 import { put, del } from '@vercel/blob'
 import { MediaType } from '@prisma/client'
 import { prisma } from '@/lib/db'
+import { validerCible, type Cible } from './cible'
+
+export type { Cible }
+export { validerCible }
 
 export type EtatUpload = { erreur?: string; succesAt?: number } | null
 
-const TAILLE_MAX_OCTETS = 10 * 1024 * 1024 // 10 Mo
+const TAILLE_MAX_OCTETS = 10 * 1024 * 1024
 
-function deviner(fichier: File): MediaType {
+function devinerType(fichier: File): MediaType {
   if (fichier.type.startsWith('image/')) return 'photo'
   if (fichier.type.startsWith('audio/')) return 'audio'
   return 'document'
 }
 
+function cheminPourCible(cible: Cible, nomFichier: string): string {
+  const prefixe = cible.type === 'personne' ? 'personnes' : 'familles'
+  return `${prefixe}/${cible.id}/${Date.now()}-${nomFichier}`
+}
+
+function pathARevalider(cible: Cible): string {
+  return cible.type === 'personne'
+    ? `/admin/personnes/${cible.id}`
+    : `/admin/familles/${cible.id}`
+}
+
 export async function uploaderMediaAction(
-  personId: string,
+  cible: Cible,
   _prev: EtatUpload,
   formData: FormData,
 ): Promise<EtatUpload> {
+  try {
+    validerCible(cible)
+  } catch (e) {
+    return { erreur: e instanceof Error ? e.message : 'Cible invalide.' }
+  }
+
   if (!process.env.BLOB_READ_WRITE_TOKEN) {
     return {
       erreur:
@@ -37,12 +58,10 @@ export async function uploaderMediaAction(
 
   const titre =
     (formData.get('titre')?.toString().trim() ?? '') || fichier.name
-  const description =
-    formData.get('description')?.toString().trim() || null
+  const description = formData.get('description')?.toString().trim() || null
   const date = formData.get('date')?.toString().trim() || null
-  const type = deviner(fichier)
-
-  const cheminBlob = `personnes/${personId}/${Date.now()}-${fichier.name}`
+  const type = devinerType(fichier)
+  const cheminBlob = cheminPourCible(cible, fichier.name)
 
   try {
     const blob = await put(cheminBlob, fichier, {
@@ -51,7 +70,8 @@ export async function uploaderMediaAction(
     })
     await prisma.media.create({
       data: {
-        personId,
+        personId: cible.type === 'personne' ? cible.id : null,
+        familleId: cible.type === 'famille' ? cible.id : null,
         type,
         url: blob.url,
         titre,
@@ -68,8 +88,9 @@ export async function uploaderMediaAction(
     }
   }
 
-  revalidatePath(`/admin/personnes/${personId}`)
-  revalidatePath('/')
+  revalidatePath(pathARevalider(cible))
+  if (cible.type === 'personne') revalidatePath('/')
+  else revalidatePath(`/familles/${cible.id}`)
   return { succesAt: Date.now() }
 }
 
@@ -82,12 +103,12 @@ export async function supprimerMediaAction(mediaId: string): Promise<void> {
       await del(media.url)
     }
   } catch {
-    // Échec de suppression Blob non bloquant : on supprime la métadonnée
-    // (sinon l'admin reste bloqué sur un fichier orphelin côté Blob).
+    // non bloquant
   }
 
   await prisma.media.delete({ where: { id: mediaId } })
-  revalidatePath(`/admin/personnes/${media.personId}`)
+  if (media.personId) revalidatePath(`/admin/personnes/${media.personId}`)
+  if (media.familleId) revalidatePath(`/admin/familles/${media.familleId}`)
   revalidatePath('/')
 }
 

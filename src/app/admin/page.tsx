@@ -7,10 +7,11 @@ import { Carte } from '@/components/ui/Carte'
 export const dynamic = 'force-dynamic'
 
 export default async function TableauDeBord() {
-  const [nbPersonnes, nbUnions, nbMedias] = await Promise.all([
+  const [nbPersonnes, nbUnions, nbMedias, nbFamilles] = await Promise.all([
     prisma.person.count(),
     prisma.union.count(),
     prisma.media.count(),
+    prisma.famille.count(),
   ])
 
   return (
@@ -22,9 +23,10 @@ export default async function TableauDeBord() {
         </p>
       </header>
 
-      <section className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+      <section className="grid grid-cols-2 gap-4 sm:grid-cols-4">
         <CarteStat label="Personnes" valeur={nbPersonnes} href="/admin/personnes" />
         <CarteStat label="Unions" valeur={nbUnions} href="/admin/unions" />
+        <CarteStat label="Familles" valeur={nbFamilles} href="/admin/familles" />
         <CarteStat label="Médias" valeur={nbMedias} href="/admin/personnes" />
       </section>
 

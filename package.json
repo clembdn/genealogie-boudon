@@ -12,7 +12,7 @@
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:studio": "prisma studio",
-    "import:arbre": "tsx scripts/import-arbre.ts"
+    "import:complet": "tsx scripts/import-extracted.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

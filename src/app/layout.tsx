@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Fraunces, Hanken_Grotesk } from 'next/font/google'
 import { FournisseurRecherche } from '@/components/recherche/FournisseurRecherche'
+import { Entete } from '@/components/Entete'
 import './globals.css'
 
 const fraunces = Fraunces({
@@ -39,6 +40,7 @@ export default function RootLayout({
         >
           Aller au contenu
         </a>
+        <Entete />
         <FournisseurRecherche>
           <main id="contenu" className="flex-1">
             {children}

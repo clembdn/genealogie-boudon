@@ -32,71 +32,92 @@ enum MediaType {
   audio
 }
 
+model Famille {
+  id          String  @id @default(cuid())
+  slug        String  @unique
+  nom         String
+  description String?
+  ordre       Int     @default(0)
+
+  personnes Person[]
+  medias    Media[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
 model Person {
-  id                String   @id @default(cuid())
-  nom               String
-  prenoms           String   @default("")
-  surnom            String?
-  sexe              Sexe     @default(inconnu)
-  naissanceDate     String?
-  naissanceLieu     String?
-  decesDate         String?
-  decesLieu         String?
-  parrain           String?
-  marraine          String?
-  profession        String?
-  recit             String?
-  branche           String?
-  vivant            Boolean  @default(false)
-  ordreFratrie      Int      @default(0)
-  racineParDefaut   Boolean  @default(false)
-  notesImport       String?
+  id              String  @id @default(cuid())
+  nom             String
+  prenoms         String  @default("")
+  surnom          String?
+  sexe            Sexe    @default(inconnu)
+  naissanceDate   String?
+  naissanceLieu   String?
+  decesDate       String?
+  decesLieu       String?
+  parrain         String?
+  marraine        String?
+  profession      String?
+  recit           String?
+  branche         String?
+  vivant          Boolean @default(false)
+  ordreFratrie    Int     @default(0)
+  racineParDefaut Boolean @default(false)
+  notesImport     String?
 
-  unionParentaleId  String?
-  unionParentale    Union?   @relation("EnfantsUnion", fields: [unionParentaleId], references: [id], onDelete: SetNull)
+  unionParentaleId String?
+  unionParentale   Union?  @relation("EnfantsUnion", fields: [unionParentaleId], references: [id], onDelete: SetNull)
 
-  photoPrincipaleId String?  @unique
-  photoPrincipale   Media?   @relation("PhotoPrincipale", fields: [photoPrincipaleId], references: [id], onDelete: SetNull)
+  familleId String?
+  famille   Famille? @relation(fields: [familleId], references: [id], onDelete: SetNull)
 
-  medias            Media[]  @relation("MediasPersonne")
-  unionsPartenaire1 Union[]  @relation("Partenaire1")
-  unionsPartenaire2 Union[]  @relation("Partenaire2")
+  photoPrincipaleId String? @unique
+  photoPrincipale   Media?  @relation("PhotoPrincipale", fields: [photoPrincipaleId], references: [id], onDelete: SetNull)
 
-  createdAt         DateTime @default(now())
-  updatedAt         DateTime @updatedAt
+  medias            Media[] @relation("MediasPersonne")
+  unionsPartenaire1 Union[] @relation("Partenaire1")
+  unionsPartenaire2 Union[] @relation("Partenaire2")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   @@index([unionParentaleId])
   @@index([nom])
+  @@index([familleId])
 }
 
 model Union {
-  id            String         @id @default(cuid())
+  id String @id @default(cuid())
 
   partenaire1Id String?
-  partenaire1   Person?        @relation("Partenaire1", fields: [partenaire1Id], references: [id], onDelete: SetNull)
+  partenaire1   Person? @relation("Partenaire1", fields: [partenaire1Id], references: [id], onDelete: SetNull)
   partenaire2Id String?
-  partenaire2   Person?        @relation("Partenaire2", fields: [partenaire2Id], references: [id], onDelete: SetNull)
+  partenaire2   Person? @relation("Partenaire2", fields: [partenaire2Id], references: [id], onDelete: SetNull)
 
-  nature        UnionNature    @default(inconnue)
-  dateDebut     String?
-  lieuDebut     String?
-  dateFin       String?
-  causeFin      UnionCauseFin?
-  notes         String?
+  nature    UnionNature    @default(inconnue)
+  dateDebut String?
+  lieuDebut String?
+  dateFin   String?
+  causeFin  UnionCauseFin?
+  notes     String?
 
-  enfants       Person[]       @relation("EnfantsUnion")
+  enfants Person[] @relation("EnfantsUnion")
 
-  createdAt     DateTime       @default(now())
-  updatedAt     DateTime       @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
 
 model Media {
-  id          String    @id @default(cuid())
+  id String @id @default(cuid())
 
-  personId    String
-  person      Person    @relation("MediasPersonne", fields: [personId], references: [id], onDelete: Cascade)
+  personId String?
+  person   Person? @relation("MediasPersonne", fields: [personId], references: [id], onDelete: Cascade)
 
-  estPhotoDe  Person?   @relation("PhotoPrincipale")
+  familleId String?
+  famille   Famille? @relation(fields: [familleId], references: [id], onDelete: Cascade)
+
+  estPhotoDe Person? @relation("PhotoPrincipale")
 
   type        MediaType
   url         String
@@ -105,7 +126,8 @@ model Media {
   date        String?
   ordre       Int       @default(0)
 
-  createdAt   DateTime  @default(now())
+  createdAt DateTime @default(now())
 
   @@index([personId])
+  @@index([familleId])
 }

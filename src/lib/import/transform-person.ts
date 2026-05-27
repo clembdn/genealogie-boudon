@@ -1,6 +1,6 @@
 import type { Prisma } from '@prisma/client'
 
-/** Forme d'une personne dans `data/arbre-persons.json` (champs utilises). */
+/** Forme d'une personne dans les JSON de `data/extracted/<slug>.json` (champs utilises). */
 export interface SourcePerson {
   id: string
   shapeName: string
@@ -14,6 +14,11 @@ export interface SourcePerson {
   parrain: string | null
   marraine: string | null
   notes: string | null
+}
+
+export interface OptionsTransform {
+  familleId?: string
+  familleNom?: string
 }
 
 /**
@@ -37,7 +42,10 @@ export function construireNotesImport(src: SourcePerson): string {
 }
 
 /** Convertit une personne du fichier source en enregistrement pret pour la base. */
-export function transformPerson(src: SourcePerson): Prisma.PersonCreateManyInput {
+export function transformPerson(
+  src: SourcePerson,
+  options: OptionsTransform = {},
+): Prisma.PersonCreateManyInput {
   return {
     id: src.id,
     nom: src.nom,
@@ -52,9 +60,10 @@ export function transformPerson(src: SourcePerson): Prisma.PersonCreateManyInput
     marraine: src.marraine ?? null,
     profession: null,
     recit: null,
-    branche: 'Boudon',
+    branche: options.familleNom ?? 'Boudon',
     vivant: false,
     ordreFratrie: 0,
+    familleId: options.familleId ?? null,
     notesImport: construireNotesImport(src),
   }
 }
