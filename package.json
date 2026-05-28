@@ -18,7 +18,7 @@
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
     "@prisma/adapter-neon": "^6.19.3",
-    "@prisma/client": "^6.19.3",
+    "@prisma/client": "^7.8.0",
     "@vercel/blob": "^2.4.0",
     "@xyflow/react": "^12.10.2",
     "bcryptjs": "^3.0.3",
@@ -41,7 +41,7 @@
     "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.6",
     "postcss": "^8.5.15",
-    "prisma": "^6.19.3",
+    "prisma": "^7.8.0",
     "tailwindcss": "^4.3.0",
     "tsx": "^4.22.3",
     "typescript": "^6.0.3",
