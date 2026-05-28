@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { prisma } from '@/lib/db'
 import { VueArbre } from '@/components/arbre/VueArbre'
 import { classesBouton } from '@/components/ui/classes-bouton'
+import { categoriserDepuisDeCujus } from '@/lib/genealogy/categorisation'
+import type { CategorieParente } from '@/lib/genealogy/categories'
 
 export const dynamic = 'force-dynamic'
 
@@ -34,6 +36,14 @@ export default async function PageArbre({ searchParams }: Props) {
   // Priorité : ?focus= dans l'URL > racine définie côté admin > première personne.
   const idInitial = focus ?? racine?.id ?? null
 
+  const mapCategorie = categoriserDepuisDeCujus(
+    racine?.id ?? null,
+    personnes,
+    unions,
+  )
+  const categorieParPersonneId: Record<string, CategorieParente> = {}
+  for (const [id, cat] of mapCategorie) categorieParPersonneId[id] = cat
+
   if (personnes.length === 0) {
     return (
       <section className="mx-auto flex max-w-xl flex-col items-center px-5 py-24 text-center">
@@ -62,6 +72,7 @@ export default async function PageArbre({ searchParams }: Props) {
       personnes={personnes}
       unions={unions}
       idInitial={idInitial}
+      categorieParPersonneId={categorieParPersonneId}
     />
   )
 }

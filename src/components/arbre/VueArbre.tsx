@@ -15,11 +15,16 @@ import {
 import '@xyflow/react/dist/style.css'
 import type { Person, Union, Media } from '@prisma/client'
 import { NoeudPersonne, NoeudUnion } from './NoeudPersonne'
+import { LegendeCategories } from './LegendeCategories'
 import { ModaleDetailPersonne } from '@/components/personne/ModaleDetailPersonne'
 import { calculerLayoutArbre } from '@/lib/arbre/layout'
 import { getRelationsPersonne } from '@/lib/genealogy/relations'
 import { Bouton } from '@/components/ui/Bouton'
 import { useRecherche } from '@/components/recherche/FournisseurRecherche'
+import {
+  COULEURS_CATEGORIE,
+  type CategorieParente,
+} from '@/lib/genealogy/categories'
 import { Focus, Search } from 'lucide-react'
 
 type PersonneAvecPhoto = Person & { photoPrincipale?: { url: string } | null }
@@ -30,6 +35,7 @@ type Props = {
   /** Médias indexés par personne ; chargés à la volée à l'ouverture de la modale en pratique, mais on accepte un map pré-rempli pour les tests. */
   mediasParPersonne?: Record<string, Media[]>
   idInitial?: string | null
+  categorieParPersonneId?: Record<string, CategorieParente>
 }
 
 const nodeTypes = {
@@ -42,6 +48,7 @@ function VueArbreInterne({
   unions,
   mediasParPersonne = {},
   idInitial,
+  categorieParPersonneId = {},
 }: Props) {
   const [idFocalise, setIdFocalise] = useState<string | null>(
     idInitial ?? personnes[0]?.id ?? null,
@@ -57,8 +64,9 @@ function VueArbreInterne({
         personnes,
         unions,
         idFocalise,
+        categorieParPersonneId,
       }),
-    [personnes, unions, idFocalise],
+    [personnes, unions, idFocalise, categorieParPersonneId],
   )
 
   const nodes = useMemo<Node[]>(
@@ -126,6 +134,7 @@ function VueArbreInterne({
   return (
     <div className="relative h-screen w-full bg-papier">
       <BarreRechercheFlottante />
+      <LegendeCategories />
 
       <ReactFlow
         nodes={nodes}
@@ -151,9 +160,12 @@ function VueArbreInterne({
           pannable
           zoomable
           maskColor="rgba(246, 243, 236, 0.6)"
-          nodeColor={(n) =>
-            n.type === 'personne' ? 'var(--color-sauge)' : 'transparent'
-          }
+          nodeColor={(n) => {
+            if (n.type !== 'personne') return 'transparent'
+            const cat = categorieParPersonneId[n.id]
+            const couleur = cat ? COULEURS_CATEGORIE[cat] : null
+            return couleur ?? 'var(--color-sauge)'
+          }}
           className="!bg-craie/90 !border !border-bordure"
         />
       </ReactFlow>

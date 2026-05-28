@@ -22,6 +22,7 @@ export function NoeudPersonne({ data }: NodeProps) {
         personne={d.personne}
         variante="compacte"
         focalisee={d.focalisee}
+        categorie={d.categorie}
         className="w-full"
       />
       <Handle

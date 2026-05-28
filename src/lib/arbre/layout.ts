@@ -1,5 +1,6 @@
 import dagre from 'dagre'
 import type { Person, Union } from '@prisma/client'
+import type { CategorieParente } from '@/lib/genealogy/categories'
 
 export const LARGEUR_CARTE = 200
 export const HAUTEUR_CARTE = 120
@@ -8,6 +9,7 @@ export const TAILLE_NOEUD_UNION = 14
 export type DonneesNoeudPersonne = {
   personne: Person & { photoPrincipale?: { url: string } | null }
   focalisee: boolean
+  categorie: CategorieParente
 }
 
 export type NoeudArbre =
@@ -43,10 +45,12 @@ export function calculerLayoutArbre({
   personnes,
   unions,
   idFocalise,
+  categorieParPersonneId = {},
 }: {
   personnes: PersonneAvecPhoto[]
   unions: Union[]
   idFocalise?: string | null
+  categorieParPersonneId?: Record<string, CategorieParente>
 }): { noeuds: NoeudArbre[]; aretes: ArreteArbre[] } {
   const g = new dagre.graphlib.Graph()
   g.setGraph({
@@ -99,7 +103,11 @@ export function calculerLayoutArbre({
         x: pos.x - LARGEUR_CARTE / 2,
         y: pos.y - HAUTEUR_CARTE / 2,
       },
-      data: { personne: p, focalisee: p.id === idFocalise },
+      data: {
+        personne: p,
+        focalisee: p.id === idFocalise,
+        categorie: categorieParPersonneId[p.id] ?? 'NEUTRE',
+      },
     })
   }
   for (const u of unions) {
