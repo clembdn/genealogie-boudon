@@ -1,6 +1,8 @@
+import 'dotenv/config'
 import { readFileSync, existsSync } from 'node:fs'
 import { join, basename, extname } from 'node:path'
 import { PrismaClient } from '@prisma/client'
+import { PrismaNeon } from '@prisma/adapter-neon'
 import { transformPerson, type SourcePerson } from '../src/lib/import/transform-person'
 import { fusionnerPourMiseAJour } from '../src/lib/import/merge-personne'
 import { nomFamilleDepuisSlug } from '../src/lib/famille/nom'
@@ -50,7 +52,8 @@ function chargerFeuille(slug: string): FeuilleData {
   return JSON.parse(readFileSync(path, 'utf-8')) as FeuilleData
 }
 
-const prisma = new PrismaClient()
+const adapter = new PrismaNeon({ connectionString: process.env.DATABASE_URL })
+const prisma = new PrismaClient({ adapter })
 
 async function main() {
   const options = lireOptions(process.argv.slice(2))
