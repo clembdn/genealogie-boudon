@@ -6,7 +6,8 @@ export interface RelationSource {
 
 export interface UnionConstruite {
   cle: string
-  partenaires: [string, string]
+  /** [partenaire1, partenaire2] ; partenaire2 = null pour une union mono-parent. */
+  partenaires: [string, string | null]
 }
 
 export interface RattachementEnfant {
@@ -29,6 +30,10 @@ function clePaire(a: string, b: string): string {
   return [a, b].sort().join('|')
 }
 
+function cleSolo(parentId: string): string {
+  return `solo:${parentId}`
+}
+
 export function construireUnions(
   relations: ReadonlyArray<RelationSource>,
 ): ResultatConstruction {
@@ -47,21 +52,29 @@ export function construireUnions(
 
   for (const [enfantId, parents] of parentsParEnfant) {
     const liste = [...parents]
+
     if (liste.length === 1) {
-      orphelins.push({ enfantId, parentId: liste[0] })
-      continue
-    }
-    if (liste.length !== 2) {
-      orphelins.push({ enfantId, parentId: liste.join(',') })
+      const parentId = liste[0]
+      const cle = cleSolo(parentId)
+      if (!unionsParCle.has(cle)) {
+        unionsParCle.set(cle, { cle, partenaires: [parentId, null] })
+      }
+      rattachements.push({ enfantId, unionCle: cle })
       continue
     }
 
-    const cle = clePaire(liste[0], liste[1])
-    if (!unionsParCle.has(cle)) {
+    if (liste.length === 2) {
       const [a, b] = [liste[0], liste[1]].sort()
-      unionsParCle.set(cle, { cle, partenaires: [a, b] })
+      const cle = clePaire(a, b)
+      if (!unionsParCle.has(cle)) {
+        unionsParCle.set(cle, { cle, partenaires: [a, b] })
+      }
+      rattachements.push({ enfantId, unionCle: cle })
+      continue
     }
-    rattachements.push({ enfantId, unionCle: cle })
+
+    // 3+ parents : donnée corrompue, on garde en trace.
+    orphelins.push({ enfantId, parentId: liste.join(',') })
   }
 
   return {

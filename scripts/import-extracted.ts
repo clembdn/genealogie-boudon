@@ -171,10 +171,14 @@ async function importerUnions(
 
   const cleVersUnionId = new Map<string, string>()
   let crees = 0
+  let creesMono = 0
   let existantes = 0
 
   for (const u of unions) {
     const [a, b] = u.partenaires
+    // Dédup : on cherche une Union existante avec exactement la même paire
+    // (peu importe l'ordre des partenaires). Pour une union mono-parent, b est
+    // null et on matche aussi le cas symétrique (a=null, b=parent).
     const existante = await prisma.union.findFirst({
       where: {
         OR: [
@@ -189,16 +193,18 @@ async function importerUnions(
       continue
     }
     if (dryRun) {
-      console.log(`[dry-run] créerait union ${a} × ${b}`)
+      console.log(`[dry-run] créerait union ${a} × ${b ?? '⌀'}`)
       cleVersUnionId.set(u.cle, `dry-${u.cle}`)
-      crees++
+      if (b === null) creesMono++
+      else crees++
       continue
     }
     const creee = await prisma.union.create({
       data: { partenaire1Id: a, partenaire2Id: b, nature: 'inconnue' },
     })
     cleVersUnionId.set(u.cle, creee.id)
-    crees++
+    if (b === null) creesMono++
+    else crees++
   }
 
   let rattaches = 0
@@ -221,7 +227,7 @@ async function importerUnions(
   }
 
   console.log(
-    `Unions — créées : ${crees}, existantes : ${existantes}, enfants rattachés : ${rattaches}, orphelins (1 parent) : ${orphelins.length}`,
+    `Unions — créées (2 parents) : ${crees}, mono-parent : ${creesMono}, existantes : ${existantes}, enfants rattachés : ${rattaches}, donnees suspectes (3+ parents) : ${orphelins.length}`,
   )
 }
 
