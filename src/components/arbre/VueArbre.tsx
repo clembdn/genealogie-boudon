@@ -16,6 +16,7 @@ import '@xyflow/react/dist/style.css'
 import type { Person, Union, Media } from '@prisma/client'
 import { NoeudPersonne, NoeudUnion } from './NoeudPersonne'
 import { LegendeCategories } from './LegendeCategories'
+import { BoxsFamilles, type FamilleCartouche } from './BoxsFamilles'
 import { ModaleDetailPersonne } from '@/components/personne/ModaleDetailPersonne'
 import { calculerLayoutArbre } from '@/lib/arbre/layout'
 import { getRelationsPersonne } from '@/lib/genealogy/relations'
@@ -36,6 +37,10 @@ type Props = {
   mediasParPersonne?: Record<string, Media[]>
   idInitial?: string | null
   categorieParPersonneId?: Record<string, CategorieParente>
+  /** Cartouches des autres familles à afficher en overlay (top-right). Si absent ou vide, l'overlay n'est pas monté. */
+  autresFamilles?: FamilleCartouche[]
+  /** En mode embarqué (dans une modale), on désactive les overlays globaux (recherche, légende, boxs familles) et la hauteur s'adapte au conteneur. */
+  embarquee?: boolean
 }
 
 const nodeTypes = {
@@ -49,6 +54,8 @@ function VueArbreInterne({
   mediasParPersonne = {},
   idInitial,
   categorieParPersonneId = {},
+  autresFamilles,
+  embarquee = false,
 }: Props) {
   const [idFocalise, setIdFocalise] = useState<string | null>(
     idInitial ?? personnes[0]?.id ?? null,
@@ -131,10 +138,17 @@ function VueArbreInterne({
     return getRelationsPersonne(personneModale, unions, personnes)
   }, [personneModale, unions, personnes])
 
+  const conteneurClass = embarquee
+    ? 'relative h-full w-full bg-papier'
+    : 'relative h-screen w-full bg-papier'
+
   return (
-    <div className="relative h-screen w-full bg-papier">
-      <BarreRechercheFlottante />
-      <LegendeCategories />
+    <div className={conteneurClass}>
+      {!embarquee && <BarreRechercheFlottante />}
+      {!embarquee && <LegendeCategories />}
+      {!embarquee && autresFamilles && autresFamilles.length > 0 && (
+        <BoxsFamilles familles={autresFamilles} />
+      )}
 
       <ReactFlow
         nodes={nodes}
@@ -184,7 +198,7 @@ function VueArbreInterne({
         }}
       />
 
-      {personneModale && (
+      {!embarquee && personneModale && (
         <div className="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 sm:left-6 sm:translate-x-0">
           <Bouton
             variante="secondaire"
