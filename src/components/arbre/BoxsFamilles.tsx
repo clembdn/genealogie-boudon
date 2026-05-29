@@ -11,12 +11,8 @@ import {
   type DonneesSousArbre,
 } from '@/app/actions/sous-arbre'
 
-export type FamilleCartouche = {
-  id: string
-  slug: string
-  nom: string
-  nbPersonnes: number
-}
+export type { FamilleCartouche } from '@/lib/arbre/liaisons'
+import type { FamilleCartouche } from '@/lib/arbre/liaisons'
 
 type Props = {
   familles: FamilleCartouche[]
@@ -39,6 +35,13 @@ type EtatChargement =
   | { statut: 'vide'; slug: string }
   | { statut: 'erreur'; slug: string; message: string }
 
+/**
+ * Panneau overlay (top-right) pour les familles qui n'ont PAS de liaison
+ * directe avec l'arbre principal. Affiche une liste compacte avec ouverture
+ * en modale pour voir le sous-arbre.
+ *
+ * Si toutes les familles ont une liaison, ce composant ne sera pas monté.
+ */
 export function BoxsFamilles({ familles }: Props) {
   const [depliee, setDepliee] = useState(false)
   const [hydrate, setHydrate] = useState(false)

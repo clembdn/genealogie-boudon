@@ -5,6 +5,8 @@ import { VueArbre } from '@/components/arbre/VueArbre'
 import { classesBouton } from '@/components/ui/classes-bouton'
 import { categoriserDepuisDeCujus } from '@/lib/genealogy/categorisation'
 import type { CategorieParente } from '@/lib/genealogy/categories'
+import type { LiaisonFamille } from '@/lib/arbre/liaisons'
+import { couleurFamille } from '@/lib/arbre/liaisons'
 
 export const dynamic = 'force-dynamic'
 
@@ -73,9 +75,66 @@ export default async function PageArbre({ searchParams }: Props) {
       )
     : toutesUnions
 
-  // Cartouches pour les autres familles (ordre conservé, arbre exclu).
-  const autresFamilles = famillesAvecCount
-    .filter((f) => f.slug !== SLUG_ARBRE_PRINCIPAL)
+  // ── Liaisons famille ↔ arbre ──────────────────────────────────────────
+  // Pour chaque famille « autre », trouver l'union qui la relie à l'arbre
+  // principal : un partenaire dans « arbre », l'autre dans la famille cible.
+  const personneParId = new Map(toutesPersonnes.map((p) => [p.id, p]))
+  const familleParId = new Map(famillesAvecCount.map((f) => [f.id, f]))
+
+  const liaisonsFamilles: (LiaisonFamille & { couleur: string })[] = []
+  const famillesAvecLiaison = new Set<string>() // slugs des familles liées
+
+  // Index des familles « autres » (hors arbre principal), ordonnées.
+  const autresFamillesOrdonnees = famillesAvecCount.filter(
+    (f) => f.slug !== SLUG_ARBRE_PRINCIPAL,
+  )
+
+  for (const u of unions) {
+    if (!u.partenaire1Id || !u.partenaire2Id) continue
+
+    const p1 = personneParId.get(u.partenaire1Id)
+    const p2 = personneParId.get(u.partenaire2Id)
+    if (!p1 || !p2) continue
+
+    // Identifier lequel est côté « arbre » et lequel est externe.
+    const p1EstArbre = p1.familleId === familleArbre?.id
+    const p2EstArbre = p2.familleId === familleArbre?.id
+
+    // On cherche une union « mixte » : un partenaire arbre + un externe.
+    if (p1EstArbre === p2EstArbre) continue
+
+    const personneArbre = p1EstArbre ? p1 : p2
+    const personneExterne = p1EstArbre ? p2 : p1
+
+    if (!personneExterne.familleId) continue
+    const familleExterne = familleParId.get(personneExterne.familleId)
+    if (!familleExterne || familleExterne.slug === SLUG_ARBRE_PRINCIPAL) continue
+
+    // Éviter les doublons (une seule liaison par famille).
+    if (famillesAvecLiaison.has(familleExterne.slug)) continue
+    famillesAvecLiaison.add(familleExterne.slug)
+
+    const indexFamille = autresFamillesOrdonnees.findIndex(
+      (f) => f.slug === familleExterne.slug,
+    )
+
+    liaisonsFamilles.push({
+      famille: {
+        id: familleExterne.id,
+        slug: familleExterne.slug,
+        nom: familleExterne.nom,
+        nbPersonnes: familleExterne._count.personnes,
+      },
+      unionId: u.id,
+      personneArbreId: personneArbre.id,
+      personneExterneId: personneExterne.id,
+      couleur: couleurFamille(indexFamille >= 0 ? indexFamille : 0),
+    })
+  }
+
+  // Cartouches pour les familles sans liaison (fallback overlay).
+  const autresFamillesSansLiaison = autresFamillesOrdonnees
+    .filter((f) => !famillesAvecLiaison.has(f.slug))
     .map((f) => ({
       id: f.id,
       slug: f.slug,
@@ -115,7 +174,8 @@ export default async function PageArbre({ searchParams }: Props) {
       unions={unions}
       idInitial={idInitial}
       categorieParPersonneId={categorieParPersonneId}
-      autresFamilles={autresFamilles}
+      autresFamilles={autresFamillesSansLiaison.length > 0 ? autresFamillesSansLiaison : undefined}
+      liaisonsFamilles={liaisonsFamilles}
     />
   )
 }
